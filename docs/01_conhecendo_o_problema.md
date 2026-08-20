@@ -1,7 +1,7 @@
 # Entrega 1 — Conhecendo o projeto, o usuário e o problema
 
-**Data:** {{dd/mm/aaaa}}  
-**Status:** ⬜ não iniciada  
+**Data:** 20/08/2026
+**Status:** 🟨 em andamento  
 **Responsabilidade:** 1 solução consolidada por equipe
 
 ## Objetivo da atividade
@@ -59,39 +59,40 @@ Uma hipótese explicitada é melhor do que uma suposição escondida.
 
 | Nome completo | Matrícula | GitHub |
 |---|---:|---|
-| {{...}} | {{...}} | {{...}} |
+| Matheus Dourado Valle | 22.224.023-6 | mathdourado01 |
+| João Pedro Sabino Garcia | 22.224.032-7 | unifjgarcia |
 
 ## 0.2 Título atual do TCC
 
-{{...}}
+Assistente Virtual com Inteligência Artificial para Suporte a Dúvidas Acadêmicas e Administrativas na FEI
 
 ## 0.3 Orientador(a)
 
-{{...}}
+Rafael Gomes Alves 
 
 ## 0.4 Qual é o resultado principal atualmente previsto no TCC?
 
 Marque e descreva:
 
-- [ ] sistema/aplicação interativa;
+- [x] sistema/aplicação interativa;
 - [ ] algoritmo;
 - [ ] modelo de IA/ML/LLM;
 - [ ] biblioteca/API/framework;
 - [ ] análise de dataset;
-- [ ] estudo/benchmark/avaliação experimental;
+- [x] estudo/benchmark/avaliação experimental;
 - [ ] infraestrutura/backend;
 - [ ] componente embarcado/IoT;
 - [ ] outro: {{...}}.
 
-**Descrição:** {{...}}
+**Descrição:**  O TCC prevê como resultados principais o desenvolvimento de um protótipo funcional de assistente virtual com Inteligência Artificial para suporte a dúvidas acadêmicas e administrativas na FEI e a avaliação experimental da arquitetura utilizada. O protótipo permitirá que usuários realizem perguntas em linguagem natural e recebam respostas fundamentadas em informações recuperadas de fontes institucionais. Paralelamente, serão avaliadas diferentes configurações de segmentação documental e recuperação, além da qualidade das respostas geradas, permitindo analisar o desempenho e as limitações da solução proposta.
 
 ## 0.5 O TCC já previa desenvolvimento de interface com usuário?
 
-- [ ] Sim, a interface já faz parte do TCC.
+- [x] Sim, a interface já faz parte do TCC.
 - [ ] Parcialmente; existe alguma interação, mas ainda não está bem definida.
 - [ ] Não. O TCC é predominantemente técnico e não previa interface.
 
-**Explique o que está formalmente previsto no TCC:** {{...}}
+**Explique o que está formalmente previsto no TCC:** O TCC prevê formalmente uma interface de interação com o usuário como parte do protótipo do assistente virtual. Por meio dessa interface, o usuário deverá inserir uma dúvida acadêmica ou administrativa, que será encaminhada ao backend e ao mecanismo de recuperação de informações. Após a recuperação das evidências institucionais e a geração da resposta pelo modelo de linguagem, o resultado deverá ser apresentado novamente ao usuário pela interface. Embora a interface faça parte do escopo do TCC, seus aspectos específicos de interação e usabilidade poderão ser aprofundados no projeto desenvolvido na disciplina de IHC.
 
 > Esta resposta serve para separar o compromisso do TCC do projeto da disciplina. Mesmo quando a opção for **não**, a equipe irá definir uma interface para exercitar IHC.
 
@@ -101,41 +102,38 @@ Marque e descreva:
 
 ## 1.1 Explique o TCC em uma frase, sem citar linguagem de programação, framework ou banco de dados.
 
-{{...}}
+O TCC propõe o desenvolvimento e a avaliação de um assistente virtual com Inteligência Artificial capaz de responder dúvidas acadêmicas e administrativas com base em informações institucionais da FEI.
 
 ## 1.2 Qual situação, atividade ou problema do mundo real motivou o TCC?
 
-{{[F/H/?] ...}}
+[H] O TCC foi motivado pela recorrência de dúvidas acadêmicas e administrativas relacionadas a processos institucionais, normas, serviços, prazos e orientações gerais, cuja resolução pode exigir a busca manual por informações distribuídas entre diferentes páginas, documentos e canais institucionais. Fonte: texto atual do TCC, especialmente Resumo, Introdução e Conclusão.
+
+[?] Ainda não sabemos, com base em uma investigação direta com os alunos da FEI, quais dessas dificuldades são mais frequentes, quais canais são mais utilizados e quais situações geram maior esforço ou insatisfação.
 
 ## 1.3 Qual é a **capacidade/contribuição central** produzida pelo TCC?
-
-Complete, se ajudar:
-
-> “Nosso TCC produz, melhora, analisa ou permite `{{capacidade}}`.”
-
-Exemplos: otimizar consultas; classificar imagens; detectar anomalias; comparar modelos; identificar padrões; prever demanda; analisar desempenho; gerar resumos; recomendar configurações.
-
-{{...}}
+Nosso TCC permite recuperar informações relevantes de uma base documental institucional e utilizá-las como evidência para gerar respostas em linguagem natural a dúvidas acadêmicas e administrativas, além de avaliar experimentalmente como diferentes configurações técnicas influenciam a qualidade da recuperação e das respostas.
 
 ## 1.4 O que se espera que esteja diferente **para pessoas, organizações ou processos** se essa contribuição for bem-sucedida?
 
-{{[F/H/?] ...}}
+[H] H01 — Espera-se que os estudantes possam localizar e compreender informações acadêmicas e administrativas de forma mais centralizada, reduzindo a necessidade de consultar manualmente diferentes páginas, documentos ou canais para esclarecer uma dúvida.
+
+[H] H02 — Espera-se que a fundamentação das respostas em fontes institucionais aumente a confiança e a utilidade das informações apresentadas ao estudante quando comparada a uma resposta produzida sem acesso ao contexto documental da instituição.
+
+[H] H03 — Para a instituição, o uso do assistente poderá apoiar o atendimento de dúvidas recorrentes, permitindo que parte das consultas informacionais seja resolvida pelo próprio estudante sem necessidade de recorrer imediatamente a um canal de atendimento humano.
 
 ## 1.5 O que é mérito técnico/científico do TCC e o que seria uma possível aplicação prática?
 
 | Mérito/contribuição técnica | Possível aplicação/valor em uso |
 |---|---|
-| {{...}} | {{...}} |
-
+| Desenvolvimento e avaliação de uma arquitetura baseada em recuperação de informações e geração de respostas para o domínio acadêmico-administrativo da FEI. | Permitir que estudantes consultem informações acadêmicas e administrativas por meio de uma interface conversacional. |
+| Avaliação experimental do impacto de diferentes estratégias de segmentação documental e parâmetros de recuperação na qualidade do sistema. | Buscar configurações que favoreçam respostas mais relevantes e fundamentadas para as dúvidas dos estudantes. |
+| Uso e preservação de fontes institucionais como evidência para a geração das respostas e para delimitação do escopo do assistente. | Permitir que o estudante tenha acesso à resposta acompanhada de informações relacionadas às fontes institucionais utilizadas. |
 ---
 
 # 2. Entendendo as pessoas envolvidas
 
 ## 2.1 Quem interage diretamente com o produto, se já existe interface prevista?
-
-Se não houver interface prevista no TCC, escreva `NÃO SE APLICA AO ESCOPO ORIGINAL` e prossiga para 2.2.
-
-{{[F/H/?] ...}}
+[F] O usuário direto previsto para a interface é o estudante da FEI que deseja obter informações relacionadas a dúvidas acadêmicas e administrativas. O TCC prevê que esse usuário envie perguntas em linguagem natural por meio da interface do assistente e receba respostas fundamentadas nas informações institucionais recuperadas pelo sistema
 
 ## 2.2 Quem poderia **usar, configurar, administrar, operar, interpretar ou tomar decisões** a partir da contribuição técnica?
 
@@ -143,19 +141,23 @@ Considere perfis profissionais e stakeholders, não apenas consumidores finais.
 
 | Perfil | Relação com a contribuição | O que faria | Status/evidência |
 |---|---|---|---|
-| {{DBA / analista / gestor / técnico / pesquisador / usuário final...}} | {{...}} | {{...}} | F / H / ? |
+| Estudante da FEI | Usuário direto do assistente virtual | Formular dúvidas acadêmicas ou administrativas e interpretar as respostas e fontes apresentadas pelo sistema | F |
+| Equipe responsável pelo desenvolvimento e avaliação do sistema | Responsável pela configuração técnica, operação dos experimentos e análise dos resultados | Configurar parâmetros do sistema, executar testes, analisar trechos recuperados, respostas geradas e métricas de desempenho | F |
+| Profissional ou setor da FEI com conhecimento dos processos acadêmicos e administrativos | Pode contribuir para a validação das fontes e das respostas utilizadas pelo assistente | Validar documentos, procedimentos e, quando possível, verificar se respostas estão de acordo com as práticas e normas institucionais | F |
+
 
 ## 2.3 Existem pessoas afetadas que não usariam a interface diretamente?
 
 | Stakeholder | Como é afetado | Usa interface? | Status/evidência |
 |---|---|---|---|
-| {{...}} | {{...}} | sim/não | {{...}} |
-
+| Setores acadêmicos e administrativos responsáveis pelas informações utilizadas pelo assistente | Suas páginas, documentos, normas e orientações podem ser utilizadas como fonte para fundamentar as respostas fornecidas aos estudantes  | Não Necessariamente | F
+| Profissionais responsáveis por atendimento de dúvidas acadêmicas e administrativas | O assistente poderá alterar a forma como algumas dúvidas recorrentes chegam aos canais tradicionais de atendimento | Não Necessariamente | H — efeito ainda não investigado
+| Centro Universitário FEI | A instituição é responsável pelas informações e procedimentos que servem de referência para o domínio no qual o assistente pretende atuar | Não | F
 ## 2.4 Que características desses perfis podem influenciar a interação?
 
-Considere conhecimento do domínio, experiência tecnológica, frequência de uso, necessidades de acessibilidade, responsabilidade profissional, familiaridade com métricas, linguagem técnica, urgência etc.
-
-{{[F/H/?] ...}}
+- [H] Os estudantes podem formular uma mesma dúvida utilizando vocabulários e níveis de detalhamento diferentes. Essa possibilidade é relevante para uma interface baseada em linguagem natural e deverá ser considerada durante o projeto e a avaliação da interação.
+- [F] Pessoas responsáveis pela validação das respostas e das fontes precisam possuir conhecimento dos processos acadêmicos ou administrativos relacionados ao conteúdo avaliado.
+- [?] Ainda não sabemos quais são os níveis de experiência tecnológica dos estudantes, a frequência com que utilizariam o assistente, quais dispositivos seriam predominantes ou quais necessidades específicas de acessibilidade devem ser consideradas.
 
 ---
 
@@ -163,25 +165,30 @@ Considere conhecimento do domínio, experiência tecnológica, frequência de us
 
 ## 3.1 O que o usuário está tentando conseguir no mundo real?
 
-Não responda “usar o algoritmo”, “clicar no sistema” ou “ver o dashboard”.
+[H] H04 — O estudante busca obter e compreender informações acadêmicas ou administrativas necessárias para resolver uma dúvida, tomar uma decisão ou realizar corretamente um procedimento relacionado à sua vida acadêmica na FEI.
 
-{{[F/H/?] ...}}
+[F] O TCC delimita como domínio de interesse informações relacionadas a normas, prazos, procedimentos, serviços e orientações acadêmico-administrativas.
+
 
 ## 3.2 Quais são as atividades mais importantes?
 
 | ID | Atividade/objetivo | Quem realiza | Frequência/criticidade inicial | Status/evidência |
 |---|---|---|---|---|
-| A01 | {{...}} | {{...}} | {{...}} | {{...}} |
-| A02 | {{...}} | {{...}} | {{...}} | {{...}} |
-| A03 | {{...}} | {{...}} | {{...}} | {{...}} |
+| A01 |Localizar e compreender uma informação acadêmica ou administrativa, como uma regra, prazo, serviço ou orientação institucional | Estudante da FEI | Frequência alta; criticidade variável conforme a informação consultada| F |
+| A02 | Entender como realizar um procedimento acadêmico ou administrativo e quais etapas ou condições devem ser observadas | Estudante da FEI | Frequência alta ; criticidade potencialmente alta quando envolve regras ou prazos | H — o TCC contempla consultas procedimentais, mas o comportamento dos usuários ainda precisa ser investigado |
+
 
 ## 3.3 Qual atividade parece mais frequente? Por quê?
 
-{{[F/H/?] ...}}
+[H] H05 — A atividade A01, de localizar e compreender informações acadêmicas ou administrativas, parece ser a mais frequente, pois o TCC é motivado pela recorrência de consultas informacionais relacionadas a normas, serviços, prazos, procedimentos e orientações gerais.
+
+[?] Entretanto, ainda não há levantamento direto com estudantes da FEI que permita determinar qual atividade ocorre com maior frequência ou quais tipos de dúvida predominam.
 
 ## 3.4 Qual parece mais crítica? Que consequência existe se for mal executada?
 
-{{[F/H/?] ...}}
+[H] H06 — A atividade A02, relacionada à compreensão e realização de procedimentos acadêmicos ou administrativos, parece possuir maior criticidade, especialmente quando a informação envolve regras, etapas obrigatórias ou prazos. Uma interpretação incorreta pode levar o estudante a executar um procedimento de maneira inadequada, deixar de cumprir alguma etapa necessária ou tomar uma decisão com base em uma orientação incorreta.
+
+[?] A gravidade e a frequência dessas consequências ainda precisam ser investigadas com estudantes e, quando pertinente, com profissionais responsáveis pelos processos acadêmicos e administrativos.
 
 ---
 
