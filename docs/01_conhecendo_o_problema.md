@@ -198,63 +198,82 @@ Considere perfis profissionais e stakeholders, não apenas consumidores finais.
 
 Pode existir software concorrente, linha de comando, planilha, notebook, script, painel técnico, processo manual, consulta a logs, análise visual, troca de mensagens, decisão por especialista etc.
 
-{{[F/H/?] ...}}
+[F] O TCC apresenta como situação atual a possibilidade de o estudante precisar realizar buscas manuais por informações acadêmicas e administrativas em diferentes páginas institucionais e canais de atendimento para esclarecer suas dúvidas. Fonte: TCC — Resumo e Introdução.
+
+[H] H07 — Na prática, estudantes podem recorrer a diferentes meios, como páginas do site institucional, documentos e regulamentos, sistemas acadêmicos ou contato com pessoas e setores da instituição, dependendo do tipo de dúvida.
+
+[?] Ainda não sabemos quais canais são efetivamente mais utilizados pelos estudantes, em qual ordem são consultados e em quais situações eles recorrem a atendimento humano.
 
 ## 4.2 O que é difícil, demorado, confuso, repetitivo, arriscado ou pouco transparente?
 
-{{[F/H/?] ...}}
+[H] H08 — A distribuição das informações entre diferentes páginas, documentos e canais pode dificultar a identificação de onde procurar uma determinada informação e aumentar o esforço necessário para resolver uma dúvida.
+
+[H] H09 — Informações relacionadas a regras, procedimentos ou prazos podem exigir interpretação por parte do estudante, principalmente quando estão apresentadas em documentos extensos ou quando ele não conhece previamente o setor ou a fonte responsável pelo assunto.
 
 ## 4.3 Que informações o profissional precisa interpretar para tomar decisão?
 
-{{[F/H/?] ...}}
+[H] Dependendo da dúvida, o estudante pode precisar interpretar informações como prazos, regras acadêmicas, requisitos, documentos necessários, etapas de um procedimento, setor responsável, condições ou exceções aplicáveis e orientações institucionais relacionadas à sua situação.
 
 ## 4.4 O que acontece quando a atividade falha ou quando o resultado é interpretado incorretamente?
 
-{{[F/H/?] ...}}
+[H] H10 — Quando uma informação acadêmica ou administrativa não é localizada ou é interpretada incorretamente, o estudante pode realizar um procedimento de maneira inadequada, deixar de cumprir alguma etapa ou prazo, tomar uma decisão com base em uma compreensão incorreta ou precisar recorrer posteriormente a um canal de atendimento para esclarecer a situação.
+
+[?] A frequência e a gravidade dessas consequências ainda precisam ser investigadas com estudantes e, quando necessário, com os setores responsáveis pelos processos acadêmicos e administrativos.
 
 ## 4.5 Conte uma situação concreta.
 
-Escreva uma pequena narrativa com pessoa, objetivo, atividade, contexto, dificuldade e consequência. **Não descreva ainda a futura solução.**
 
-{{[F/H/?] narrativa...}}
+[F] Um estudante da FEI que está próximo de concluir a graduação considera continuar seus estudos em um programa de mestrado da instituição. Para entender como funciona esse processo, ele precisa localizar informações sobre o programa, processo de ingresso, requisitos e orientações relacionadas. Durante essa busca, pode ser necessário consultar diferentes páginas ou documentos institucionais e identificar quais informações são relevantes para sua situação. Caso não encontre ou interprete corretamente essas informações, pode permanecer com dúvidas e precisar procurar outro canal ou pessoa da instituição para obter esclarecimentos.
+
 
 ## 4.6 Que evidência existe hoje?
 
 | Evidência/fonte | O que sustenta | Limitação |
 |---|---|---|
-| {{...}} | {{...}} | {{...}} |
-
+| Páginas e documentos institucionais disponíveis nos canais oficiais da FEI | Permitem observar que informações acadêmicas e administrativas são disponibilizadas por meio de diferentes páginas, documentos e áreas institucionais | A existência de diferentes fontes não demonstra, por si só, que os estudantes tenham dificuldade para encontrá-las ou interpretá-las |
+| Literatura sobre assistentes virtuais e suporte estudantil no ensino superior levantada durante o TCC | Indica que dúvidas recorrentes, acesso a informações institucionais e suporte acadêmico-administrativo são problemas tratados por outras instituições e pesquisas | Os estudos analisados não representam diretamente a experiência dos estudantes da FEI |
+| Levantamento direto com estudantes da FEI | Ainda não disponível | Será necessário para verificar quais dificuldades realmente existem, quais canais são utilizados e quais tipos de dúvida são mais frequentes |
+| Contato com profissionais/setores responsáveis por processos acadêmicos e administrativos | Ainda precisa ser aprofundado | Poderá ajudar a identificar dúvidas recorrentes e problemas observados nos canais atuais de atendimento |
 ---
 
 # 5. Entendendo o contexto de uso
 
 ## 5.1 Onde e em quais situações a interação poderia ocorrer?
 
-{{[F/H/?] ...}}
+[H] H11 — A interação poderá ocorrer tanto dentro quanto fora do ambiente da FEI, em situações nas quais o estudante precise esclarecer uma dúvida acadêmica ou administrativa, como consultar uma regra, verificar um prazo ou compreender como realizar determinado procedimento.
+
 
 ## 5.2 Em quais dispositivos/equipamentos?
 
-{{[F/H/?] ...}}
+[H] H12 — Por se tratar de uma interface digital de consulta, é plausível que o acesso ocorra por computadores, notebooks ou dispositivos móveis.
 
 ## 5.3 Existem condições físicas relevantes?
 
-Considere iluminação, ruído, mobilidade, conexão, privacidade, uso compartilhado, interrupções, pressão de tempo etc.
+[F] A arquitetura proposta depende da comunicação com serviços externos para geração das respostas por meio de API.
 
-{{[F/H/?] ...}}
+[?] Ainda não sabemos se limitações de conexão, privacidade durante a consulta, ruído, uso compartilhado de equipamentos ou outras condições físicas representam problemas relevantes para os estudantes.
 
 ## 5.4 Existem fatores sociais ou organizacionais?
 
-Considere papéis, chefias, equipes, permissões, aprovação, responsabilidade profissional, auditoria, turnos e colaboração.
+[F] As informações utilizadas pelo assistente pertencem ao contexto institucional da FEI, e o TCC prevê que documentos e fontes possam ser selecionados ou validados com apoio de setores responsáveis, como secretaria acadêmica, coordenação ou outras áreas administrativas.
 
-{{[F/H/?] ...}}
+[H] H14 — A confiabilidade percebida pelo estudante poderá ser influenciada pela clareza sobre a origem institucional das informações apresentadas.
 
 ## 5.5 Existe necessidade de histórico, rastreabilidade ou auditoria?
 
-{{[F/H/?] ...}}
+[F] Existe necessidade de rastreabilidade técnica das informações utilizadas pelo sistema. O TCC prevê preservar os metadados dos documentos e registrar, durante as execuções, informações como os trechos recuperados, suas fontes, a configuração utilizada e a resposta gerada. Esses registros serão utilizados principalmente para avaliar a recuperação documental e a aderência das respostas às fontes institucionais. 
+
+[H] H15 — Para o estudante, um histórico de conversas anteriores pode ser útil para retomar informações ou consultas realizadas anteriormente.
+
+[?] Ainda não sabemos se o histórico de conversas representa uma necessidade real dos estudantes e quais informações deveriam ser armazenadas ou apresentadas.
 
 ## 5.6 Um erro pode produzir consequência relevante? Qual?
 
-{{[F/H/?] ...}}
+[H] H16 — Sim. Uma resposta incorreta ou uma interpretação equivocada de informações relacionadas a regras, prazos ou procedimentos pode fazer com que o estudante tome uma decisão inadequada, deixe de cumprir uma etapa necessária ou procure o setor responsável com uma compreensão incorreta da situação.
+
+[F] Por esse motivo, o TCC estabelece que, quando não houver evidência documental suficiente, o sistema deverá reconhecer essa limitação em vez de gerar uma resposta sem fundamento institucional. 
+
+[?] Ainda precisamos investigar quais tipos de erro são considerados mais graves pelos estudantes e pelos setores responsáveis da FEI.
 
 ---
 
@@ -266,29 +285,58 @@ Considere papéis, chefias, equipes, permissões, aprovação, responsabilidade 
 
 | Alternativa atual | Quem usa | Para quê | Status/evidência |
 |---|---|---|---|
-| {{...}} | {{...}} | {{...}} | {{...}} |
+| Páginas institucionais e portal acadêmico | Estudantes | Consultar informações sobre matrícula, calendário, documentos, estágio, sistemas e procedimentos acadêmicos | **[F]** O TCC identifica que informações acadêmico-administrativas podem estar distribuídas em diferentes páginas, documentos e canais institucionais. |
+| Atendimento por setores da instituição | Estudantes | Esclarecer dúvidas que não foram resolvidas pelas informações disponíveis nos sistemas e páginas institucionais | **[F]** A literatura analisada aponta que canais humanos recebem demandas recorrentes e que chatbots podem reduzir tarefas repetitivas de atendimento [3], [11], [20], [26]. |
+| FAQ e sistemas baseados em regras | Estudantes de instituições de ensino | Obter respostas para perguntas frequentes previamente cadastradas | **[F]** Trabalhos como [8] e [21] apresentam sistemas universitários baseados em regras, fluxos e perguntas frequentes. |
+| Chatbots universitários | Estudantes | Obter orientação acadêmica e informações sobre serviços institucionais por meio de conversação | **[F]** Trabalhos como [11] e [17] apresentam chatbots voltados ao suporte estudantil e administrativo. |
+| Assistentes de IA generativa | Usuários em geral, incluindo estudantes | Formular perguntas em linguagem natural e obter respostas de maneira rápida | **[F]** O TCC considera sistemas como ChatGPT, Gemini e Copilot como alternativas conversacionais de uso geral, embora não sejam específicos para as regras da FEI. |
+| Assistentes baseados em RAG | Estudantes e usuários de sistemas educacionais | Obter respostas geradas a partir de documentos recuperados de uma base de conhecimento | **[F]** Os trabalhos [13], [24] e [25] discutem o uso de documentos e recuperação de informações para apoiar respostas mais contextualizadas. |
 
 ## 6.2 Existem produtos que atuam na mesma área, mesmo sem serem equivalentes ao TCC?
 
-{{[F/H/?] ...}}
+**[F]** Existem diferentes soluções que atuam parcialmente no mesmo espaço do assistente proposto. Sistemas de IA generativa de uso geral, como **ChatGPT, Google Gemini e Microsoft Copilot**, oferecem interfaces conversacionais capazes de responder perguntas em linguagem natural, mas não possuem, por padrão, uma base de conhecimento específica e validada sobre os processos acadêmico-administrativos da FEI.
+
+**[F]** No contexto universitário, também existem soluções desenvolvidas especificamente para suporte a estudantes. O **FIT-EBot**, apresentado em [11], oferece suporte administrativo e de aprendizagem em ambiente universitário. O trabalho [21] apresenta um chatbot voltado a perguntas frequentes relacionadas à universidade, enquanto [13] propõe um agente virtual baseado em modelo de linguagem para responder dúvidas relacionadas às políticas presentes no manual do estudante.
 
 ## 6.3 Quais interfaces profissionais esse público já conhece?
 
-Exemplos possíveis: ferramentas de banco, IDEs, consoles de nuvem, dashboards, plataformas de dados, ferramentas de monitoramento, painéis de IA, sistemas administrativos.
+**[H] H17 —** Considerando o público-alvo formado principalmente por estudantes, as interfaces mais próximas do contexto do projeto são **portais acadêmicos, páginas institucionais, sistemas de consulta de informações e interfaces conversacionais de chat**.
 
-{{[F/H/?] ...}}
+**[H] H18 —** Interfaces semelhantes às utilizadas por assistentes como ChatGPT, Gemini e Copilot podem ser familiares a parte dos estudantes, principalmente o padrão de interação formado por **campo para digitação da pergunta, histórico da conversa e respostas apresentadas em sequência**.
+
+**[?]** O grau de familiaridade dos estudantes da FEI com cada uma dessas interfaces ainda deverá ser confirmado por meio de investigação com os usuários.
 
 ## 6.4 O que essas soluções parecem fazer bem?
 
-{{[F/H/?] ...}}
+**[F]** Sistemas baseados em FAQ e regras apresentam como vantagem a **previsibilidade das respostas**, pois trabalham com conteúdos e intenções previamente cadastrados [8], [21].
+
+**[F]** Chatbots voltados ao suporte universitário permitem **automatizar o atendimento de dúvidas recorrentes**, ampliar a disponibilidade de informações e reduzir a necessidade de intervenção humana em consultas repetitivas [3], [11], [20], [26].
+
+**[F]** Sistemas baseados em modelos de linguagem oferecem maior flexibilidade na interação, permitindo que o usuário formule uma mesma dúvida de diferentes maneiras e receba respostas em linguagem natural [1], [13], [14].
+
+**[H] H19 —** Do ponto de vista de interface, o formato conversacional pode reduzir a necessidade de o usuário conhecer previamente onde determinada informação está localizada dentro da estrutura de páginas ou documentos da instituição.
 
 ## 6.5 O que parecem fazer mal, dificultar ou não atender?
 
-{{[F/H/?] ...}}
+**[F]** Sistemas baseados em FAQ e regras possuem dificuldade para lidar com perguntas que não foram previamente cadastradas e com diferentes formas de formular uma mesma dúvida [8], [21].
+
+**[F]** Soluções universitárias tradicionais podem depender de bases de conhecimento organizadas manualmente e apresentar limitações para integração com diferentes documentos e processos administrativos [11].
+
+**[F]** Modelos de linguagem generativos podem produzir respostas plausíveis, mas incorretas ou não aderentes às normas da instituição, tornando necessário controlar a factualidade e verificar as evidências utilizadas [4], [13], [29].
+
+**[F]** Mesmo sistemas baseados em RAG continuam dependentes da qualidade da base documental e da recuperação. Um documento inadequado, desatualizado ou um trecho pouco relevante pode prejudicar a resposta final [22], [24], [25].
+
+**[F]** A literatura também aponta desafios relacionados à atualização da base de conhecimento, qualidade da recuperação e avaliação das respostas em sistemas educacionais baseados em RAG [25].
+
+**[H] H20 —** No caso das páginas e documentos institucionais tradicionais, a necessidade de identificar manualmente onde determinada informação está localizada pode aumentar o esforço do estudante quando a dúvida envolve diferentes páginas ou documentos.
 
 ## 6.6 Que padrões de interface ou vocabulário parecem familiares a esse público?
 
-{{[F/H/?] ...}}
+**[H] H21 —** O padrão de **interface conversacional**, composto por histórico de mensagens, campo para digitação da pergunta e envio da mensagem, parece adequado ao repertório de interfaces já difundidas entre usuários de sistemas de chat e assistentes de IA.
+
+**[H] H22 —** Outros elementos potencialmente familiares são campos de busca, links para fontes, indicação da origem da informação, organização de conteúdo por categorias e mensagens de erro ou de informação não encontrada.
+
+**[F]** Para o domínio acadêmico-administrativo, termos como **matrícula, notas, documentos, financeiro, estágio, calendário acadêmico, portal do aluno e sistemas institucionais** já fazem parte das categorias previstas no escopo do projeto.
 
 ---
 
