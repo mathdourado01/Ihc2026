@@ -346,55 +346,64 @@ Pode existir software concorrente, linha de comando, planilha, notebook, script,
 
 ### Caminho A — TCC já possui interface
 
-Explique qual parte da interface será usada como recorte da disciplina e por que esse fluxo é relevante.
+O projeto seguirá o **Caminho A**, pois o TCC já prevê formalmente uma interface de interação com o usuário.
 
-{{...}}
+Para a disciplina de IHC, será utilizado como recorte o **fluxo de consulta do estudante**, desde a formulação de uma dúvida acadêmica ou administrativa até a apresentação e compreensão da resposta fornecida pelo assistente.
 
-### Caminho B — TCC não possui interface prevista
+Esse fluxo poderá envolver a formulação da pergunta em linguagem natural, a apresentação da resposta, a identificação das fontes institucionais utilizadas e o tratamento de situações em que não exista evidência suficiente para responder à consulta.
 
-Faça o exercício de transferência de uso:
+**[F]** Esse recorte deriva diretamente da interface prevista no TCC, na qual o estudante envia perguntas em linguagem natural e recebe respostas fundamentadas em informações institucionais recuperadas pelo sistema.
 
-> **Imagine que o TCC foi concluído com sucesso e uma empresa, laboratório ou organização quer transformar a contribuição em algo utilizável. Quem precisaria interagir com ela e para quê?**
+**[H] H04 —** O estudante busca obter e compreender informações acadêmicas ou administrativas necessárias para resolver uma dúvida, tomar uma decisão ou realizar corretamente um procedimento relacionado à sua vida acadêmica na FEI.
 
-Responda:
-
-1. quem poderia contratar/adotar a solução? {{...}}
-2. quem seria o usuário direto? {{...}}
-3. quem administraria/configuraria? {{...}}
-4. quem interpretaria resultados? {{...}}
-5. quem tomaria decisões? {{...}}
-6. quais dados/entradas seriam necessários? {{...}}
-7. quais resultados deveriam ser compreendidos? {{...}}
-8. que erros/rupturas seriam possíveis? {{...}}
+**[H] H08 —** A distribuição das informações entre diferentes páginas, documentos e canais pode aumentar o esforço necessário para o estudante resolver uma dúvida.
 
 ## 7.2 Qual perfil será priorizado no projeto de IHC?
 
-{{...}}
+**[F]** O perfil priorizado será o **estudante da FEI que necessita localizar ou compreender uma informação acadêmica ou administrativa**.
 
-**Por que esse perfil foi escolhido?** {{...}}
+**Por que esse perfil foi escolhido?**
+
+O estudante foi escolhido por ser o usuário direto previsto para a interface do assistente no TCC. É esse perfil que formula as dúvidas, interpreta as respostas apresentadas e poderá utilizar as informações recuperadas para compreender regras, prazos, serviços ou procedimentos acadêmico-administrativos.
+
+Além disso, as atividades **A01 — localizar e compreender uma informação acadêmica ou administrativa** e **A02 — entender como realizar um procedimento acadêmico ou administrativo** são realizadas diretamente por esse perfil.
+
+**[?]** Ainda será necessário investigar diretamente com estudantes da FEI suas características, dificuldades, canais utilizados atualmente, familiaridade com interfaces conversacionais e expectativas em relação ao assistente.
 
 ## 7.3 Qual objetivo desse usuário será priorizado?
 
-{{...}}
+**[H] H04 —** O objetivo priorizado será **obter e compreender uma informação acadêmica ou administrativa necessária para resolver uma dúvida, tomar uma decisão ou realizar corretamente um procedimento relacionado à vida acadêmica na FEI**.
+
+Esse objetivo está relacionado principalmente às atividades:
+
+- **A01:** localizar e compreender uma informação acadêmica ou administrativa, como uma regra, prazo, serviço ou orientação institucional;
+- **A02:** entender como realizar um procedimento acadêmico ou administrativo e quais etapas ou condições devem ser observadas.
 
 ## 7.4 Que interface será explorada na disciplina?
 
-Complete:
+> **Para fins da disciplina de IHC, será projetada uma interface que permita ao estudante da FEI utilizar a capacidade do assistente de recuperar informações institucionais e gerar respostas fundamentadas para localizar e compreender informações acadêmicas ou administrativas, no contexto de uma dúvida relacionada à sua vida acadêmica na FEI.**
 
-> **Para fins da disciplina de IHC, será projetada uma interface que permita a `{{perfil}}` utilizar `{{capacidade/resultado do TCC}}` para `{{objetivo}}`, no contexto de `{{situação}}`.**
+A interface explorada terá como foco o fluxo conversacional de consulta, considerando inicialmente elementos como:
 
-{{...}}
+- formulação da dúvida em linguagem natural;
+- apresentação da resposta ao estudante;
+- apresentação da origem ou fonte institucional utilizada;
+- continuidade da interação por meio de novas perguntas;
+- comunicação de situações em que o sistema não possua evidência suficiente para responder.
+
+Esses elementos representam um recorte inicial e poderão ser revisados nas próximas entregas conforme novas evidências forem obtidas por meio da investigação com usuários e da análise de interfaces existentes.
 
 ## 7.5 Qual é a relação dessa interface com o TCC?
 
-- [ ] Já fazia parte do TCC.
+- [x] Já fazia parte do TCC.
 - [ ] É um aprofundamento de algo parcialmente previsto.
 - [ ] É uma extensão conceitual criada para a disciplina.
 - [ ] É um protótipo demonstrativo de aplicação potencial.
 - [ ] Outra: {{...}}.
 
-> **Declaração:** a interface desenvolvida nesta disciplina é um artefato de aprendizagem de IHC baseado no tema do TCC. Sua inclusão ou implementação no TCC somente ocorrerá se isso for posteriormente decidido pela equipe e pelo orientador.
+A interface já fazia parte do TCC, pois o protótipo prevê que o estudante envie perguntas em linguagem natural e receba respostas geradas a partir das informações institucionais recuperadas pelo sistema.
 
+> **Declaração:** a interface desenvolvida nesta disciplina é um artefato de aprendizagem de IHC baseado no tema do TCC. Sua inclusão ou implementação no TCC somente ocorrerá se isso for posteriormente decidido pela equipe e pelo orientador.
 ---
 
 # 8. Levantando possibilidades de interação — sem desenhar ainda
@@ -405,22 +414,24 @@ Marque apenas as que parecem plausíveis e explique o objetivo correspondente.
 
 | Possibilidade | Pode fazer sentido? | Objetivo/tarefa que justificaria | Evidência atual |
 |---|---|---|---|
-| Dashboard/visão geral | sim/não/talvez | {{...}} | {{...}} |
-| Configuração/parametrização | sim/não/talvez | {{...}} | {{...}} |
-| Entrada/upload/seleção de dados | sim/não/talvez | {{...}} | {{...}} |
-| Acompanhamento de processamento | sim/não/talvez | {{...}} | {{...}} |
-| Relatório/resultados | sim/não/talvez | {{...}} | {{...}} |
-| Histórico com busca/filtros | sim/não/talvez | {{...}} | {{...}} |
-| Comparação de resultados | sim/não/talvez | {{...}} | {{...}} |
-| Explicabilidade/detalhamento | sim/não/talvez | {{...}} | {{...}} |
-| Administração/configurações globais | sim/não/talvez | {{...}} | {{...}} |
-| Usuários/perfis/permissões | sim/não/talvez | {{...}} | {{...}} |
-| CRUD de entidade do domínio | sim/não/talvez | {{...}} | {{...}} |
-| Auditoria/logs | sim/não/talvez | {{...}} | {{...}} |
-| Alertas/ocorrências | sim/não/talvez | {{...}} | {{...}} |
-| Ajuda/documentação | sim/não/talvez | {{...}} | {{...}} |
+| Dashboard/visão geral | não | O fluxo principal do estudante está relacionado à realização de consultas, e não ao acompanhamento de indicadores ou informações agregadas | **[F]** O TCC prevê como interação principal o envio de perguntas e o recebimento de respostas, não havendo necessidade identificada de dashboard para o estudante |
+| Configuração/parametrização | não | Os parâmetros técnicos da arquitetura são utilizados pela equipe responsável pelo desenvolvimento e pelos experimentos, e não pelo estudante | **[F]** O TCC prevê parâmetros como tamanho de chunks, sobreposição, valor de `k` e modelo gerador como variáveis experimentais |
+| Entrada/upload/seleção de dados | não | O estudante precisa fornecer sua dúvida em linguagem natural, mas não há necessidade atual de enviar documentos ou selecionar conjuntos de dados | **[F]** O fluxo previsto no TCC utiliza uma base documental previamente construída e perguntas em linguagem natural como entrada do usuário |
+| Acompanhamento de processamento | talvez | Informar ao estudante que sua pergunta está sendo processada enquanto o sistema recupera informações e gera a resposta | **[H]** Ainda não sabemos se o tempo de espera será suficiente para exigir feedback adicional de processamento. O TCC prevê registrar o tempo de resposta do sistema |
+| Relatório/resultados | não | O estudante precisa compreender uma resposta para uma dúvida específica, e não analisar relatórios ou resultados agregados | **[F]** O objetivo principal da interface previsto no TCC é a consulta de informações acadêmicas e administrativas |
+| Histórico com busca/filtros | talvez | Permitir ao estudante recuperar perguntas ou respostas realizadas anteriormente | **[H] H15 —** Um histórico de conversas anteriores pode ser útil para retomar informações ou consultas, mas essa necessidade ainda precisa ser investigada |
+| Comparação de resultados | não | Não foi identificada uma tarefa do estudante que exija comparar diferentes respostas ou configurações técnicas do sistema | **[F]** A comparação entre configurações e modelos pertence à avaliação experimental do TCC, e não ao fluxo do usuário final |
+| Explicabilidade/detalhamento | sim | Permitir que o estudante identifique a origem da informação e compreenda em que evidências institucionais a resposta está fundamentada | **[F]** O TCC prevê a preservação dos metadados e das fontes utilizadas. **[H] H02 e H14 —** A apresentação dessas fontes poderá influenciar a confiança e a utilidade percebida da resposta |
+| Administração/configurações globais | não | Não existe, no recorte atual de IHC, uma atividade do estudante que envolva administrar o funcionamento global do assistente | **[F]** O usuário priorizado para IHC é o estudante da FEI |
+| Usuários/perfis/permissões | não | O recorte atual não exige que o estudante gerencie usuários, perfis ou permissões | **[F]** O TCC não prevê integração com dados acadêmicos individualizados ou sistemas internos sensíveis |
+| CRUD de entidade do domínio | não | O estudante não precisa cadastrar, editar ou excluir documentos, normas ou outras entidades da base institucional | **[F]** A construção e manutenção da base documental fazem parte do funcionamento técnico do sistema, não da tarefa principal do usuário |
+| Auditoria/logs | não | Os registros técnicos são necessários para avaliação do sistema, mas não correspondem a uma tarefa identificada para o estudante | **[F]** O TCC prevê logs e registros das execuções para análise experimental, incluindo trechos recuperados, configurações e tempo de resposta |
+| Alertas/ocorrências | não | Não foi identificada até o momento uma necessidade de o sistema enviar notificações ou alertas ao estudante | **[?]** Essa necessidade ainda não foi observada no escopo atual e poderá ser reconsiderada caso surjam evidências nas próximas entregas |
+| Ajuda/documentação | talvez | Auxiliar o estudante a compreender o escopo do assistente, suas limitações e como formular ou reformular uma consulta | **[H] H16 —** Respostas ou interpretações incorretas podem gerar consequências relevantes, tornando importante investigar como comunicar adequadamente as limitações do sistema |
+| Interface conversacional | sim | Permitir que o estudante formule uma dúvida acadêmica ou administrativa em linguagem natural e receba uma resposta contextualizada | **[F]** A interface conversacional já faz parte do protótipo previsto no TCC. **[H] H18 e H21 —** O padrão de interação utilizado por assistentes conversacionais pode ser familiar aos estudantes |
+| Tratamento de ausência de evidência | sim | Permitir que o estudante compreenda quando o assistente não possui informações suficientes para responder e evite utilizar uma resposta sem fundamento | **[F]** O TCC determina que o sistema deverá reconhecer situações sem evidência documental suficiente. **[H] H10 e H16 —** Erros de interpretação ou respostas incorretas podem produzir consequências para o estudante |
 
-> **Atenção:** “login + dashboard + CRUD” não é uma solução universal. Cada padrão deve surgir de uma tarefa real.
+> As possibilidades classificadas como **talvez** deverão ser investigadas nas próximas etapas antes de serem incorporadas à interface. As possibilidades classificadas como **não** poderão ser reconsideradas caso novas necessidades ou evidências sejam identificadas.
 
 ---
 
@@ -430,13 +441,23 @@ Marque apenas as que parecem plausíveis e explique o objetivo correspondente.
 
 | Benefício esperado | Problema/necessidade | Usuário | Status/evidência |
 |---|---|---|---|
-| {{...}} | {{...}} | {{...}} | {{...}} |
+| Facilitar o acesso a informações acadêmicas e administrativas por meio de um ponto de consulta mais centralizado | Informações podem estar distribuídas entre diferentes páginas, documentos e canais, aumentando o esforço necessário para localização | Estudante da FEI | **[H] H01, H08 e H20 —** A necessidade e o benefício da centralização ainda deverão ser investigados diretamente com estudantes |
+| Facilitar a compreensão de regras, prazos, serviços e procedimentos acadêmico-administrativos | Determinadas informações podem exigir interpretação e conhecimento prévio sobre onde procurar ou como compreender a orientação apresentada | Estudante da FEI | **[H] H04 e H09 —** A dificuldade de interpretação e as necessidades dos estudantes ainda precisam ser validadas |
+| Permitir que o estudante identifique a origem institucional das informações utilizadas na resposta | Uma resposta gerada por IA pode gerar dúvidas quanto à sua origem ou confiabilidade | Estudante da FEI | **[F]** O TCC prevê preservação e rastreabilidade das fontes. **[H] H02 e H14 —** O impacto da apresentação das fontes sobre a confiança ainda precisa ser investigado |
+| Comunicar de forma clara situações em que o assistente não possui evidência suficiente para responder | Uma resposta incorreta ou sem fundamento pode levar a interpretações ou decisões inadequadas | Estudante da FEI | **[F]** O TCC prevê que o sistema reconheça a ausência de evidência suficiente. **[H] H10 e H16 —** As consequências e a melhor forma de comunicar essa limitação ainda deverão ser investigadas |
 
 ## 9.2 Que ações o usuário deverá conseguir realizar?
 
 | ID | O usuário precisa conseguir... | Para alcançar... | Prioridade inicial |
 |---|---|---|---|
-| F01 | {{ação}} | {{objetivo}} | alta/média/baixa |
+| T01 | Formular uma dúvida acadêmica ou administrativa em linguagem natural | Localizar uma informação relacionada à sua vida acadêmica sem precisar conhecer previamente onde ela está disponível | alta |
+| T02 | Ler e compreender a resposta apresentada pelo assistente | Esclarecer sua dúvida, compreender uma informação ou decidir como realizar determinado procedimento | alta |
+| T03 | Identificar e consultar a fonte institucional associada à resposta | Verificar a origem da informação e compreender em que evidência a resposta está fundamentada | alta |
+| T04 | Fazer uma nova pergunta ou complementar uma pergunta anterior | Refinar a consulta ou esclarecer pontos que permaneceram incompletos | média |
+| T05 | Compreender quando o assistente não possui evidência suficiente para responder | Evitar utilizar uma resposta sem fundamento e identificar a necessidade de procurar outra fonte ou canal institucional | alta |
+| T06 | Consultar perguntas e respostas anteriores | Retomar informações apresentadas durante uma interação anterior | média |
+
+> Os identificadores `T01`, `T02` etc. são utilizados por representarem **tarefas do usuário**. Posteriormente, esses IDs poderão ser relacionados aos cenários, modelos de tarefas, MoLIC, telas e testes na matriz de rastreabilidade.
 
 ## 9.3 Tecnologias/restrições já definidas no TCC
 
@@ -444,19 +465,34 @@ A tecnologia aparece **agora**, depois do entendimento do uso.
 
 | Tecnologia/restrição | Por que existe | Possível impacto na interação |
 |---|---|---|
-| {{...}} | {{...}} | {{...}} |
+| Arquitetura baseada em RAG | Permitir que as respostas sejam geradas a partir de informações recuperadas de documentos institucionais | A qualidade da resposta dependerá das evidências recuperadas. Quando não houver evidência suficiente, a interface deverá comunicar essa limitação |
+| Base documental composta por fontes públicas ou autorizadas da FEI | Garantir que as respostas sejam fundamentadas em conteúdos institucionais identificáveis e adequados ao escopo do projeto | O assistente somente poderá responder adequadamente sobre assuntos contemplados pela base documental |
+| Preservação de metadados e fontes dos documentos | Manter rastreabilidade entre os trechos recuperados e os documentos institucionais de origem | Permite apresentar ao estudante a origem das informações utilizadas na resposta |
+| Modelos de linguagem acessados por API externa | Realizar a geração das respostas em linguagem natural | Pode introduzir tempo de espera, indisponibilidade do serviço ou erros de comunicação, exigindo feedback adequado durante a interação |
+| Banco vetorial e recuperação semântica | Localizar trechos documentais relacionados semanticamente à pergunta do estudante | Uma recuperação inadequada poderá produzir contexto insuficiente ou pouco relevante, devendo o sistema evitar apresentar respostas sem fundamento |
+| Ausência de integração com dados acadêmicos pessoais ou sistemas internos sensíveis | Limitar o protótipo a documentos públicos ou autorizados e evitar o tratamento de dados pessoais dos estudantes | O assistente não poderá responder perguntas que dependam de informações individuais, como situação financeira pessoal, notas específicas ou dados particulares do estudante |
+| Escopo restrito a dúvidas acadêmicas e administrativas contempladas pela base documental | Manter o protótipo dentro dos limites definidos para o TCC | A interface deverá tornar compreensível o escopo do assistente e tratar adequadamente perguntas que estejam fora dele |
+| Registro do tempo de resposta e das execuções | Permitir a avaliação experimental de desempenho, recuperação e geração das respostas | Tempos maiores de processamento poderão exigir indicadores de carregamento ou outro tipo de feedback ao usuário |
+| Histórico de interação durante a sessão | Manter o contexto das perguntas e respostas realizadas pelo estudante | Pode permitir continuidade da conversa e consulta a mensagens anteriores, embora a utilidade desse recurso ainda precise ser validada com usuários |
+| Respostas não substituem os canais oficiais da instituição | O protótipo possui caráter acadêmico e pode apresentar limitações ou informações insuficientes | A interface deverá comunicar que informações relevantes podem precisar ser verificadas nos canais oficiais da FEI |
 
 ---
-
 # 10. Hipóteses e dúvidas prioritárias
+
+A partir das hipóteses levantadas ao longo da Entrega 1, foram priorizadas aquelas que possuem maior impacto sobre a definição do problema, do usuário, das tarefas e das decisões futuras de interface.
 
 | ID | Hipótese/dúvida | Por que importa | Como poderá ser investigada |
 |---|---|---|---|
-| H01 | {{...}} | {{...}} | Entrega 2/3/7/... |
-| H02 | {{...}} | {{...}} | {{...}} |
-| H03 | {{...}} | {{...}} | {{...}} |
+| H04 | O estudante busca obter e compreender informações acadêmicas ou administrativas para resolver dúvidas, tomar decisões ou realizar corretamente procedimentos relacionados à vida acadêmica | Define o objetivo principal do usuário e orienta quais tarefas deverão ser priorizadas na interface | Entrega 2 — investigação com estudantes da FEI |
+| H05 | Localizar e compreender informações acadêmicas ou administrativas é uma das atividades mais frequentes dos estudantes nesse contexto | Ajuda a verificar se A01 deve realmente ser considerada a atividade principal do projeto de IHC | Entrega 2 — entrevistas, questionários ou levantamento com estudantes |
+| H06 | Compreender e realizar procedimentos acadêmicos ou administrativos é uma atividade de maior criticidade quando envolve regras, etapas obrigatórias ou prazos | A criticidade da atividade pode exigir maior cuidado na apresentação das respostas, fontes, limitações e orientações | Entrega 2 — investigação com estudantes e, quando pertinente, setores responsáveis |
+| H08 | A distribuição das informações entre diferentes páginas, documentos e canais pode aumentar o esforço necessário para o estudante resolver uma dúvida | Representa um dos principais problemas que justificam o fluxo de consulta centralizado proposto para o assistente | Entrega 2 — investigação do processo atual com estudantes |
+| H14 | A confiabilidade percebida pelo estudante poderá ser influenciada pela clareza sobre a origem institucional das informações apresentadas | Pode justificar a apresentação das fontes e determinar como essas informações deverão aparecer na interface | Entrega 2 — investigação com usuários; Entrega 7 — avaliação da interface |
+| H15 | Um histórico de conversas anteriores pode ser útil para o estudante retomar informações ou consultas realizadas anteriormente | O TCC prevê histórico de interação, mas ainda é necessário verificar se essa funcionalidade representa uma necessidade real do usuário | Entrega 2 — investigação com estudantes; Entrega 7 — teste de usabilidade |
+| H16 | Uma resposta incorreta ou uma interpretação equivocada sobre regras, prazos ou procedimentos pode produzir consequências relevantes para o estudante | Influencia diretamente o tratamento de erros, ausência de evidência, avisos e encaminhamento para canais oficiais | Entrega 2 — investigação com estudantes e setores responsáveis; Entrega 7 — avaliação da interação |
+| H18 | O padrão de interação utilizado por assistentes como ChatGPT, Gemini e Copilot pode ser familiar aos estudantes da FEI | Pode sustentar ou questionar a escolha de uma interface conversacional como principal forma de interação | Entrega 2 — investigação com estudantes e análise de interfaces existentes |
 
-Registre em [`../RASTREABILIDADE.md`](../RASTREABILIDADE.md).
+> Essas hipóteses deverão ser registradas e acompanhadas em [`../RASTREABILIDADE.md`](../RASTREABILIDADE.md). Caso alguma delas seja sustentada, refinada ou refutada nas próximas entregas, o histórico deverá ser preservado.
 
 ---
 
@@ -464,23 +500,56 @@ Registre em [`../RASTREABILIDADE.md`](../RASTREABILIDADE.md).
 
 | Pergunta | Síntese atual |
 |---|---|
-| Qual é a contribuição central do TCC? | {{...}} |
-| O TCC já previa interface? | {{...}} |
-| Quem é o usuário prioritário de IHC? | {{...}} |
-| O que ele precisa alcançar? | {{...}} |
-| Qual problema/atividade será estudado? | {{...}} |
-| Como isso acontece hoje? | {{...}} |
-| Qual é o contexto de uso? | {{...}} |
-| Que interface/recorte será explorado? | {{...}} |
-| Como a interface se relaciona ao TCC? | {{...}} |
-| Quais pontos ainda são hipóteses? | {{H01...}} |
+| Qual é a contribuição central do TCC? | Recuperar informações relevantes de uma base documental institucional e utilizá-las como evidência para gerar respostas em linguagem natural a dúvidas acadêmicas e administrativas, além de avaliar experimentalmente o desempenho da arquitetura utilizada |
+| O TCC já previa interface? | Sim. O TCC prevê uma interface na qual o estudante envia perguntas em linguagem natural e recebe respostas fundamentadas nas informações institucionais recuperadas pelo sistema |
+| Quem é o usuário prioritário de IHC? | Estudante da FEI que necessita localizar ou compreender uma informação acadêmica ou administrativa |
+| O que ele precisa alcançar? | Obter e compreender uma informação acadêmica ou administrativa para resolver uma dúvida, tomar uma decisão ou realizar corretamente um procedimento relacionado à vida acadêmica |
+| Qual problema/atividade será estudado? | O processo de localizar e compreender informações acadêmicas ou administrativas, especialmente quando essas informações estão distribuídas entre diferentes páginas, documentos ou canais e quando envolvem regras, prazos ou procedimentos |
+| Como isso acontece hoje? | As informações podem ser buscadas em páginas institucionais, documentos e regulamentos, sistemas acadêmicos ou por meio de contato com pessoas e setores responsáveis. A frequência e a ordem de utilização desses canais ainda precisam ser investigadas diretamente com estudantes |
+| Qual é o contexto de uso? | Situações em que o estudante precisa esclarecer uma dúvida acadêmica ou administrativa, dentro ou fora da FEI, possivelmente utilizando computador, notebook ou dispositivo móvel |
+| Que interface/recorte será explorado? | O fluxo conversacional de consulta, envolvendo a formulação de uma pergunta em linguagem natural, apresentação e compreensão da resposta, identificação das fontes utilizadas e comunicação de situações em que não exista evidência suficiente |
+| Como a interface se relaciona ao TCC? | A interface já faz parte do protótipo previsto no TCC. A disciplina de IHC aprofundará aspectos relacionados à interação, compreensão das respostas, apresentação das fontes, tratamento de limitações e usabilidade |
+| Quais pontos ainda são hipóteses? | Principalmente H04, H05, H06, H08, H14, H15, H16 e H18, relacionados ao objetivo real do estudante, frequência e criticidade das atividades, esforço no processo atual, confiança nas fontes, utilidade do histórico, consequências de erros e familiaridade com interfaces conversacionais |
 
 ### Delimitação
 
-**Dentro do escopo de IHC:** {{...}}  
-**Fora do escopo de IHC:** {{...}}  
-**Dentro do escopo formal do TCC:** {{...}}  
-**Interface da disciplina será implementada no TCC?** não definido / sim / não — {{justificativa, se houver}}
+**Dentro do escopo de IHC:**
+
+- interação do estudante com o assistente virtual;
+- formulação de dúvidas acadêmicas e administrativas em linguagem natural;
+- apresentação e compreensão das respostas;
+- apresentação das fontes institucionais utilizadas;
+- tratamento de perguntas sem evidência suficiente ou fora do escopo;
+- continuidade da conversa e possível utilização de histórico;
+- comunicação das limitações do assistente;
+- investigação dos padrões de interação e vocabulário mais adequados ao estudante;
+- avaliação da usabilidade e da compreensão da interface.
+
+**Fora do escopo de IHC:**
+
+- configuração dos parâmetros experimentais de RAG pelo estudante;
+- administração do banco vetorial;
+- gerenciamento técnico da base documental;
+- configuração de modelos de linguagem, embeddings, tamanho de chunks ou valor de `k`;
+- dashboards de métricas experimentais destinados à equipe de desenvolvimento;
+- gerenciamento de usuários, perfis e permissões;
+- integração da interface com dados acadêmicos pessoais ou sistemas internos sensíveis da FEI;
+- desenvolvimento de funcionalidades administrativas sem uma necessidade de usuário identificada.
+
+**Dentro do escopo formal do TCC:**
+
+- desenvolvimento do protótipo funcional do assistente virtual;
+- interface para envio de perguntas e apresentação das respostas;
+- construção e processamento da base documental institucional;
+- recuperação semântica de informações;
+- geração de respostas fundamentadas em evidências;
+- preservação e registro das fontes utilizadas;
+- tratamento de perguntas sem evidência suficiente;
+- avaliação experimental das configurações de segmentação e recuperação;
+- avaliação da qualidade das respostas;
+- análise de tempo de resposta, custo e limitações da solução.
+
+**Interface da disciplina será implementada no TCC?** não definido — o TCC já prevê uma interface funcional para interação com o assistente, porém a incorporação das decisões, fluxos e refinamentos produzidos especificamente na disciplina de IHC dependerá dos resultados das próximas entregas e de decisão posterior da equipe em conjunto com o orientador.
 
 ---
 
@@ -502,13 +571,11 @@ A Entrega 1 é uma **fotografia inicial do conhecimento**. Ela pode e deve ser r
 
 # 13. Relação com INOVA e comunicação do projeto
 
-Prepare uma explicação de até três frases:
+1. **Problema/atividade humana:** Estudantes da FEI precisam localizar e compreender informações acadêmicas e administrativas relacionadas a regras, prazos, serviços e procedimentos, atualmente disponíveis em diferentes fontes e canais institucionais.
 
-1. **Problema/atividade humana:** {{...}}
-2. **Contribuição técnica do TCC:** {{...}}
-3. **Como uma pessoa poderia utilizar essa contribuição:** {{...}}
+2. **Contribuição técnica do TCC:** O TCC desenvolve e avalia um assistente virtual capaz de recuperar informações de documentos institucionais e utilizá-las como evidência para gerar respostas em linguagem natural a dúvidas acadêmicas e administrativas.
 
-Essa síntese ajuda a apresentar o projeto para público não especializado sem reduzir seu mérito técnico.
+3. **Como uma pessoa poderia utilizar essa contribuição:** O estudante poderá formular sua dúvida por meio de uma interface conversacional, receber uma resposta fundamentada em informações institucionais e consultar as fontes utilizadas pelo assistente.
 
 ---
 
