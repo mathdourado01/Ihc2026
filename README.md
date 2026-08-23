@@ -35,26 +35,20 @@ Leia obrigatoriamente o [Guia para definir o escopo de IHC a partir do tema do T
 
 | Item | Descrição |
 |---|---|
-| Tema central do TCC | {{...}} |
-| Resultado técnico esperado do TCC | {{algoritmo, estudo, sistema, modelo, análise, API...}} |
-| O TCC já previa interface? | sim / não / parcialmente |
-| Capacidade técnica que pode gerar valor para pessoas | {{...}} |
-| Usuário principal adotado em IHC | {{...}} |
-| Objetivo principal desse usuário | {{...}} |
-| Interface/recorte explorado na disciplina | {{...}} |
-| Relação com o escopo formal do TCC | parte prevista / extensão conceitual / protótipo demonstrativo / outra |
+| Tema central do TCC | Desenvolvimento e avaliação de um assistente virtual com Inteligência Artificial para suporte a dúvidas acadêmicas e administrativas no contexto da FEI |
+| Resultado técnico esperado do TCC | Protótipo funcional de assistente virtual capaz de recuperar informações institucionais e gerar respostas em linguagem natural, acompanhado de avaliação experimental da arquitetura |
+| O TCC já previa interface? | Sim |
+| Capacidade técnica que pode gerar valor para pessoas | Recuperar informações relevantes de uma base documental institucional e utilizá-las como evidência para gerar respostas em linguagem natural a dúvidas acadêmicas e administrativas |
+| Usuário principal adotado em IHC | Estudante da FEI que necessita localizar ou compreender uma informação acadêmica ou administrativa |
+| Objetivo principal desse usuário | Obter e compreender uma informação acadêmica ou administrativa para resolver uma dúvida, tomar uma decisão ou realizar corretamente um procedimento relacionado à sua vida acadêmica |
+| Interface/recorte explorado na disciplina | Fluxo conversacional de consulta, envolvendo formulação da dúvida, apresentação e compreensão da resposta, consulta às fontes institucionais utilizadas e comunicação de situações em que não exista evidência suficiente |
+| Relação com o escopo formal do TCC | Parte prevista — a interface conversacional já faz parte do protótipo previsto no TCC, enquanto a disciplina de IHC aprofundará seus aspectos de interação e usabilidade |
 
 > **Importante:** a tabela acima explica a relação entre os dois trabalhos. Ela não altera o compromisso formal do TCC.
 
 ## Resumo do projeto pela perspectiva do usuário
 
-Escreva **um parágrafo curto e concreto** explicando: quem é o usuário escolhido, o que precisa alcançar, qual problema enfrenta ou qual atividade precisa executar, em qual contexto e como a contribuição do TCC se relaciona com essa situação.
-
-Evite começar pela tecnologia.
-
-> **Estrutura sugerida:** “`{{tipo de usuário}}` precisa `{{objetivo}}` em `{{contexto}}`. Atualmente enfrenta `{{problema/limitação}}` e utiliza `{{processo/alternativa atual}}`. O tema do TCC investiga `{{contribuição técnica}}`. Para fins da disciplina de IHC, será explorada uma interface que permita `{{forma de uso da contribuição}}`.”
-
-Se alguma afirmação ainda não estiver sustentada por evidência, registre-a como hipótese na [Entrega 1](docs/01_conhecendo_o_problema.md).
+O **estudante da FEI** precisa localizar e compreender informações acadêmicas ou administrativas para esclarecer dúvidas, tomar decisões ou realizar procedimentos relacionados à sua vida acadêmica. **[H]** Atualmente, a distribuição dessas informações entre diferentes páginas, documentos e canais pode aumentar o esforço necessário para encontrar e interpretar a orientação adequada. O TCC investiga o desenvolvimento de um assistente capaz de recuperar informações de fontes institucionais e utilizá-las como evidência para gerar respostas em linguagem natural. Para fins da disciplina de IHC, será explorada uma interface conversacional que permita ao estudante formular sua dúvida, compreender a resposta apresentada, consultar as fontes utilizadas e ser informado quando não houver evidência suficiente para responder.
 
 ## Por que pensar em interface mesmo em TCCs técnicos?
 
@@ -100,7 +94,7 @@ O protótipo de IHC pode, portanto, funcionar como uma demonstração do potenci
 
 | # | Entrega | Quantidade mínima / responsabilidade | Status |
 |---:|---|---|---|
-| 1 | [Conhecendo o projeto, o usuário e o problema](docs/01_conhecendo_o_problema.md) | 1 solução consolidada por equipe | 🟨 |
+| 1 | [Conhecendo o projeto, o usuário e o problema](docs/01_conhecendo_o_problema.md) | 1 solução consolidada por equipe | 🟩 |
 | 2 | [Público-alvo e análise de concorrência](docs/02_analise_concorrencia.md) | no mínimo 1 concorrente/interface representativa por integrante + síntese | ⬜ |
 | 3 | [Personas, empatia, contexto e jornada](docs/03_personas_contexto_jornada.md) | 1 persona por integrante; demais artefatos consolidados | ⬜ |
 | 4 | [Cenários de análise/problema](docs/04_cenarios_problema.md) | 1 solução completa por integrante | ⬜ |
