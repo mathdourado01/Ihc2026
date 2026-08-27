@@ -46,6 +46,7 @@ Esse público retoma o recorte definido na Entrega 1, na qual o estudante da FEI
 
 Nesta entrega, as soluções serão analisadas considerando principalmente como suas interfaces apoiam atividades de busca, formulação de dúvidas, compreensão de respostas, apresentação de informações e orientação do usuário, além dos padrões de interação que possam ser familiares ou relevantes para esse público.
 
+## 2. Concorrentes diretos/indiretos
 ### Análise C01 — ChatGPT
 
 **Autor(a):** João Pedro Sabino Garcia — 22.224.032-7
@@ -114,47 +115,74 @@ Esses padrões reduzem a necessidade de o usuário aprender uma estrutura comple
 | Estudos com universitários apontam rapidez e facilidade de uso como aspectos positivos    | Estudos sobre percepção e utilização do ChatGPT no ensino superior | A interface do projeto deve priorizar um fluxo de consulta simples, com baixa quantidade de etapas entre formular a dúvida e compreender a resposta                        |
 | Estudos também relatam preocupação com imprecisões e confiança nas respostas              | Estudos sobre uso do ChatGPT no ensino superior                    | O projeto deve deixar claro o escopo da informação, utilizar fontes institucionais e tratar explicitamente situações em que não existe evidência suficiente para responder |
 | O histórico permite retomar conversas anteriores                                          | Interface do ChatGPT                                               | Pode ser uma possibilidade de interação para o projeto, mas não deve ser considerada requisito até que sua utilidade para os estudantes seja investigada                   |
+### Análise C02 — Virtual University Support Agent
 
-
-## 2. Concorrentes diretos/indiretos
-
-### Análise C01 — {{produto}}
-
-**Autor(a):** {{nome — matrícula}}  
-**Tipo:** direto / indireto / análogo  
-**Link oficial:** {{URL}}  
-**Data de acesso:** {{dd/mm/aaaa}}
+**Autor(a):** Matheus Dourado Valle — 22.224.023-6  
+**Tipo:** direto  
+**Link oficial:** https://www.sciencedirect.com/science/article/pii/S1877050924015217  
+**Data de acesso:** 27/08/2026
 
 #### Contexto e proposta
 
-{{...}}
+O trabalho de Ilagan e Ilagan (2024) apresenta um protótipo de agente virtual universitário baseado em modelo de linguagem, desenvolvido para responder perguntas relacionadas às políticas e orientações presentes no *student handbook* de uma universidade.
+
+O sistema permite que estudantes e outros membros da comunidade universitária realizem perguntas em linguagem natural sobre informações institucionais, utilizando o conteúdo do manual do estudante como base para apoiar a geração das respostas.
+
+Consideramos esse sistema um concorrente direto por apresentar uma proposta bastante próxima do nosso TCC. Assim como no assistente que estamos desenvolvendo para a FEI, o usuário realiza uma pergunta em linguagem natural e recebe uma resposta baseada em conteúdo institucional. A principal diferença está no escopo documental: o protótipo de Ilagan e Ilagan concentra-se principalmente no *student handbook*, enquanto o nosso projeto pretende utilizar diferentes fontes institucionais da FEI para responder dúvidas acadêmicas e administrativas mais variadas.
 
 #### Funcionalidades relevantes
 
 | Funcionalidade | Como é realizada | Evidência/print | Observação de IHC |
 |---|---|---|---|
-| {{...}} | {{...}} | `../assets/02_concorrencia/...` | {{...}} |
+| Perguntas em linguagem natural | O usuário formula perguntas relacionadas às políticas e orientações da universidade por meio de uma interface de perguntas e respostas | Artigo de Ilagan e Ilagan (2024) | Esse padrão é semelhante ao que pretendemos utilizar no nosso assistente, permitindo que o estudante formule a dúvida com suas próprias palavras, sem precisar conhecer previamente a estrutura dos documentos |
+| Respostas em formato conversacional | O sistema utiliza um modelo de linguagem para interpretar a pergunta e apresentar uma resposta textual | Artigo de Ilagan e Ilagan (2024) | O formato pergunta–resposta se aproxima do fluxo que estamos propondo para a FEI e pode tornar a consulta mais direta do que a busca manual em páginas ou documentos |
+| Uso de documentos institucionais | O conteúdo do *student handbook* é utilizado como base de conhecimento para as consultas realizadas pelo usuário | Artigo de Ilagan e Ilagan (2024) | Esse ponto é bastante próximo do nosso TCC, pois também pretendemos fundamentar as respostas em informações institucionais, embora utilizando uma base documental mais ampla |
+| Uso de LLM para geração das respostas | O sistema utiliza um modelo de linguagem para interpretar as perguntas e gerar respostas | Artigo de Ilagan e Ilagan (2024) | Assim como no nosso projeto, o uso de LLM permite maior flexibilidade na formulação das dúvidas, mas exige cuidados para evitar respostas incorretas ou sem fundamento |
 
 #### Experiência do usuário e opiniões
 
-Use avaliações públicas, relatos, estudos, testes próprios ou outra fonte identificável. Não trate opinião isolada como verdade universal.
+O trabalho apresenta principalmente a construção e demonstração de um protótipo. Não foi identificada, no artigo de 2024, uma avaliação formal de usabilidade com métricas como satisfação, tempo de execução de tarefas ou facilidade de uso.
+
+Mesmo assim, o protótipo mostra uma forma de substituir parte da busca manual em um documento institucional por uma consulta em linguagem natural. Esse aspecto é especialmente relevante para o nosso projeto, pois também pretendemos facilitar o acesso às informações da FEI sem exigir que o estudante saiba previamente em qual página, documento ou setor determinada informação está disponível.
+
+Do ponto de vista de IHC, consideramos que o formato conversacional é uma referência interessante para o nosso assistente por tornar a consulta mais direta. Entretanto, como o artigo não apresenta uma avaliação detalhada com usuários, não podemos concluir que essa abordagem seja necessariamente mais fácil ou mais satisfatória para estudantes.
+
+Essa limitação também reforça a importância de avaliarmos, nas próximas etapas da disciplina, como os estudantes da FEI realmente percebem e utilizam uma interface desse tipo.
 
 #### Preço/modelo de negócio
 
-{{...}}
+O sistema é apresentado como um **protótipo acadêmico de pesquisa**.
+
+Não foram encontradas informações indicando que o sistema tenha sido comercializado, oferecido por assinatura ou disponibilizado como produto comercial.
+
+Para a nossa comparação, esse aspecto possui menor relevância, pois o principal interesse está nas características da interação e na forma como o sistema utiliza informações institucionais para responder às dúvidas dos usuários.
 
 #### Padrões e tendências percebidos
 
-{{...}}
+Os principais padrões de interação observados são:
+
+- interface baseada em perguntas e respostas;
+- uso de linguagem natural como forma principal de interação;
+- geração de respostas textuais;
+- utilização de documentos institucionais como base para as respostas;
+- preocupação com possíveis respostas incorretas geradas pelo modelo de linguagem.
+
+Esses padrões possuem relação direta com o que estamos propondo para o assistente da FEI. Principalmente, o uso de linguagem natural e de uma base institucional reforça a ideia de que o estudante possa realizar uma consulta sem precisar navegar previamente pela estrutura dos documentos.
+
+Ao mesmo tempo, não foi possível confirmar no artigo a existência de funcionalidades como histórico de conversas, apresentação detalhada das fontes ao usuário, avaliação das respostas ou mensagens específicas para perguntas sem informação disponível.
+
+Esses pontos são relevantes para o nosso projeto porque podem representar oportunidades de melhoria na experiência de interação, principalmente na apresentação das fontes e no tratamento de situações em que o sistema não encontre evidências suficientes para responder.
 
 #### Pontos positivos, limitações e lições
 
 | Ponto | Evidência | Implicação para nosso projeto |
 |---|---|---|
-| {{...}} | {{...}} | {{...}} |
-
-> Repita a subseção para C02, C03... até atender à quantidade da equipe.
-
+| Permite realizar perguntas em linguagem natural | Artigo de Ilagan e Ilagan (2024) | Reforça a nossa decisão de utilizar linguagem natural como principal forma de interação com o assistente da FEI |
+| Utiliza conteúdo institucional como base para as respostas | O sistema utiliza o *student handbook* | É bastante próximo da proposta do nosso TCC e reforça a importância de fundamentarmos as respostas em fontes institucionais da FEI |
+| Utiliza uma interface simples de perguntas e respostas | Descrição do protótipo no artigo | Podemos manter um fluxo de consulta simples, evitando etapas desnecessárias antes de o estudante formular sua dúvida |
+| O sistema está limitado principalmente ao conteúdo do *student handbook* | Descrição da base utilizada pelo protótipo | Nosso projeto pode ampliar esse escopo utilizando diferentes fontes institucionais da FEI, cobrindo uma variedade maior de dúvidas acadêmicas e administrativas |
+| O artigo reconhece o risco de respostas incorretas produzidas por modelos de linguagem | Discussão sobre alucinações no artigo | Esse ponto reforça a necessidade de tratarmos explicitamente situações em que não exista informação suficiente para responder e de mantermos as respostas fundamentadas nas fontes recuperadas |
+| Não há uma avaliação de usabilidade detalhada no artigo de 2024 | Avaliação apresentada no estudo | Podemos aprofundar esse aspecto no nosso projeto por meio das avaliações de IHC com estudantes da FEI previstas nas próximas entregas |
 ## 3. Softwares que o público-alvo usa no cotidiano
 
 Analise interfaces que moldam a expectativa do público, mesmo que não sejam concorrentes.
