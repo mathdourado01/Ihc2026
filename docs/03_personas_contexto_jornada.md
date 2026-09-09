@@ -71,6 +71,40 @@ Antes de criar personas, retome os tipos de usuários, características relevant
 - Informar claramente quando não houver evidência institucional suficiente para responder.
 - Não tratar histórico de conversas, dispositivo predominante ou necessidades específicas de acessibilidade como requisitos confirmados antes de investigação com usuários.
 
+### Persona P02 — Mariana Costa
+
+**Autor(a):** João Pedro Sabino Garcia — 22.224.032-7  
+**Tipo:** primária  
+**Base de evidências:** proto-persona a validar, construída a partir do escopo do TCC, da Entrega 1 e dos padrões observados na análise de concorrência  
+**Hipóteses da Entrega 1 relacionadas:** hipóteses relacionadas à necessidade de compreender procedimentos, regras, etapas e prazos acadêmico-administrativos
+
+![Persona P02](../assets/03_personas/persona_p01.svg)
+
+| Campo | Descrição |
+|---|---|
+| Faixa etária / contexto relevante | Estudante de graduação da FEI que precisa compreender como realizar um procedimento acadêmico ou administrativo. A idade específica não é considerada relevante para as decisões de design neste momento. |
+| Ocupação/papel | Estudante da FEI e usuário direto do assistente para obter orientação sobre procedimentos acadêmicos e administrativos. |
+| Conhecimento do domínio | [H] Conhece parte da rotina acadêmica, mas pode não dominar todas as regras, etapas, documentos necessários, prazos ou termos associados a procedimentos menos frequentes. |
+| Experiência tecnológica | [H] Está familiarizada com sistemas digitais utilizados no contexto acadêmico, como Portal do Aluno e Moodle, e pode possuir experiência com interfaces conversacionais. O nível dessa familiaridade ainda precisa ser validado. |
+| Objetivos | Entender corretamente como realizar um procedimento acadêmico ou administrativo, identificando etapas, regras, prazos e orientações relevantes para sua situação. |
+| Necessidades | Receber uma orientação organizada e compreensível; identificar etapas do procedimento; compreender requisitos e prazos quando estiverem disponíveis; acessar a fonte institucional relacionada; poder esclarecer dúvidas complementares. |
+| Dores/frustrações | [H] Pode ter dificuldade para reunir e interpretar informações necessárias quando um procedimento envolve diferentes páginas, documentos, regras ou orientações institucionais. |
+| Motivadores | Realizar corretamente um procedimento e reduzir a incerteza sobre quais ações devem ser tomadas, quais regras se aplicam e onde consultar a informação oficial. |
+| Restrições/acessibilidade | [?] Ainda não foram identificadas necessidades específicas de acessibilidade ou outras restrições para esse perfil. Essas características deverão ser investigadas com usuários reais. |
+| Ambiente típico de uso | [?] A consulta pode ocorrer dentro ou fora do campus e por diferentes dispositivos. Ainda não existem evidências suficientes para determinar ambiente, horário ou equipamento predominante. |
+| Comportamentos relevantes | [H] Pode formular inicialmente uma dúvida ampla sobre um procedimento e, após receber uma primeira orientação, realizar perguntas complementares sobre etapas, requisitos ou prazos específicos. Esse comportamento ainda precisa ser validado com estudantes reais. |
+
+**Decisões de design influenciadas por P02:**
+
+- Permitir que o estudante formule dúvidas sobre procedimentos utilizando linguagem natural.
+- Organizar respostas sobre procedimentos de forma clara, destacando etapas, requisitos ou prazos quando essas informações estiverem presentes nas fontes institucionais.
+- Evitar apresentar como obrigatória qualquer etapa que não esteja sustentada pelas fontes recuperadas.
+- Apresentar de forma visível a fonte institucional utilizada para fundamentar a orientação.
+- Permitir perguntas complementares dentro da mesma interação para esclarecer partes específicas do procedimento.
+- Informar explicitamente quando determinada etapa, regra ou prazo não puder ser confirmado pela base documental.
+- Evitar linguagem excessivamente técnica e explicar termos institucionais quando necessário.
+- Não assumir como confirmados o dispositivo predominante, a frequência das consultas ou necessidades específicas de acessibilidade sem validação com usuários.
+
 > Repita para P02, P03... Cada integrante deve produzir ao menos uma persona.
 
 ### Síntese das personas
