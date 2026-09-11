@@ -130,7 +130,7 @@ Como ambas são **proto-personas**, os elementos marcados como hipótese `[H]` o
 **Persona escolhida:** P01  
 **Justificativa:** A P01 foi escolhida por representar o fluxo mais geral do assistente: o estudante possui uma dúvida acadêmica ou administrativa e precisa localizar e compreender uma informação. Esse perfil está diretamente relacionado à atividade A01 definida na Entrega 1 e permite analisar necessidades centrais da interface, como formulação da dúvida, compreensão da resposta, acesso à fonte institucional e tratamento de situações em que a informação não é encontrada.
 
-![Mapa de empatia](../assets/03_personas/mapa_empatia.svg)
+![Mapa de empatia](../assets/03_personas/Mapa_empatia.png)
 
 Documente também em texto: o que vê; ouve; diz/faz; pensa/sente; dores; ganhos. Diferencie **evidência** de **hipótese**.
 
