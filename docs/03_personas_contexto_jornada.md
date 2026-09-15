@@ -70,41 +70,39 @@ Antes de criar personas, retome os tipos de usuários, características relevant
 - permitir perguntas complementares para esclarecer a informação;
 - informar de forma clara quando não houver evidência suficiente para responder.
 
-### Persona P02 - Mariana Costa
+### Persona P02 — Mariana Costa
 
-**Autor(a):** João Pedro Sabino Garcia - 22.224.032-7  
-**Tipo:** primária  
-**Base de evidências:** proto-persona a validar, construída a partir do escopo do TCC, da Entrega 1 e dos padrões observados na análise de concorrência  
-**Hipóteses da Entrega 1 relacionadas:** hipóteses relacionadas à necessidade de compreender procedimentos, regras, etapas e prazos acadêmico-administrativos
+*Autor(a):* João Pedro Sabino Garcia — 22.224.032-7  
+*Tipo:* secundária  
+*Base de evidências:* proto-persona a validar, construída a partir do escopo do TCC, da Entrega 1 e da análise de concorrência da Entrega 2  
+*Hipóteses da Entrega 1 relacionadas:* H04, H09, H10, H14, H16 e H18
 
 ![Persona P02](../assets/03_personas/persona_2.png)
 
+Mariana Costa, 23 anos, está em fase mais avançada da graduação e representa o estudante que precisa compreender corretamente procedimentos acadêmicos e administrativos. Sua rotina envolve demandas com maior impacto, como solicitações institucionais, documentos, regras, etapas e prazos. Diferentemente de quem busca apenas uma informação pontual, Mariana precisa entender como diferentes orientações se conectam para conseguir agir corretamente. Quando consulta o sistema, espera receber uma orientação organizada, com etapas bem definidas, requisitos, possíveis prazos e indicação clara da fonte institucional. Sua principal preocupação é não interpretar algo de forma errada e acabar perdendo prazo, deixando de cumprir uma exigência ou executando o procedimento de forma incorreta. Sua tarefa central é transformar a resposta recebida em uma ação segura dentro do contexto acadêmico.
+
 | Campo | Descrição |
 |---|---|
-| Faixa etária / contexto relevante | Estudante de graduação da FEI que precisa compreender como realizar um procedimento acadêmico ou administrativo. A idade específica não é considerada relevante para as decisões de design neste momento. |
-| Ocupação/papel | Estudante da FEI e usuário direto do assistente para obter orientação sobre procedimentos acadêmicos e administrativos. |
-| Conhecimento do domínio | [H] Conhece parte da rotina acadêmica, mas pode não dominar todas as regras, etapas, documentos necessários, prazos ou termos associados a procedimentos menos frequentes. |
-| Experiência tecnológica | [H] Está familiarizada com sistemas digitais utilizados no contexto acadêmico, como Portal do Aluno e Moodle, e pode possuir experiência com interfaces conversacionais. O nível dessa familiaridade ainda precisa ser validado. |
-| Objetivos | Entender corretamente como realizar um procedimento acadêmico ou administrativo, identificando etapas, regras, prazos e orientações relevantes para sua situação. |
-| Necessidades | Receber uma orientação organizada e compreensível; identificar etapas do procedimento; compreender requisitos e prazos quando estiverem disponíveis; acessar a fonte institucional relacionada; poder esclarecer dúvidas complementares. |
-| Dores/frustrações | [H] Pode ter dificuldade para reunir e interpretar informações necessárias quando um procedimento envolve diferentes páginas, documentos, regras ou orientações institucionais. |
-| Motivadores | Realizar corretamente um procedimento e reduzir a incerteza sobre quais ações devem ser tomadas, quais regras se aplicam e onde consultar a informação oficial. |
-| Restrições/acessibilidade | [?] Ainda não foram identificadas necessidades específicas de acessibilidade ou outras restrições para esse perfil. Essas características deverão ser investigadas com usuários reais. |
-| Ambiente típico de uso | [?] A consulta pode ocorrer dentro ou fora do campus e por diferentes dispositivos. Ainda não existem evidências suficientes para determinar ambiente, horário ou equipamento predominante. |
-| Comportamentos relevantes | [H] Pode formular inicialmente uma dúvida ampla sobre um procedimento e, após receber uma primeira orientação, realizar perguntas complementares sobre etapas, requisitos ou prazos específicos. Esse comportamento ainda precisa ser validado com estudantes reais. |
+| Faixa etária / contexto relevante | 23 anos, estudante de graduação em fase mais avançada do curso, com maior contato com procedimentos acadêmicos e administrativos que exigem atenção a regras e prazos. |
+| Ocupação/papel | Estudante da FEI e usuária direta do assistente em consultas procedimentais. |
+| Conhecimento do domínio | [H] Conhece a dinâmica acadêmica geral, mas não necessariamente domina detalhes de procedimentos específicos, seus requisitos, documentos ou etapas. |
+| Experiência tecnológica | [H] Tem familiaridade com sistemas acadêmicos e plataformas digitais, mas isso não elimina dúvidas quando a tarefa exige interpretar procedimentos institucionais. |
+| Objetivos | Entender corretamente como realizar um procedimento acadêmico ou administrativo e quais cuidados devem ser observados. |
+| Necessidades | Receber orientações estruturadas; visualizar etapas, regras, requisitos e prazos quando disponíveis; conseguir identificar a fonte institucional; esclarecer dúvidas complementares sem reiniciar toda a busca. |
+| Dores/frustrações | [H] Fica insegura quando a orientação está espalhada em diferentes fontes; pode ter dificuldade para relacionar regras e etapas; teme perder prazo ou executar um procedimento de forma incorreta. |
+| Motivadores | Agir com segurança, reduzir o risco de erro e entender com clareza o que precisa ser feito em cada situação. |
+| Restrições/acessibilidade | [?] Não há evidências específicas sobre restrições de acessibilidade desse perfil até o momento. |
+| Ambiente típico de uso | [H] Consulta informações em momentos de necessidade prática, possivelmente conciliando atividades acadêmicas, estágio e outras responsabilidades, o que aumenta a necessidade de objetividade. |
+| Comportamentos relevantes | [H] Costuma iniciar pela dúvida geral sobre o procedimento e, em seguida, buscar detalhes mais específicos sobre requisitos, etapas, documentos ou prazos. |
 
-**Decisões de design influenciadas por P02:**
+*Decisões de design influenciadas por P02:*
 
-- Permitir que o estudante formule dúvidas sobre procedimentos utilizando linguagem natural.
-- Organizar respostas sobre procedimentos de forma clara, destacando etapas, requisitos ou prazos quando essas informações estiverem presentes nas fontes institucionais.
-- Evitar apresentar como obrigatória qualquer etapa que não esteja sustentada pelas fontes recuperadas.
-- Apresentar de forma visível a fonte institucional utilizada para fundamentar a orientação.
-- Permitir perguntas complementares dentro da mesma interação para esclarecer partes específicas do procedimento.
-- Informar explicitamente quando determinada etapa, regra ou prazo não puder ser confirmado pela base documental.
-- Evitar linguagem excessivamente técnica e explicar termos institucionais quando necessário.
-- Não assumir como confirmados o dispositivo predominante, a frequência das consultas ou necessidades específicas de acessibilidade sem validação com usuários.
-
-> Repita para P02, P03... Cada integrante deve produzir ao menos uma persona.
+- permitir dúvidas procedimentais em linguagem natural;
+- estruturar respostas com separação clara entre etapas, regras, requisitos e prazos, quando disponíveis;
+- evitar inferir ou inventar orientações não sustentadas pelas fontes;
+- destacar visualmente a fonte institucional associada à resposta;
+- permitir perguntas complementares sobre partes específicas do procedimento;
+- sinalizar explicitamente quando determinada etapa, regra ou prazo não puder ser confirmado pela base documental.
 
 ### Síntese das personas
 
