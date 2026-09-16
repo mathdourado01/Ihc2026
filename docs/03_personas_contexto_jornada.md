@@ -148,29 +148,49 @@ Documente também em texto: o que vê; ouve; diz/faz; pensa/sente; dores; ganhos
 
 | Dimensão | Descrição | Implicação de design |
 |---|---|---|
-| Usuários | {{...}} | {{...}} |
-| Tarefas | {{...}} | {{...}} |
-| Equipamentos | {{...}} | {{...}} |
-| Ambiente físico | {{...}} | {{...}} |
-| Ambiente social/organizacional | {{...}} | {{...}} |
-| Papéis/permissões/governança | {{...}} | {{...}} |
-| Volume de dados/histórico | {{...}} | {{...}} |
+| Usuários | O público prioritário é formado por estudantes da FEI que precisam consultar informações acadêmicas ou administrativas. A P01 representa principalmente consultas informacionais relacionadas à A01, enquanto a P02 representa consultas procedimentais relacionadas à A02. | A interface deve atender tanto dúvidas pontuais quanto consultas que exigem respostas mais estruturadas, sem exigir conhecimento técnico sobre o funcionamento interno do sistema. |
+| Tarefas | As principais tarefas são **A01 — localizar e compreender uma informação acadêmica ou administrativa** e **A02 — entender como realizar um procedimento acadêmico ou administrativo e quais etapas, regras ou prazos devem ser observados**. | O sistema deve permitir perguntas em linguagem natural e adaptar a organização da resposta ao tipo de necessidade: respostas mais diretas para consultas informacionais e mais estruturadas quando houver procedimentos, etapas ou requisitos. |
+| Equipamentos | **[?]** Ainda não existe evidência suficiente para determinar se os estudantes utilizariam predominantemente computador, notebook ou celular para realizar as consultas. | A interface não deve depender de um único tipo de equipamento. O projeto deve considerar uma organização responsiva e legível em diferentes tamanhos de tela. |
+| Ambiente físico | **[H]** A consulta pode ocorrer em diferentes contextos, como no campus, em casa ou durante deslocamentos e intervalos da rotina acadêmica. Ainda não há evidência sobre qual ambiente é predominante. | A interação deve ser simples e objetiva, evitando exigir condições específicas de uso. Informações importantes devem permanecer claras mesmo em consultas rápidas ou em telas menores. |
+| Ambiente social/organizacional | **[F]** As informações utilizadas pelo assistente pertencem ao contexto acadêmico e administrativo da FEI. **[H]** Quando não encontra ou compreende uma informação, o estudante pode recorrer a colegas, professores ou profissionais da instituição. | As respostas devem deixar clara sua origem institucional. Quando não houver evidência suficiente, o sistema deve reconhecer a limitação em vez de substituir indevidamente os canais institucionais responsáveis. |
+| Papéis/permissões/governança | O estudante é o usuário direto da interface de consulta. O escopo atual de IHC não define atividades administrativas para esse usuário. **[F]** A base do assistente é formada por fontes institucionais públicas ou autorizadas. **[?]** Papéis futuros responsáveis pela manutenção e atualização dessa base ainda precisam ser detalhados. | A interface destinada ao estudante deve priorizar consulta e compreensão da informação, sem adicionar funcionalidades administrativas que não façam parte de suas tarefas. A manutenção da base deve permanecer separada da experiência de consulta. |
+| Volume de dados/histórico | O assistente pode consultar diferentes páginas e documentos institucionais. **[H]** Um histórico de conversas pode facilitar a retomada de consultas, mas sua necessidade para estudantes da FEI ainda não foi validada. | As respostas devem apresentar apenas as informações relevantes para a pergunta, evitando sobrecarregar o usuário com todo o conteúdo recuperado. O histórico pode ser considerado futuramente, mas não deve ser tratado como requisito obrigatório neste momento. |
 
 ## 4. Jornada do usuário - equipe
 
-**Persona:** {{P01}}  
-**Objetivo da jornada:** {{...}}  
-**Início e fim da jornada:** {{...}}
+**Persona:** P01 — Lucas Almeida  
+**Objetivo da jornada:** localizar e compreender uma informação acadêmica ou administrativa da FEI de forma clara e fundamentada em uma fonte institucional.  
+**Início e fim da jornada:** a jornada começa quando surge uma dúvida acadêmica ou administrativa e termina quando o estudante consegue compreender a informação necessária ou identifica que deverá buscar outro canal por não existir evidência suficiente para responder à sua situação.
 
 | Etapa | Situação/ação | Objetivo | Pensamento/emoção | Dor | Oportunidade de design | Evidência |
 |---|---|---|---|---|---|---|
-| 1 | {{...}} | {{...}} | {{...}} | {{...}} | {{...}} | {{...}} |
+| 1 — Surge a necessidade | O estudante percebe que precisa esclarecer uma dúvida acadêmica ou administrativa. | Entender qual informação precisa obter para resolver sua necessidade. | **[H]** “Preciso descobrir como isso funciona ou onde encontro essa informação.” | **[H]** Pode não saber inicialmente onde a informação está disponível. | Oferecer um ponto de entrada simples para que a dúvida possa ser formulada diretamente. | A01; H04; H08 |
+| 2 — Procura uma forma de obter a informação | O estudante considera os canais disponíveis para buscar a informação, como páginas institucionais, Portal do Aluno, Moodle ou outros meios. | Encontrar um caminho que leve à informação necessária. | **[H]** Pode sentir incerteza sobre qual canal contém a informação correta. | **[H]** A informação pode estar distribuída entre diferentes páginas, documentos ou canais. | Reduzir a necessidade de o estudante conhecer previamente onde a informação está localizada. | H08 |
+| 3 — Formula a dúvida | O estudante utiliza o assistente e descreve sua dúvida com suas próprias palavras. | Conseguir expressar sua necessidade sem precisar conhecer a terminologia exata utilizada pela instituição. | **[H]** “Será que o sistema vai entender o que estou perguntando?” | **[H]** A pergunta pode ser vaga, incompleta ou utilizar termos diferentes dos documentos institucionais. | Permitir perguntas em linguagem natural e oferecer suporte para reformulação quando necessário. | H18; padrões observados na Entrega 2 |
+| 4 — Recebe e interpreta a resposta | O estudante lê a resposta produzida a partir das informações recuperadas pelo sistema. | Compreender a informação necessária para esclarecer sua dúvida. | **[H]** Pode avaliar se a resposta realmente corresponde ao que queria saber. | **[H]** Regras, termos ou orientações institucionais podem exigir interpretação. | Utilizar linguagem clara, destacar a informação principal e evitar exposição desnecessária de detalhes técnicos do sistema. | H09 |
+| 5 — Verifica a origem ou complementa a dúvida | O estudante consulta a fonte apresentada ou realiza uma nova pergunta quando precisa de esclarecimento adicional. | Aumentar a compreensão e confirmar a origem institucional da informação. | **[H]** “Quero saber de onde veio essa informação” ou “ainda preciso esclarecer uma parte”. | **[H]** A resposta inicial pode não ser suficiente para todas as situações. | Apresentar a fonte institucional de forma visível e permitir perguntas complementares mantendo o contexto da consulta. | H14; H18; padrões observados em C01 e C02 |
+| 6 — Utiliza a informação ou identifica uma limitação | O estudante compreende a informação e a utiliza para orientar sua decisão ou percebe que o sistema não possui evidência suficiente para responder. | Encerrar a consulta com uma orientação compreendida ou saber que deverá buscar outro canal. | **[H]** Pode sentir maior segurança quando a resposta está fundamentada; caso contrário, precisa saber claramente que a dúvida permanece sem confirmação. | Uma resposta sem evidência suficiente pode gerar interpretação incorreta ou confiança indevida. | Informar explicitamente quando a base não for suficiente e, quando apropriado, orientar o estudante a buscar o canal institucional responsável. | H14; H16 |
 
-> A jornada pode incluir etapas **antes, durante e depois** do uso do produto. Não transforme a jornada em lista de telas.
+> A jornada representa uma hipótese de experiência associada à proto-persona P01. Os comportamentos, pensamentos e emoções descritos ainda precisam ser validados com estudantes reais e não devem ser interpretados como evidências empíricas sobre o público da FEI.
 
 ## Síntese
 
-Quais necessidades e objetivos devem obrigatoriamente aparecer nos cenários e nas tarefas seguintes?
+A análise das personas, do mapa de empatia, do contexto de uso e da jornada indica um conjunto de necessidades que deve permanecer presente nos próximos cenários, tarefas e decisões de design do projeto.
+
+As próximas etapas devem considerar obrigatoriamente:
+
+- permitir que o estudante formule dúvidas acadêmicas e administrativas utilizando linguagem natural;
+- reduzir a necessidade de o usuário conhecer previamente em qual página, documento ou sistema a informação está disponível;
+- apresentar respostas claras e compreensíveis, adequadas ao tipo de consulta realizada;
+- diferenciar consultas informacionais simples de situações procedimentais que possam exigir maior organização da resposta;
+- apresentar de forma clara a fonte institucional relacionada à informação fornecida;
+- permitir que o estudante complemente ou reformule uma pergunta quando a primeira resposta não for suficiente;
+- evitar apresentar como confirmadas regras, etapas, requisitos ou prazos que não estejam sustentados pelas fontes recuperadas;
+- informar explicitamente quando não houver evidência institucional suficiente para responder;
+- considerar diferentes dispositivos e contextos de uso sem assumir, neste momento, um equipamento ou ambiente predominante;
+- manter como hipóteses as características comportamentais ainda não validadas com estudantes reais.
+
+Essas necessidades deverão orientar a construção dos cenários e tarefas seguintes, mantendo a rastreabilidade com as atividades A01 e A02, com as hipóteses da Entrega 1 e com as recomendações obtidas na análise de concorrência.
 
 ## Checklist
 
