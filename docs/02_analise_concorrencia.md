@@ -30,11 +30,8 @@ Retome o mapa inicial de alternativas e produtos citado na Entrega 1. Aqui a equ
 
 | Item citado na Entrega 1 | Tipo | Por que foi citado | Status inicial | Decisão nesta entrega |
 |---|---|---|---|---|
-| Site, páginas e documentos institucionais da FEI | ferramenta cotidiana | São meios disponíveis para consulta de informações acadêmicas, administrativas, serviços, regras e orientações institucionais | F | analisar |
-| Portal e sistemas acadêmicos da instituição | ferramenta cotidiana | Fazem parte do ambiente digital utilizado pelos estudantes para consultar informações e realizar atividades relacionadas à vida acadêmica | F | analisar de forma complementar |
-| Canais de atendimento e contato com profissionais da instituição | processo manual | Representam uma alternativa para o estudante buscar esclarecimentos sobre dúvidas acadêmicas e administrativas | F | analisar de forma complementar |
-| Mecanismos de busca na Internet | ferramenta cotidiana / análogo | Podem ser utilizados para localizar páginas, documentos ou informações relacionadas a uma dúvida | H | analisar de forma complementar |
-| Assistentes de IA de propósito geral, como ChatGPT, Gemini e Copilot | análogo | Permitem realizar perguntas em linguagem natural e obter respostas ou orientações, apresentando um modelo de interação semelhante ao proposto no TCC | H | analisar |
+| Canais de atendimento e contato com profissionais da instituição | processo manual | Representam uma alternativa para o estudante buscar esclarecimentos sobre dúvidas acadêmicas e administrativas | F | mantido como alternativa mapeada, mas fora do recorte detalhado desta entrega |
+| Mecanismos de busca na Internet | ferramenta cotidiana / análogo | Podem ser utilizados para localizar páginas, documentos ou informações relacionadas a uma dúvida | H | mantido como alternativa mapeada, mas fora do recorte detalhado desta entrega |
 
 Se uma hipótese da Entrega 1 for confirmada ou refutada durante esta análise, atualize `H01`, `H02`... em [`../RASTREABILIDADE.md`](../RASTREABILIDADE.md).
 
@@ -44,7 +41,11 @@ O público-alvo prioritário desta análise é composto por estudantes da FEI qu
 
 Esse público retoma o recorte definido na Entrega 1, na qual o estudante da FEI foi identificado como o usuário direto prioritário do projeto de IHC. Entre as principais atividades consideradas estão a localização e compreensão de informações acadêmico-administrativas e o entendimento de como realizar determinados procedimentos.
 
-Nesta entrega, as soluções serão analisadas considerando principalmente como suas interfaces apoiam atividades de busca, formulação de dúvidas, compreensão de respostas, apresentação de informações e orientação do usuário, além dos padrões de interação que possam ser familiares ou relevantes para esse público.
+Nesta entrega, as soluções serão analisadas considerando principalmente como suas interfaces apoiam atividades de formulação de dúvidas, apresentação de respostas, acesso à origem das informações e continuidade da interação, além de padrões que possam ser relevantes para o projeto.
+
+A presença desses padrões nas interfaces analisadas não comprova que sejam familiares, necessários ou adequados aos estudantes da FEI. Quando pertinente, essas questões permanecem como hipóteses a serem investigadas nas etapas posteriores.
+
+---
 
 ## 2. Concorrentes diretos/indiretos
 
@@ -57,65 +58,65 @@ Nesta entrega, as soluções serão analisadas considerando principalmente como 
 
 #### Contexto e proposta
 
-O ChatGPT é um assistente de Inteligência Artificial de propósito geral que permite ao usuário formular perguntas e solicitações em linguagem natural e receber respostas em formato conversacional. A ferramenta pode manter o contexto de uma conversa, receber diferentes tipos de entrada e, quando utiliza pesquisa na web, apresentar citações e links relacionados às fontes consultadas.
+O ChatGPT é um assistente de Inteligência Artificial de propósito geral que permite ao usuário formular perguntas e solicitações em linguagem natural e receber respostas em formato conversacional. A ferramenta também possui mecanismos para manter conversas, acessar interações anteriores e, quando utiliza pesquisa na web, apresentar citações e links relacionados às fontes consultadas.
 
-Embora não tenha sido desenvolvido especificamente para responder dúvidas acadêmicas e administrativas da FEI, o ChatGPT é relevante como produto análogo por utilizar um modelo de interação semelhante ao proposto no TCC: o usuário apresenta uma dúvida em linguagem natural, recebe uma resposta e pode continuar a interação com novas perguntas.
+Embora não tenha sido desenvolvido especificamente para responder dúvidas acadêmicas e administrativas da FEI, o ChatGPT é relevante como produto análogo por utilizar um modelo de interação semelhante ao previsto no TCC: o usuário apresenta uma pergunta em linguagem natural, recebe uma resposta e pode continuar a interação com novas mensagens.
 
-Para o projeto de IHC, sua análise é especialmente útil para observar padrões de interface conversacional, apresentação de respostas, continuidade do diálogo, acesso a fontes e tratamento de diferentes tipos de entrada.
+Para o projeto de IHC, sua análise é especialmente útil para observar padrões de interface conversacional, organização de perguntas e respostas, apresentação de fontes e histórico de conversas.
 
 #### Funcionalidades relevantes
 
 | Funcionalidade | Como é realizada | Evidência/print | Observação de IHC |
 |---|---|---|---|
-| Formulação de perguntas em linguagem natural | O usuário digita sua solicitação em um campo de texto e envia a mensagem para iniciar ou continuar a conversa | ![Pergunta no ChatGPT](../assets/02_concorrencia/c01_chatgpt_pergunta.PNG) | O campo de entrada concentra a principal ação da interface e permite que o usuário formule a dúvida com suas próprias palavras |
-| Resposta em formato conversacional | A resposta é apresentada na sequência da pergunta, mantendo a estrutura de diálogo entre usuário e assistente | ![Resposta no ChatGPT](../assets/02_concorrencia/c01_chatgpt_resposta.PNG) | A associação visual entre pergunta e resposta facilita o acompanhamento da interação e permite perguntas complementares |
-| Continuidade da conversa | O usuário pode realizar novas perguntas no mesmo diálogo, utilizando o contexto das mensagens anteriores | ![Continuidade da conversa no ChatGPT](../assets/02_concorrencia/c01_chatgpt_continuidade.PNG) | Reduz a necessidade de repetir todo o contexto e permite refinar uma pergunta quando a primeira resposta não é suficiente |
-| Apresentação de fontes em respostas com pesquisa na web | Quando a pesquisa na web é utilizada, a resposta pode apresentar citações associadas às informações utilizadas e uma área para consulta das fontes | ![Fontes apresentadas pelo ChatGPT](../assets/02_concorrencia/c01_chatgpt_fontes.PNG) | A presença de fontes fornece um caminho para que o usuário consulte a origem de determinada informação, padrão especialmente relevante para o TCC |
-| Histórico de conversas | Conversas anteriores podem ser retomadas posteriormente por meio da navegação da interface | ![Histórico de conversas do ChatGPT](../assets/02_concorrencia/c01_chatgpt_historico.PNG) | Pode facilitar a retomada de uma consulta anterior, embora a necessidade desse recurso para os estudantes da FEI ainda precise ser investigada |
+| Formulação de perguntas em linguagem natural | O usuário digita sua solicitação em um campo de texto e envia a mensagem | ![Pergunta no ChatGPT](../assets/02_concorrencia/c01_chatgpt_pergunta.PNG) | O print demonstra que o campo de entrada concentra a principal ação da interface e permite entrada textual livre |
+| Resposta em formato conversacional | A resposta é apresentada na sequência da mensagem enviada pelo usuário | ![Resposta no ChatGPT](../assets/02_concorrencia/c01_chatgpt_resposta.PNG) | O print demonstra a organização visual de pergunta e resposta em formato de diálogo; não permite concluir, isoladamente, sobre a compreensão de regras, prazos ou procedimentos |
+| Continuidade visual da conversa | O usuário pode enviar uma nova mensagem dentro do mesmo diálogo | ![Continuidade da conversa no ChatGPT](../assets/02_concorrencia/c01_chatgpt_continuidade.PNG) | O print demonstra a permanência de múltiplas mensagens na mesma conversa. Nesta captura específica, a nova pergunta não depende do conteúdo da resposta anterior, portanto não comprova refinamento contextual |
+| Apresentação de fontes em respostas com pesquisa na web | Quando a pesquisa na web é utilizada, a resposta pode apresentar referências e permitir acesso à origem da informação | ![Fontes apresentadas pelo ChatGPT](../assets/02_concorrencia/c01_chatgpt_fontes.PNG) | O print demonstra acesso à origem de uma informação em uma resposta sobre previsão do tempo. O padrão de associação entre resposta e fonte é relevante ao projeto, mas não comprova qualidade ou adequação de uma orientação institucional |
+| Histórico de conversas | Conversas anteriores aparecem disponíveis na navegação da interface | ![Histórico de conversas do ChatGPT](../assets/02_concorrencia/c01_chatgpt_historico.PNG) | O print demonstra a existência do padrão de histórico, mas não demonstra que esse recurso seja necessário para estudantes da FEI |
 
 #### Experiência do usuário e opiniões
 
-Estudos com estudantes universitários indicam que a facilidade de uso e a rapidez das respostas estão entre os aspectos positivamente percebidos no uso do ChatGPT. Um estudo publicado em 2025 identificou avaliações positivas para facilidade de uso, rapidez das respostas, disponibilidade e experiência amigável, além da possibilidade de realizar perguntas complementares.
+Estudos com estudantes universitários indicam que facilidade de uso e rapidez das respostas podem ser aspectos positivamente percebidos no uso de ferramentas generativas como o ChatGPT.
 
-Uma pesquisa multi-institucional publicada em 2026 também identificou que estudantes valorizam o acesso rápido à informação e a possibilidade de esclarecer conceitos. Entretanto, o mesmo estudo registrou preocupações relacionadas a respostas incorretas, dependência excessiva da ferramenta e limitações das versões gratuitas.
+Um estudo publicado em 2025 identificou avaliações positivas relacionadas a facilidade de uso, rapidez das respostas, disponibilidade e experiência de interação. Uma pesquisa multi-institucional publicada em 2026 também identificou valorização do acesso rápido à informação, ao mesmo tempo em que registrou preocupações relacionadas a respostas incorretas, dependência excessiva da ferramenta e limitações das versões gratuitas.
 
-Outros estudos sobre uso de ChatGPT no ensino superior também relatam experiências positivas relacionadas à rapidez e facilidade de interação, mas apontam como limitações a ocorrência de imprecisões, dificuldades em determinadas perguntas e necessidade de avaliação crítica das respostas.
+Esses resultados pertencem aos contextos investigados pelos respectivos estudos e não demonstram diretamente como estudantes da FEI utilizariam ou avaliariam o assistente proposto.
 
-Para o projeto, essas evidências indicam que a simplicidade da interação conversacional pode ser uma referência relevante, mas que a facilidade de obter uma resposta não deve ser confundida com garantia de que a informação apresentada esteja correta ou seja adequada ao contexto institucional.
+Para o projeto, as evidências servem como referência para investigar uma interação conversacional simples, sem assumir antecipadamente que ela será percebida como mais fácil ou eficiente pelo nosso público.
 
 #### Preço/modelo de negócio
 
-O ChatGPT adota um modelo **freemium**, oferecendo uma versão gratuita com limites de utilização e planos pagos que ampliam o acesso a modelos e funcionalidades.
+O ChatGPT utiliza um modelo de acesso que inclui modalidade gratuita e modalidades pagas com diferentes limites e funcionalidades.
 
-Na data desta análise, o plano ChatGPT Plus é oferecido por **US$ 20 por mês**, enquanto também existem outras modalidades destinadas a diferentes níveis de uso e a organizações.
-
-Para esta análise de IHC, o aspecto mais relevante não é o preço específico dos planos, mas o fato de que determinadas funcionalidades e limites de utilização podem variar conforme a modalidade de acesso do usuário.
+Para esta análise de IHC, o aspecto relevante não é o preço de cada modalidade, mas reconhecer que funcionalidades observadas em produtos análogos podem variar conforme a forma de acesso do usuário e, portanto, não devem ser tratadas automaticamente como características universais da experiência.
 
 #### Padrões e tendências percebidos
 
-Os principais padrões de interação observados são:
+Os principais padrões observados são:
 
 - campo de texto como elemento central para iniciar a interação;
 - uso de linguagem natural como principal forma de entrada;
-- organização da interação em formato de conversa;
-- permanência do contexto para realização de perguntas complementares;
-- apresentação progressiva de pergunta e resposta em uma mesma sequência;
-- possibilidade de consultar fontes quando a resposta utiliza pesquisa externa;
-- histórico para retomada de conversas anteriores;
-- possibilidade de anexar arquivos e utilizar diferentes formas de entrada.
+- organização visual da interação em formato de conversa;
+- possibilidade de enviar novas mensagens dentro da mesma conversa;
+- apresentação progressiva de mensagens em sequência;
+- possibilidade de consultar fontes em determinados tipos de resposta;
+- histórico para acesso a conversas anteriores;
+- possibilidade de diferentes formas de entrada.
 
-Esses padrões reduzem a necessidade de o usuário aprender uma estrutura complexa de navegação antes de realizar sua principal tarefa. Entretanto, nem todos devem ser automaticamente incorporados ao projeto da FEI, sendo necessário avaliar sua relação com as atividades A01 e A02 definidas na Entrega 1.
+Esses padrões constituem referências de design, mas sua presença no ChatGPT não significa que todos sejam necessários ou adequados ao assistente da FEI.
 
 #### Pontos positivos, limitações e lições
 
 | Ponto | Evidência | Implicação para nosso projeto |
 |---|---|---|
-| A interação principal pode ser iniciada diretamente por uma pergunta em linguagem natural | Interface do ChatGPT e documentação oficial | Manter uma forma simples e evidente para o estudante formular sua dúvida pode reduzir etapas desnecessárias antes da tarefa principal |
-| A conversa permite perguntas complementares mantendo o contexto anterior | Observação da interface | Pode ser interessante permitir que o estudante refine ou complemente uma dúvida sem precisar reiniciar toda a consulta |
-| Respostas provenientes de pesquisa podem apresentar citações e acesso às fontes | Documentação oficial e print da interface | A apresentação da fonte institucional associada à resposta é especialmente relevante para o TCC, no qual a fundamentação documental é parte central da solução |
-| Estudos com universitários apontam rapidez e facilidade de uso como aspectos positivos | Estudos sobre percepção e utilização do ChatGPT no ensino superior | A interface do projeto deve priorizar um fluxo de consulta simples, com baixa quantidade de etapas entre formular a dúvida e compreender a resposta |
-| Estudos também relatam preocupação com imprecisões e confiança nas respostas | Estudos sobre uso do ChatGPT no ensino superior | O projeto deve deixar claro o escopo da informação, utilizar fontes institucionais e tratar explicitamente situações em que não existe evidência suficiente para responder |
-| O histórico permite retomar conversas anteriores | Interface do ChatGPT | Pode ser uma possibilidade de interação para o projeto, mas não deve ser considerada requisito até que sua utilidade para os estudantes seja investigada |
+| A interação principal pode ser iniciada diretamente por uma entrada em linguagem natural | Interface e print do campo de entrada | Sustenta RC01 como referência para manter evidente a ação principal de formular uma dúvida |
+| Perguntas e respostas são apresentadas dentro de uma mesma estrutura conversacional | Prints de resposta e continuidade | Sustenta o uso de uma sequência conversacional. A possibilidade de refinamento contextual é coerente com T04 e com o escopo do TCC, mas não é demonstrada pela captura utilizada nesta entrega |
+| Respostas provenientes de pesquisa podem apresentar acesso às fontes | Print de fontes e documentação do produto | O padrão de relacionar conteúdo a uma origem é relevante para T03; no assistente da FEI, a origem deverá estar associada às fontes institucionais utilizadas |
+| Estudos relatam facilidade e rapidez como aspectos percebidos positivamente em determinados contextos | Estudos sobre utilização de IA generativa no ensino superior | Esses benefícios podem orientar hipóteses de design, mas não devem ser apresentados como resultados já demonstrados para estudantes da FEI |
+| Estudos também relatam preocupação com imprecisões | Estudos sobre utilização de IA generativa | Reforça a necessidade de avaliar compreensão, confiança e reconhecimento dos limites das respostas |
+| O histórico permite acessar conversas anteriores | Print do histórico | Demonstra que o padrão existe em um produto análogo, mas não valida H15 nem transforma recuperação entre sessões em requisito do projeto |
+
+---
 
 ### Análise C02 — Google Gemini
 
@@ -128,119 +129,156 @@ Esses padrões reduzem a necessidade de o usuário aprender uma estrutura comple
 
 O Google Gemini é um assistente de Inteligência Artificial de propósito geral que permite ao usuário formular perguntas e solicitações em linguagem natural e receber respostas em formato conversacional.
 
-Embora não tenha sido desenvolvido especificamente para responder dúvidas acadêmicas e administrativas da FEI, o Gemini é relevante como produto análogo por apresentar um modelo de interação semelhante ao proposto no nosso TCC: o usuário formula uma dúvida por meio de linguagem natural, recebe uma resposta textual e pode continuar a interação realizando perguntas complementares.
+Embora não tenha sido desenvolvido especificamente para responder dúvidas acadêmicas e administrativas da FEI, o Gemini é relevante como produto análogo por apresentar um modelo de interação semelhante ao previsto no TCC: entrada em linguagem natural, resposta textual e possibilidade de continuar a conversa por meio de novas mensagens.
 
-Além da interação conversacional, a interface permite acessar conversas anteriores e, em determinadas respostas, consultar fontes e conteúdos relacionados apresentados pelo sistema. Esses elementos tornam o Gemini uma referência útil para analisar padrões de interação, feedback, continuidade da conversa e apresentação da origem das informações.
+A interface também permite acessar conversas anteriores e, em determinadas respostas, consultar referências e conteúdos relacionados. Esses elementos tornam o Gemini uma referência para observar padrões de interação conversacional, apresentação da origem das informações e organização do histórico.
 
 #### Funcionalidades relevantes
 
 | Funcionalidade | Como é realizada | Evidência/print | Observação de IHC |
 |---|---|---|---|
-| Formulação de perguntas em linguagem natural | O usuário digita sua pergunta ou solicitação em um campo de texto e envia para iniciar ou continuar uma conversa | ![Pergunta no Gemini](../assets/02_concorrencia/c02_gemini_pergunta.PNG.png) | O campo de entrada concentra a principal ação da interface e permite que o usuário expresse sua necessidade utilizando suas próprias palavras |
-| Resposta em formato conversacional | O Gemini apresenta uma resposta textual associada à pergunta realizada pelo usuário | ![Resposta no Gemini](../assets/02_concorrencia/c02_gemini_resposta.PNG.png) | O formato de diálogo aproxima pergunta e resposta e facilita a continuidade da interação |
-| Continuidade da conversa | O usuário pode realizar novas perguntas dentro da mesma conversa, utilizando o contexto das mensagens anteriores | ![Continuidade da conversa no Gemini](../assets/02_concorrencia/c02_gemini_continuidade.PNG.png) | Permite esclarecer, complementar ou reformular uma dúvida sem necessariamente repetir todo o contexto |
-| Apresentação de fontes e conteúdos relacionados | Em determinadas respostas, o Gemini apresenta referências e links associados às informações fornecidas, permitindo que o usuário consulte as fontes relacionadas | ![Fontes apresentadas pelo Gemini](../assets/02_concorrencia/c02_gemini_fontes.PNG.png) | A apresentação de fontes favorece a transparência sobre a origem das informações, aspecto especialmente relevante para um assistente baseado em fontes institucionais |
-| Histórico de conversas | Conversas anteriores podem ser acessadas e retomadas por meio da área de conversas recentes e da pesquisa de conversas | ![Histórico de conversas do Gemini](../assets/02_concorrencia/c02_gemini_historico.PNG.png) | Facilita a retomada de consultas anteriores, embora a necessidade desse recurso no contexto da FEI ainda precise ser investigada |
+| Formulação de perguntas em linguagem natural | O usuário digita sua pergunta ou solicitação em um campo de texto | ![Pergunta no Gemini](../assets/02_concorrencia/c02_gemini_pergunta.PNG.png) | O print demonstra um campo de entrada textual como ação principal da interface |
+| Resposta em formato conversacional | O Gemini apresenta uma resposta textual após a mensagem enviada pelo usuário | ![Resposta no Gemini](../assets/02_concorrencia/c02_gemini_resposta.PNG.png) | O print demonstra a organização visual de uma resposta em sequência à mensagem do usuário, mas não demonstra compreensão de regras, etapas ou prazos acadêmicos |
+| Continuidade visual da conversa | Uma nova pergunta pode ser enviada dentro da mesma conversa | ![Continuidade da conversa no Gemini](../assets/02_concorrencia/c02_gemini_continuidade.PNG.png) | A captura demonstra uma nova mensagem após a anterior na mesma conversa. Como a segunda pergunta não depende do conteúdo da primeira resposta, o print não comprova preservação contextual nem refinamento da dúvida |
+| Apresentação de fontes e conteúdos relacionados | Em determinadas respostas, o Gemini apresenta referências e links relacionados ao conteúdo apresentado | ![Fontes apresentadas pelo Gemini](../assets/02_concorrencia/c02_gemini_fontes.PNG.png) | A captura demonstra referências associadas a uma resposta sobre pós-graduação da FEI e uma área de fontes institucionais. A pergunta inicial não aparece no recorte e não foi verificada nesta análise a correspondência integral de cada afirmação com suas fontes |
+| Histórico de conversas | Conversas anteriores podem ser visualizadas e pesquisadas | ![Histórico de conversas do Gemini](../assets/02_concorrencia/c02_gemini_historico.PNG.png) | Demonstra a existência de histórico e pesquisa de conversas, mas não demonstra que estudantes da FEI necessitem desse recurso |
 
 #### Experiência do usuário e opiniões
 
-A análise foi realizada a partir de um teste exploratório da interface e da documentação oficial do Google Gemini.
+A análise foi realizada a partir de um teste exploratório da interface e da documentação oficial do Gemini.
 
-A interface concentra a principal interação em um campo para entrada de texto, permitindo que o usuário comece a consulta sem precisar navegar por uma estrutura complexa de menus. Após a resposta inicial, novas perguntas podem ser realizadas na mesma conversa, possibilitando refinamento ou complementação da solicitação.
+A interface apresenta um campo de entrada de texto de forma destacada e mantém as mensagens organizadas em sequência dentro da conversa.
 
-Outro aspecto relevante para o nosso projeto é a possibilidade de o Gemini apresentar fontes e conteúdos relacionados em determinadas respostas. Entretanto, esse recurso não está presente obrigatoriamente em todas as respostas, o que significa que a disponibilidade de uma fonte não deve ser considerada um comportamento garantido da interface.
+Também foi observada a possibilidade de apresentação de fontes e conteúdos relacionados em determinadas respostas. A captura sobre pós-graduação da FEI aproxima a análise do domínio do projeto ao mostrar referências institucionais junto ao conteúdo apresentado. Entretanto, esta análise não verificou individualmente se todas as informações da resposta eram integralmente sustentadas pelas fontes exibidas.
 
-A própria interface do Gemini informa que a Inteligência Artificial pode cometer erros, e a documentação oficial orienta o usuário a considerar essa possibilidade. Esse aspecto é particularmente relevante para o nosso TCC, pois dúvidas acadêmicas e administrativas podem envolver regras, prazos e procedimentos institucionais.
+Outro aspecto observado é o aviso apresentado pela própria interface de que respostas produzidas por IA podem conter erros. A existência desse aviso é uma característica visível da interface. Sua eficácia para ajudar um estudante a avaliar uma resposta ou decidir como prosseguir não foi investigada.
 
-Assim, o Gemini demonstra vantagens relacionadas à simplicidade da interação e à possibilidade de continuidade da conversa, mas também evidencia a necessidade de mecanismos de transparência e controle da informação quando o sistema é utilizado em um domínio institucional específico.
+Assim, a análise permite identificar padrões de interface e riscos relevantes ao projeto, mas não comprova que esses mecanismos sejam suficientes para garantir compreensão, confiança adequada ou uso correto das informações.
 
 #### Preço/modelo de negócio
 
-O Google Gemini utiliza um modelo de acesso que combina utilização sem um plano de IA com planos pagos do Google AI.
+O Google Gemini combina acesso sem plano específico de IA com modalidades pagas do Google AI que podem oferecer diferentes limites e funcionalidades.
 
-Usuários sem um plano de IA possuem acesso aos recursos do Gemini sujeitos a limites padrão, enquanto os planos pagos oferecem limites ampliados e acesso adicional a determinados modelos e funcionalidades.
-
-Para esta análise de IHC, o aspecto mais relevante não é o valor específico dos planos, mas a existência de diferenças de acesso e disponibilidade de funcionalidades conforme a modalidade utilizada pelo usuário.
+Para esta análise de IHC, o ponto relevante é reconhecer que funcionalidades e limites de uso podem variar conforme a modalidade de acesso e que essas diferenças não devem ser confundidas com características necessárias ao assistente da FEI.
 
 #### Padrões e tendências percebidos
 
-Os principais padrões de interação observados são:
+Os principais padrões observados são:
 
-- campo de texto como principal ponto de entrada da interação;
+- campo de texto como principal ponto de entrada;
 - uso de linguagem natural;
 - respostas organizadas em formato conversacional;
-- possibilidade de continuidade da conversa por meio de perguntas complementares;
+- possibilidade de enviar novas mensagens na mesma conversa;
 - acesso e pesquisa de conversas anteriores;
 - apresentação de fontes ou conteúdos relacionados em determinadas respostas;
-- possibilidade de reformular ou aprofundar uma consulta dentro do mesmo diálogo.
+- aviso geral de que respostas produzidas por IA podem conter erros.
 
-Esses padrões possuem relação com as atividades A01 e A02 definidas na Entrega 1, pois permitem que o estudante formule uma dúvida sem precisar conhecer previamente a localização da informação e complemente a consulta quando a primeira resposta não for suficiente.
-
-Entretanto, a adoção desses padrões no assistente da FEI deve considerar o contexto específico do projeto. Recursos presentes no Gemini, como histórico de conversas, não devem ser tratados automaticamente como requisitos sem uma necessidade identificada entre os estudantes.
+Esses padrões constituem referências para o projeto. A análise não confirma que os estudantes da FEI estejam familiarizados com todos eles nem que devam ser automaticamente incorporados à interface.
 
 #### Pontos positivos, limitações e lições
 
 | Ponto | Evidência | Implicação para nosso projeto |
 |---|---|---|
-| Permite iniciar uma consulta diretamente em linguagem natural | Interface do Gemini e print da pergunta | Reforça a possibilidade de manter a formulação da dúvida como ação principal da interface, evitando etapas desnecessárias |
-| Permite realizar perguntas complementares mantendo o contexto da conversa | Interface do Gemini e print de continuidade | O assistente da FEI pode permitir que o estudante refine ou complemente uma dúvida sem precisar reiniciar a consulta |
-| Pode apresentar fontes e conteúdos relacionados às respostas | Interface, print das fontes e documentação oficial do Gemini | Reforça a importância de apresentar de forma clara as fontes institucionais relacionadas às respostas do nosso assistente |
-| Mantém acesso e pesquisa de conversas anteriores | Interface do Gemini e print do histórico | O histórico pode ser considerado como possibilidade de interação, mas sua necessidade para o público da FEI ainda deverá ser investigada |
-| Nem todas as respostas apresentam fontes | Documentação oficial e teste da interface | No nosso projeto, a apresentação da origem institucional da informação deve ser tratada de forma mais controlada por fazer parte da proposta de fundamentação documental |
-| O Gemini informa que respostas produzidas por IA podem conter erros | Interface e documentação oficial do Gemini | Reforça a necessidade de o assistente da FEI reconhecer situações em que não há evidência suficiente e evitar respostas sem sustentação institucional |
-| É um assistente de propósito geral e não específico da FEI | Escopo do produto | O nosso projeto pode se diferenciar ao restringir as respostas ao domínio acadêmico-administrativo e às fontes institucionais selecionadas da FEI |
+| Permite iniciar uma consulta diretamente em linguagem natural | Interface e print da pergunta | Sustenta RC01 como referência para destacar a formulação da dúvida como ação principal |
+| Mantém múltiplas mensagens organizadas em uma mesma conversa | Print de continuidade | Sustenta o formato conversacional, mas a captura utilizada não comprova refinamento contextual; essa capacidade no projeto está relacionada a T04 e ao escopo definido no TCC |
+| Pode apresentar fontes e conteúdos relacionados às respostas | Print das fontes e documentação oficial | Sustenta RC03 como padrão para relacionar informações à sua origem; no projeto, as fontes devem ser institucionais e compreensíveis ao estudante |
+| Mantém acesso e pesquisa de conversas anteriores | Print do histórico | Demonstra a existência do padrão, mas não valida a necessidade representada por H15 |
+| Nem todas as respostas necessariamente apresentam fontes | Documentação e teste exploratório | No projeto, a apresentação da origem institucional deverá ser tratada de maneira coerente com a fundamentação documental prevista no TCC |
+| A interface apresenta aviso de que a IA pode cometer erros | Interface | O aviso demonstra comunicação geral de risco, mas não mostra ao usuário por que uma resposta específica ficou sem evidência nem como prosseguir; T05 exige uma comunicação mais contextualizada |
+| É um assistente de propósito geral | Escopo do produto | O assistente da FEI possui escopo mais restrito, associado a informações acadêmico-administrativas e fontes institucionais selecionadas |
+
+---
 
 ## 3. Softwares que o público-alvo usa no cotidiano
 
-Como ainda não foi realizado um levantamento direto sobre quais ferramentas são mais utilizadas pelos estudantes da FEI, foram selecionadas interfaces presentes no contexto acadêmico ou plausivelmente familiares ao público-alvo. A análise busca identificar padrões de interação que possam influenciar as expectativas dos estudantes ao utilizar o assistente proposto.
+Como ainda não foi realizado um levantamento direto sobre quais ferramentas são mais utilizadas pelos estudantes da FEI, foram selecionadas interfaces presentes no contexto acadêmico ou plausivelmente familiares ao público-alvo.
 
-| Software | Por que o público usa | Padrões relevantes | Prints | O que aprender |
+A análise desta seção busca observar características visíveis de organização e terminologia. A presença dessas interfaces no contexto acadêmico não comprova, por si só, familiaridade de todos os estudantes nem permite concluir que seus fluxos sejam fáceis ou difíceis sem uma análise mais específica do percurso realizado.
+
+| Software | Relação com o contexto acadêmico | Padrões observáveis no print | Prints | O que aprender |
 |---|---|---|---|---|
-| Portal do Aluno / sistemas acadêmicos da FEI | Permitem consultar informações e realizar atividades relacionadas à vida acadêmica | Navegação por menus, organização das informações por categorias e acesso a diferentes serviços acadêmicos | ![Portal do Aluno da FEI](../assets/02_concorrencia/cotidiano_portal_fei.PNG.png) | Observar como informações e serviços acadêmicos já são organizados e nomeados no ambiente institucional, mantendo vocabulário familiar ao estudante |
-| Moodle | É utilizado pelos estudantes para acessar conteúdos, atividades, avisos e informações relacionadas às disciplinas | Organização por disciplinas, navegação por seções, avisos, prazos, atividades e identificação das informações conforme o contexto da disciplina | ![Moodle da FEI](../assets/02_concorrencia/cotidiano_moodle.PNG.png) | Observar como os estudantes já localizam informações acadêmicas em uma estrutura conhecida e quais padrões de organização, nomenclatura e navegação podem reduzir a necessidade de aprendizado de uma nova interface |
-| ChatGPT | Permite formular perguntas em linguagem natural e receber respostas em formato conversacional | Campo de entrada de texto, sequência de mensagens, continuidade da conversa, histórico e apresentação de fontes em determinados tipos de resposta | ![ChatGPT](../assets/02_concorrencia/c01_chatgpt_pergunta.PNG) | A interação conversacional pode reduzir a necessidade de o usuário conhecer previamente onde a informação está localizada, além de permitir refinamento da dúvida por meio de novas perguntas |
+| Portal do Aluno / sistemas acadêmicos da FEI | Reúne serviços e informações relacionados à vida acadêmica | Presença de menus, atalhos, categorias e nomenclaturas de serviços acadêmicos | ![Portal do Aluno da FEI](../assets/02_concorrencia/cotidiano_portal_fei.PNG.png) | Observar o vocabulário institucional utilizado para nomear serviços e informações. A captura isolada não permite concluir quantas etapas uma consulta específica exige |
+| Moodle | Plataforma utilizada no contexto acadêmico para acesso a conteúdos e atividades | Painel organizado por cursos, mecanismos de busca e controles de organização | ![Moodle da FEI](../assets/02_concorrencia/cotidiano_moodle.PNG.png) | Observar padrões de agrupamento e nomenclatura. O print do painel não demonstra o percurso completo para localizar um aviso, atividade ou prazo |
+| ChatGPT | Produto análogo de interação conversacional | Campo de entrada textual, organização sequencial de mensagens e histórico | ![ChatGPT](../assets/02_concorrencia/c01_chatgpt_pergunta.PNG) | Observar como uma ação principal pode permanecer destacada em uma interface conversacional, sem assumir que o padrão seja familiar a todos os estudantes |
+
+---
 
 ## 3.1 Padrões de interface relevantes ao escopo de IHC
 
-| Padrão observado | Produto(s) | Para qual tarefa serve | Vantagem percebida | Risco/limitação | Aplicável ao nosso escopo? |
+| Padrão observado | Produto(s) | Para qual tarefa serve | Característica ou vantagem potencial | Risco/limitação | Aplicável ao nosso escopo? |
 |---|---|---|---|---|---|
-| Campo de entrada em linguagem natural | ChatGPT e Gemini | Permitir que o usuário formule diretamente uma dúvida ou solicitação | Reduz a necessidade de conhecer previamente menus, categorias ou o local exato em que a informação está disponível | Perguntas muito vagas ou ambíguas podem produzir respostas pouco adequadas | Sim |
-| Interação em formato conversacional | ChatGPT e Gemini | Apoiar a compreensão da informação e permitir perguntas complementares | Permite que o usuário refine a dúvida e mantenha continuidade durante a consulta | Conversas longas podem dificultar a localização de uma informação apresentada anteriormente | Sim |
-| Apresentação de fontes associadas à resposta | ChatGPT e Gemini | Permitir acesso à origem das informações utilizadas em uma resposta | Pode aumentar a transparência e permitir que o usuário consulte a fonte original | A presença de uma fonte não garante, por si só, que ela seja adequada ou suficiente para sustentar a resposta | Sim |
-| Histórico de conversas | ChatGPT e Gemini | Retomar consultas realizadas anteriormente | Evita que o usuário precise repetir uma dúvida ou procurar novamente determinada informação | Pode aumentar a complexidade da interface e exigir cuidados com armazenamento e privacidade | Talvez |
-| Navegação por menus e categorias | Portal do Aluno / sistemas acadêmicos da FEI e Moodle | Localizar serviços, disciplinas, conteúdos ou informações dentro de uma estrutura conhecida | Organiza diferentes tipos de informação e utiliza agrupamentos que podem ser familiares ao estudante | O usuário precisa saber ou descobrir em qual categoria a informação está localizada | Talvez |
-| Organização contextual das informações | Moodle | Localizar conteúdos, avisos, atividades e prazos associados a uma disciplina ou contexto específico | Ajuda o usuário a compreender a qual contexto determinada informação pertence | Pode exigir vários níveis de navegação quando o usuário não sabe previamente onde procurar | Talvez |
-| Indicação visual de estado e continuidade da interação | ChatGPT, Gemini, Moodle e sistemas acadêmicos | Informar ao usuário o que está acontecendo após uma ação e permitir acompanhar o resultado | Reduz incerteza sobre o processamento de uma solicitação ou sobre o estado de uma atividade | Feedback insuficiente pode fazer o usuário acreditar que a ação falhou ou que o sistema não respondeu | Sim |
-| Vocabulário próximo ao domínio do usuário | Portal do Aluno / sistemas acadêmicos da FEI e Moodle | Ajudar o estudante a reconhecer serviços, atividades e informações acadêmicas | Reduz a necessidade de aprender terminologia própria de uma nova ferramenta | Termos institucionais pouco conhecidos também podem gerar dúvidas se não forem explicados | Sim |
+| Campo de entrada em linguagem natural | ChatGPT e Gemini | T01 — formular uma dúvida | Mantém a entrada textual como ação central da interface | Perguntas vagas ou ambíguas podem exigir esclarecimento | Sim |
+| Organização em formato conversacional | ChatGPT e Gemini | T02 e T04 — acompanhar a resposta e continuar a conversa | Mantém perguntas e respostas em uma sequência visível | Os prints analisados demonstram novas mensagens na mesma conversa, mas não comprovam refinamento contextual | Sim |
+| Apresentação de fontes associadas à resposta | ChatGPT e Gemini | T03 — identificar e consultar a origem da informação | Fornece ao usuário um caminho para acessar a origem apresentada pelo sistema | A presença de uma fonte não garante que ela seja adequada ou suficiente para sustentar toda a resposta | Sim |
+| Histórico de conversas entre sessões | ChatGPT e Gemini | T06 — possível retomada de consultas anteriores | Permite acessar conversas registradas anteriormente | Sua necessidade para estudantes da FEI permanece como H15; pode também envolver decisões futuras de armazenamento e privacidade | Talvez |
+| Navegação por menus e categorias | Portal do Aluno e Moodle | Localizar serviços ou conteúdos em estruturas organizadas | Expõe categorias e nomenclaturas do domínio | Os prints apresentados não permitem medir quantidade de etapas nem dificuldade de navegação | Talvez |
+| Organização contextual de conteúdos | Moodle | Relacionar informações a cursos ou contextos acadêmicos | Apresenta informações agrupadas dentro de uma estrutura acadêmica | A captura analisada não mostra o percurso interno de localização de uma informação específica | Talvez |
+| Indicação de estado/processamento | Referência conceitual para o projeto | Informar que uma solicitação foi recebida e está sendo processada | Pode reduzir incerteza durante uma espera | O conjunto de prints desta entrega não contém evidência específica suficiente para analisar esse estado nos concorrentes | Sim, como decisão a ser refinada |
+| Vocabulário do domínio acadêmico | Portal do Aluno e Moodle | Ajudar no reconhecimento de serviços e informações | Permite aproveitar nomenclaturas institucionais já existentes | A familiaridade real dos estudantes com cada termo ainda deverá ser investigada | Sim |
+
+---
 
 ## 4. Síntese comparativa da equipe
 
-| Critério | C01 — ChatGPT | C02 — Google Gemini | Oportunidade para o projeto |
+| Critério | Concorrente C01 — Entrega 02: ChatGPT | Concorrente C02 — Entrega 02: Google Gemini | Oportunidade para o projeto |
 |---|---|---|---|
-| Navegação | A interação principal é concentrada no campo de entrada de mensagens, com organização das respostas em formato conversacional e possibilidade de retomar conversas anteriores pelo histórico | A interação também é centrada no campo de entrada de texto, com acesso às conversas anteriores por meio do histórico e da pesquisa de conversas | Priorizar um fluxo simples e direto, permitindo que o estudante formule sua dúvida sem precisar conhecer previamente a localização da informação ou navegar por diversas páginas e documentos |
-| Feedback/estado | A interface apresenta o processamento da solicitação e mantém pergunta e resposta organizadas sequencialmente, permitindo continuidade da interação | A interface mantém perguntas e respostas organizadas dentro da mesma conversa e mantém o campo de entrada disponível para continuidade da interação | Apresentar feedback claro enquanto a pergunta estiver sendo processada e indicar quando a resposta estiver disponível ou quando não houver informação suficiente para produzi-la |
-| Prevenção/recuperação de erro | O usuário pode reformular ou complementar uma pergunta na própria conversa; entretanto, a ferramenta ainda pode apresentar informações imprecisas ou inadequadas | O usuário pode reformular ou complementar uma pergunta no mesmo diálogo, e a própria interface informa que o Gemini pode cometer erros | Permitir reformulação de perguntas, identificar situações de ambiguidade e informar explicitamente quando não houver evidência institucional suficiente, evitando apresentar uma resposta aparentemente segura sem sustentação documental |
-| Terminologia | Utiliza linguagem simples e padrões associados a interfaces conversacionais, sem exigir que o usuário compreenda aspectos técnicos do funcionamento do modelo | Também utiliza linguagem natural e uma interface que não exige conhecimento técnico sobre modelos de IA para a realização de uma consulta | Utilizar linguagem próxima ao cotidiano acadêmico dos estudantes e evitar exposição desnecessária de termos técnicos como RAG, embeddings, chunks ou recuperação vetorial |
-| Acessibilidade | A interface é predominantemente textual e possui uma estrutura de interação centralizada, porém não foi realizada nesta análise uma avaliação específica de acessibilidade | A interface também é predominantemente textual, mas não foi realizada nesta análise uma avaliação formal de acessibilidade do Gemini | Considerar acessibilidade desde o desenvolvimento do protótipo, incluindo legibilidade, contraste, organização das informações e navegação adequada, sem assumir que os concorrentes analisados já resolvem esses aspectos |
-| Eficiência | O usuário pode iniciar uma consulta diretamente em linguagem natural e realizar perguntas complementares sem precisar localizar previamente a fonte da informação | O usuário também pode iniciar uma consulta diretamente pelo campo de texto e realizar novas perguntas dentro da mesma interação | Reduzir a quantidade de etapas entre a dúvida do estudante e a obtenção de uma orientação, mantendo ao mesmo tempo a relação da resposta com as fontes institucionais utilizadas |
+| Entrada principal | Campo textual destacado para envio de mensagens | Campo textual destacado para envio de mensagens | Manter a formulação da dúvida em linguagem natural como ação principal da interface, relacionada a T01 |
+| Organização da conversa | Perguntas e respostas são apresentadas em sequência dentro do diálogo | Perguntas e respostas são apresentadas em sequência dentro do diálogo | Utilizar uma estrutura conversacional que permita acompanhar a consulta e suporte a continuidade prevista em T04 |
+| Continuidade | O print demonstra o envio de uma nova mensagem na mesma conversa, mas não comprova dependência contextual entre as perguntas | O print também demonstra uma nova mensagem no mesmo diálogo sem comprovar refinamento contextual | A continuidade contextual faz parte do escopo do nosso TCC; sua implementação não deve ser apresentada como conclusão obtida exclusivamente pelos prints dos concorrentes |
+| Fontes | Em determinadas respostas, apresenta citações e acesso à origem da informação | Em determinadas respostas, apresenta referências e links; a captura sobre pós-graduação da FEI mostra fontes institucionais associadas ao conteúdo | Relacionar claramente resposta e fonte institucional para apoiar T03, investigando posteriormente se o estudante compreende essa relação |
+| Comunicação de risco | Estudos e documentação alertam para possibilidade de imprecisões | A interface apresenta aviso geral de que a IA pode cometer erros | O projeto deve ir além de um aviso geral e tratar contextualizadamente a ausência de evidência conforme T05 |
+| Histórico entre sessões | A interface apresenta conversas anteriores | A interface apresenta conversas anteriores e mecanismo de pesquisa | Manter H15 aberta. A existência do padrão nos concorrentes não comprova necessidade para estudantes da FEI |
+| Terminologia | A interação não exige exposição dos componentes técnicos internos do sistema | A interação também ocorre sem exigir conhecimento técnico sobre modelos | Utilizar linguagem acadêmico-administrativa compreensível e evitar exposição desnecessária de termos como RAG, embeddings, chunks ou banco vetorial |
+| Acessibilidade | Não foi realizada avaliação específica nesta análise | Não foi realizada avaliação específica nesta análise | Considerar acessibilidade nas etapas próprias de projeto e avaliação, sem inferir sua qualidade a partir desta análise |
+| Processamento/espera | Não há captura específica de estado de processamento no conjunto analisado | Não há captura específica de estado de processamento no conjunto analisado | O TCC prevê tempo de resposta e serviços externos; portanto, feedback de processamento permanece como necessidade de design a ser definida, não como conclusão comprovada por estes prints |
+
+---
 
 ## 5. Recomendações derivadas
 
-- **RC01:** Priorizar uma interação simples e direta em linguagem natural, permitindo que o estudante formule sua dúvida sem precisar conhecer previamente a estrutura dos documentos ou a localização da informação — derivada de **C01 e C02**.
+As recomendações abaixo distinguem o **elemento observado nas interfaces**, sua **interpretação para o projeto** e a **tarefa do estudante que poderá ser apoiada**.
 
-- **RC02:** Manter a interação em formato conversacional, possibilitando que o estudante complemente, refine ou reformule sua dúvida ao longo da mesma conversa — derivada de **C01 e C02**.
+- **RC01 — Manter a formulação da dúvida como ação principal da interface.**  
+  **Observado:** C01 e C02 apresentam campo textual destacado para iniciar a interação.  
+  **Adaptação ao projeto:** permitir que o estudante formule uma dúvida acadêmica ou administrativa em linguagem natural, sem exigir configuração prévia da consulta.  
+  **Relacionada a:** **T01**.
 
-- **RC03:** Apresentar de forma clara as fontes institucionais relacionadas à resposta, permitindo que o estudante reconheça a origem da informação apresentada — derivada dos mecanismos de apresentação de fontes observados em **C01 e C02**.
+- **RC02 — Estruturar a interação para permitir continuidade e complementação dentro da mesma conversa.**  
+  **Observado:** C01 e C02 apresentam múltiplas mensagens organizadas dentro de um mesmo diálogo. Os prints utilizados nesta entrega não demonstram uma pergunta complementar que dependa da resposta anterior.  
+  **Adaptação ao projeto:** a continuidade contextual será mantida porque já faz parte do escopo do TCC e de **T04**, permitindo perguntas complementares dentro da sessão. A eficácia desse comportamento deverá ser avaliada posteriormente.  
+  **Relacionada a:** **T04**.
 
-- **RC04:** Informar explicitamente quando não houver evidência institucional suficiente para responder à pergunta, evitando apresentar uma resposta aparentemente correta sem sustentação documental — derivada das limitações relacionadas à possibilidade de respostas incorretas identificadas em **C01 e C02**.
+- **RC03 — Relacionar claramente as informações apresentadas às respectivas fontes institucionais.**  
+  **Observado:** C01 e C02 apresentam mecanismos para acessar referências associadas às respostas; no Gemini, a captura sobre pós-graduação da FEI mostra fontes institucionais junto ao conteúdo.  
+  **Adaptação ao projeto:** a interface deverá permitir que o estudante reconheça qual fonte institucional está relacionada à informação apresentada, indo além da simples disponibilização de um link.  
+  **Relacionada a:** **T03** e às hipóteses **H02/H14**.
 
-- **RC05:** Utilizar vocabulário próximo ao contexto acadêmico e administrativo do estudante, evitando a exposição desnecessária de termos técnicos relacionados ao funcionamento interno do sistema — derivada dos padrões de linguagem natural observados em **C01 e C02** e das interfaces cotidianas analisadas.
+- **RC04 — Comunicar contextualizadamente quando não houver evidência institucional suficiente.**  
+  **Observado:** os concorrentes e a literatura analisada evidenciam o risco de respostas produzidas por IA conterem erros; no Gemini há um aviso geral explícito sobre essa possibilidade. Os prints não demonstram um mecanismo específico de recusa por ausência de evidência.  
+  **Adaptação ao projeto:** esta recomendação deriva principalmente da restrição já definida no TCC e na Entrega 1: quando a base não fornecer evidência suficiente, o assistente deverá reconhecer a limitação e orientar o estudante sobre como prosseguir.  
+  **Relacionada a:** **T05** e **H16**.
 
-- **RC06:** Fornecer feedback visual durante o processamento da pergunta, deixando claro para o usuário que sua solicitação foi recebida e está sendo processada — derivada da comparação de **C01 e C02** e da oportunidade identificada na síntese comparativa.
+- **RC05 — Utilizar vocabulário próximo ao contexto acadêmico-administrativo do estudante e evitar jargão técnico do sistema.**  
+  **Observado:** C01 e C02 permitem interação em linguagem natural; Portal do Aluno e Moodle apresentam nomenclaturas relacionadas ao contexto acadêmico.  
+  **Adaptação ao projeto:** priorizar termos relacionados às atividades do estudante e evitar exposição desnecessária de conceitos internos como RAG, embeddings, chunks e recuperação vetorial. A familiaridade dos estudantes com termos específicos continuará sendo investigada.  
+  **Relacionada a:** **T01**, **T02** e **H18**.
 
-- **RC07:** Considerar o histórico de conversas como uma possibilidade de interação, mas não tratá-lo como requisito definitivo até que sua utilidade para os estudantes da FEI seja investigada — derivada do padrão observado em **C01 e C02**.
+- **RC06 — Fornecer feedback de que a pergunta foi recebida e está sendo processada quando houver espera perceptível.**  
+  **Observado:** o conjunto de prints desta entrega não fornece evidência específica suficiente sobre estados de processamento de C01 e C02.  
+  **Adaptação ao projeto:** a recomendação decorre da arquitetura prevista no TCC, que utiliza serviços externos e registra tempo de resposta. A necessidade e a forma de um indicador de processamento mais elaborado dependerão do tempo percebido durante o uso.  
+  **Relacionada a:** fluxo entre **T01** e **T02**.
 
-- **RC08:** Evitar exigir múltiplas etapas de navegação antes da realização da consulta principal, mantendo a formulação da dúvida como ação central da interface — derivada de **C01**, **C02** e da comparação com Portal do Aluno e Moodle.
+- **RC07 — Manter a recuperação de conversas entre sessões como possibilidade a investigar, e não como requisito confirmado.**  
+  **Observado:** C01 e C02 possuem histórico de conversas; no Gemini também foi observado mecanismo de pesquisa.  
+  **Adaptação ao projeto:** a existência do padrão demonstra uma alternativa de interface, mas não valida sua necessidade para estudantes da FEI. A continuidade dentro da sessão já faz parte do TCC; a recuperação entre sessões permanece como hipótese.  
+  **Relacionada a:** **T06** e **H15**.
+
+- **RC08 — Manter acesso evidente à ação principal de consulta, sem transformar menus ou categorias em pré-requisito para formular uma dúvida.**  
+  **Observado:** C01 e C02 destacam o campo de entrada como ação central. Portal do Aluno e Moodle mostram estruturas organizadas por menus, categorias ou contexto, mas os prints apresentados não permitem concluir que essas estruturas exigem navegação excessiva.  
+  **Adaptação ao projeto:** utilizar a conversa como ponto principal de entrada, podendo recorrer a outros elementos de organização apenas quando houver uma necessidade identificada. A recomendação não pressupõe que Portal ou Moodle sejam menos eficientes.  
+  **Relacionada a:** **T01**.
+
+---
 
 ## Referências
 
@@ -250,56 +288,60 @@ Como ainda não foi realizado um levantamento direto sobre quais ferramentas sã
 
 - OPENAI. **Como pesquisar na web com o ChatGPT**. OpenAI Help Center. Acesso em: 26 ago. 2026. Utilizado como referência para a análise da apresentação de citações e fontes em respostas que utilizam pesquisa na web.
 
-- OPENAI. **Visão geral dos recursos do ChatGPT**. OpenAI Help Center. Acesso em: 26 ago. 2026. Utilizado como referência para funcionalidades como pesquisa na web, análise de arquivos e diferentes formas de entrada.
+- OPENAI. **Visão geral dos recursos do ChatGPT**. OpenAI Help Center. Acesso em: 26 ago. 2026. Utilizado como referência para funcionalidades observadas além dos prints apresentados nesta entrega.
 
-- OPENAI. **O que é o ChatGPT?** OpenAI Help Center. Acesso em: 26 ago. 2026. Utilizado como referência para a descrição geral do produto e de seu modelo de acesso gratuito e pago.
-
-- OPENAI. **Introducing ChatGPT Go, now available worldwide**. 2026. Utilizado como referência para o modelo de negócio e valores dos planos do ChatGPT disponíveis no período da análise.
+- OPENAI. **O que é o ChatGPT?** OpenAI Help Center. Acesso em: 26 ago. 2026. Utilizado como referência para a descrição geral do produto.
 
 ### Estudos sobre experiência e percepção de estudantes em relação ao ChatGPT
 
-- ALSHAMY, Alsaeed; AL-HARTHI, Aisha Salim Ali; ABDULLAH, Shubair. **Perceptions of Generative AI Tools in Higher Education: Insights from Students and Academics at Sultan Qaboos University**. *Education Sciences*, v. 15, n. 4, p. 501, 2025. DOI: 10.3390/educsci15040501.
+- ALSHAMY, Alsaeed; AL-HARTHI, Aisha Salim Ali; ABDULLAH, Shubair. **Perceptions of Generative AI Tools in Higher Education: Insights from Students and Academics at Sultan Qaboos University**. *Education Sciences*, v. 15, n. 4, p. 501, 2025. DOI: https://doi.org/10.3390/educsci15040501.
 
-- CONDE, Miguel Á.; GARCÍA-PASCUAL, Rocío; RODRÍGUEZ-SEDANO, Francisco J.; ROMÁN-GALLEGO, Jesús-Ángel. **Expanding the lens: multi-institutional evidence on student use of ChatGPT in higher education**. *Universal Access in the Information Society*, v. 25, art. 48, 2026. DOI: 10.1007/s10209-026-01315-w.
+- CONDE, Miguel Á.; GARCÍA-PASCUAL, Rocío; RODRÍGUEZ-SEDANO, Francisco J.; ROMÁN-GALLEGO, Jesús-Ángel. **Expanding the lens: multi-institutional evidence on student use of ChatGPT in higher education**. *Universal Access in the Information Society*, v. 25, art. 48, 2026. DOI: https://doi.org/10.1007/s10209-026-01315-w.
 
 ### Concorrente C02 — Google Gemini
 
 - GOOGLE. **Gemini**. Página oficial do produto. Disponível em: https://gemini.google.com/. Acesso em: 4 set. 2026.
 
-- GOOGLE. **Ver fontes relacionadas dos apps do Gemini**. Ajuda do Apps do Gemini. Acesso em: 4 set. 2026. Utilizado como referência para a análise da apresentação de fontes e links relacionados nas respostas.
+- GOOGLE. **Ver fontes relacionadas dos apps do Gemini**. Ajuda do Apps do Gemini. Acesso em: 4 set. 2026. Utilizado como referência para a análise da apresentação de fontes e links relacionados.
 
-- GOOGLE. **Encontrar e gerenciar suas conversas recentes nos apps do Gemini**. Ajuda do Apps do Gemini. Acesso em: 4 set. 2026. Utilizado como referência para a análise do histórico, pesquisa e retomada de conversas.
+- GOOGLE. **Encontrar e gerenciar suas conversas recentes nos apps do Gemini**. Ajuda do Apps do Gemini. Acesso em: 4 set. 2026. Utilizado como referência para histórico, pesquisa e retomada de conversas.
 
-- GOOGLE. **Limites e upgrades dos apps do Gemini para assinantes dos planos com IA do Google**. Ajuda do Apps do Gemini. Acesso em: 4 set. 2026. Utilizado como referência para a análise das diferenças de acesso e limites entre usuários sem plano de IA e assinantes dos planos Google AI.
+- GOOGLE. **Limites e upgrades dos apps do Gemini para assinantes dos planos com IA do Google**. Ajuda do Apps do Gemini. Acesso em: 4 set. 2026. Utilizado como referência para diferenças de disponibilidade de funcionalidades.
 
-### Interfaces utilizadas no cotidiano do público-alvo
+### Interfaces utilizadas no contexto acadêmico
 
-- CENTRO UNIVERSITÁRIO FEI. **Mapa do Site**. Acesso em: 2 set. 2026. Utilizado para identificar serviços digitais disponibilizados aos estudantes, incluindo Portal do Aluno, Moodle, Secretaria, Tesouraria, Bolsas de Estudo e Estágio e Emprego.
+- CENTRO UNIVERSITÁRIO FEI. **Mapa do Site**. Acesso em: 2 set. 2026. Utilizado para identificar serviços digitais disponibilizados aos estudantes.
 
-- CENTRO UNIVERSITÁRIO FEI. **Padronização do Ambiente Virtual de Aprendizagem**. 27 mar. 2020. Acesso em: 2 set. 2026. Utilizado como evidência de que o Moodle é adotado como plataforma principal do Ambiente Virtual de Aprendizagem da FEI.
+- CENTRO UNIVERSITÁRIO FEI. **Padronização do Ambiente Virtual de Aprendizagem**. 27 mar. 2020. Acesso em: 2 set. 2026. Utilizado como evidência do uso do Moodle no contexto institucional.
 
-- CENTRO UNIVERSITÁRIO FEI. **Secretaria FEI: Campus São Paulo e São Bernardo do Campo**. Acesso em: 2 set. 2026. Utilizado como exemplo da disponibilização de informações e procedimentos acadêmico-administrativos em páginas institucionais.
+- CENTRO UNIVERSITÁRIO FEI. **Secretaria FEI: Campus São Paulo e São Bernardo do Campo**. Acesso em: 2 set. 2026. Utilizado como exemplo de disponibilização de informações e procedimentos acadêmico-administrativos.
 
 - MOODLE. **Moodle LMS**. Página oficial da plataforma. Acesso em: 2 set. 2026.
 
-- MOODLE. **Recursos do Moodle LMS**. Acesso em: 2 set. 2026. Utilizado como referência para padrões relacionados à organização de cursos, atividades, prazos, navegação, acompanhamento e acesso a conteúdos acadêmicos.
+- MOODLE. **Recursos do Moodle LMS**. Acesso em: 2 set. 2026. Utilizado como referência para características gerais da plataforma.
+
+> Para atender integralmente à rastreabilidade das fontes, os endereços eletrônicos específicos das páginas de ajuda e páginas institucionais efetivamente consultadas devem permanecer registrados junto a cada referência.
 
 ### Documentos internos do projeto
 
 - VALLE, Matheus Dourado; GARCIA, João Pedro Sabino. **Assistente Virtual com Inteligência Artificial para Suporte a Dúvidas Acadêmicas e Administrativas na FEI**. Trabalho de Conclusão de Curso, Centro Universitário FEI.
 
-- EQUIPE IHC. **Entrega 1 — Conhecendo o projeto, o usuário e o problema**. Documento interno do projeto `Ihc2026`. Utilizado como base para definição do público-alvo, atividades A01 e A02 e levantamento inicial das alternativas analisadas nesta entrega.
+- EQUIPE IHC. **Entrega 1 — Conhecendo o projeto, o usuário e o problema**. Documento interno do projeto `Ihc2026`. Utilizado como base para definição do público-alvo, atividades, hipóteses e restrições retomadas nesta entrega.
+
+---
 
 ## Checklist
 
 - [x] O mapa inicial de alternativas da Entrega 1 foi revisitado e aprofundado.
-- [x] Hipóteses relevantes sobre mercado/padrões foram atualizadas na rastreabilidade quando surgiram evidências. *(Até o momento, a análise não confirmou ou refutou hipóteses da Entrega 1 de forma que exigisse alteração de status.)*
+- [x] O destino das alternativas não aprofundadas nesta entrega foi explicitado.
+- [x] Hipóteses existentes foram preservadas quando a análise dos concorrentes não forneceu evidência suficiente para confirmá-las ou refutá-las.
 - [x] Há pelo menos uma análise completa por integrante.
 - [x] Cada análise contém prints legíveis da interface.
 - [x] Prints mostram telas/estados relevantes, não apenas logos/homepage.
+- [x] As conclusões foram limitadas ao que os prints, documentação ou estudos efetivamente sustentam.
 - [x] Foram analisados concorrentes e/ou interfaces representativas ao público.
-- [x] Em TCC sem interface original, foram investigadas ferramentas profissionais análogas às atividades do usuário escolhido. *(Não se aplica ao projeto, pois o TCC já prevê uma interface.)*
-- [x] Padrões como dashboard, relatório, filtros e CRUD foram analisados como soluções para tarefas, não como requisitos automáticos.
-- [x] Opiniões de UX têm fonte.
-- [x] A síntese compara critérios comuns e produz recomendações.
-- [x] Não há “copiar porque o concorrente faz”; há justificativa de adequação ao público/contexto.
+- [x] Padrões observados foram diferenciados de benefícios ainda hipotéticos para estudantes da FEI.
+- [x] Recomendações RC01–RC08 foram relacionadas às tarefas e hipóteses relevantes.
+- [x] Opiniões e afirmações externas de UX possuem fonte.
+- [x] A síntese compara critérios comuns e produz recomendações para o projeto.
+- [x] Não há “copiar porque o concorrente faz”; há justificativa de adequação ao público e ao contexto.
