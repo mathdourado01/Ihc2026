@@ -1,7 +1,7 @@
 # Entrega 1 — Conhecendo o projeto, o usuário e o problema
 
 **Data:** 20/08/2026
-**Status:** 🟩 concluída  
+**Status:** 🟦 revisada após feedback
 **Responsabilidade:** 1 solução consolidada por equipe
 
 ## Objetivo da atividade
@@ -623,3 +623,15 @@ A Entrega 1 é uma **fotografia inicial do conhecimento**. Ela pode e deve ser r
 - [x] Hipóteses prioritárias receberam IDs e foram para a rastreabilidade.
 - [x] O recorte de IHC é viável para modelar, prototipar e avaliar no semestre.
 - [x] A equipe consegue explicar problema humano → contribuição computacional → forma de uso.
+
+## Histórico de revisões
+
+### 03/10/2026 — Revisão após feedback da Entrega 1
+
+- uniformização da distinção entre fatos `[F]`, hipóteses `[H]` e lacunas `[?]`;
+- revisão das atividades A01 e A02 para não apresentar frequência ou criticidade como fatos ainda não investigados;
+- reformulação da situação concreta da seção 4.5 como situação hipotética explicitamente identificada;
+- melhoria da identificação das evidências e ligação com [`../BIBLIOGRAFIA.md`](../BIBLIOGRAFIA.md);
+- distinção entre continuidade da conversa durante a sessão atual e recuperação de conversas entre sessões diferentes;
+- correção dos encaminhamentos das hipóteses para as entregas adequadas da disciplina;
+- revisão do escopo de IHC, tarefas T04 e T06 e síntese final para refletir essas decisões.
