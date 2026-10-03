@@ -1,7 +1,7 @@
 # Entrega 2 — Público-alvo e análise de concorrência
 
 **Data:** 26/08/2026  
-**Status:** 🟩 concluída 
+**Status:** 🟦 revisada após feedback
 **Responsabilidade mínima:** cada integrante analisa pelo menos 1 concorrente/interface representativa; a equipe produz síntese comparativa.
 
 ## Objetivo da atividade
@@ -345,3 +345,15 @@ As recomendações abaixo distinguem o **elemento observado nas interfaces**, su
 - [x] Opiniões e afirmações externas de UX possuem fonte.
 - [x] A síntese compara critérios comuns e produz recomendações para o projeto.
 - [x] Não há “copiar porque o concorrente faz”; há justificativa de adequação ao público e ao contexto.
+
+## Histórico de revisões
+
+### 03/10/2026 — Revisão após feedback da Entrega 1
+
+- uniformização da distinção entre fatos `[F]`, hipóteses `[H]` e lacunas `[?]`;
+- revisão das atividades A01 e A02 para não apresentar frequência ou criticidade como fatos ainda não investigados;
+- reformulação da situação concreta da seção 4.5 como situação hipotética explicitamente identificada;
+- melhoria da identificação das evidências e ligação com [`../BIBLIOGRAFIA.md`](../BIBLIOGRAFIA.md);
+- distinção entre continuidade da conversa durante a sessão atual e recuperação de conversas entre sessões diferentes;
+- correção dos encaminhamentos das hipóteses para as entregas adequadas da disciplina;
+- revisão do escopo de IHC, tarefas T04 e T06 e síntese final para refletir essas decisões.
