@@ -348,12 +348,18 @@ As recomendações abaixo distinguem o **elemento observado nas interfaces**, su
 
 ## Histórico de revisões
 
-### 03/10/2026 — Revisão após feedback da Entrega 1
+---
 
-- uniformização da distinção entre fatos `[F]`, hipóteses `[H]` e lacunas `[?]`;
-- revisão das atividades A01 e A02 para não apresentar frequência ou criticidade como fatos ainda não investigados;
-- reformulação da situação concreta da seção 4.5 como situação hipotética explicitamente identificada;
-- melhoria da identificação das evidências e ligação com [`../BIBLIOGRAFIA.md`](../BIBLIOGRAFIA.md);
-- distinção entre continuidade da conversa durante a sessão atual e recuperação de conversas entre sessões diferentes;
-- correção dos encaminhamentos das hipóteses para as entregas adequadas da disciplina;
-- revisão do escopo de IHC, tarefas T04 e T06 e síntese final para refletir essas decisões.
+## Histórico de revisões
+
+### 03/10/2026 — Revisão após feedback da Entrega 2
+
+- ajuste das conclusões para corresponder ao que os prints efetivamente demonstram;
+- distinção entre comportamentos observados nas interfaces e benefícios ainda hipotéticos para estudantes da FEI;
+- revisão das análises de continuidade da conversa em ChatGPT e Gemini;
+- refinamento das recomendações RC02, RC04, RC06 e RC08;
+- explicitação da relação entre recomendações, tarefas e hipóteses do projeto;
+- revisão da análise do Portal do Aluno e Moodle para evitar conclusões não sustentadas sobre quantidade de etapas ou dificuldade de navegação;
+- manutenção de H15 e H18 como hipóteses abertas;
+- registro do destino das alternativas não aprofundadas nesta entrega;
+- atualização da data de revisão e da rastreabilidade com RC01–RC08.
