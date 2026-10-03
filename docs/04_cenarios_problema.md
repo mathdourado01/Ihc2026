@@ -1,12 +1,13 @@
 # Entrega 4 — Cenários de análise/problema
 
-**Data:** 16/09/2026
-**Status:** 🟩 concluída
+**Data inicial:** 16/09/2026  
+**Última atualização:** 03/10/2026  
+**Status:** 🟦 revisada após feedback  
 **Responsabilidade:** 1 solução completa por integrante
 
 ## Objetivo da atividade
 
-Descrever situações atuais em que o usuário tenta alcançar um objetivo e encontra dificuldades. O cenário de análise/problema deve tornar visível **o contexto, os atores, as ações e as rupturas**, sem antecipar a interface que será projetada.
+Descrever situações atuais em que o usuário tenta alcançar um objetivo e encontra dificuldades. O cenário de análise/problema deve tornar visível **o contexto, os atores, as ações, os acontecimentos e as rupturas**, sem antecipar a interface que será projetada.
 
 > **Regra central:** cenário de problema é a “história do problema”. Se o texto já diz “o sistema mostra”, “o aplicativo resolve” ou descreve botões/telas futuras, provavelmente está misturando problema com solução.
 
@@ -14,7 +15,7 @@ Sempre que possível, o cenário deve aprofundar uma **situação concreta já r
 
 ### Quando o TCC não possuía interface
 
-O cenário continua sendo uma história de **problema/atividade humana**, não uma história do futuro sistema. Descreva como o profissional realiza hoje uma atividade semelhante ou como lida atualmente com dados, resultados, configurações, logs, decisões e limitações que o tema do TCC pretende apoiar.
+O cenário continua sendo uma história de **problema/atividade humana**, não uma história do futuro sistema. Descreva como a pessoa realiza hoje uma atividade semelhante ou como lida atualmente com dados, resultados, configurações, logs, decisões e limitações que o tema do TCC pretende apoiar.
 
 Exemplo: em vez de “o DBA abre o novo dashboard e executa o algoritmo”, descreva “o DBA precisa investigar uma consulta lenta, reúne informações em ferramentas distintas, compara planos manualmente e tem dificuldade para estimar o impacto de uma mudança”.
 
@@ -22,82 +23,94 @@ A interface da disciplina aparecerá somente depois, nos cenários de interaçã
 
 Se o integrante escolher um novo problema/situação, explique por que ele passou a ser relevante e indique a evidência que motivou sua inclusão.
 
+---
+
 ## Cenário C01 — Localização e compreensão de uma informação acadêmica
 
 **Autor(a):** Matheus Dourado Valle — 22.224.023-6  
 **Persona(s) relacionada(s):** P01 — Lucas Almeida  
 **Necessidade relacionada:** R01, com relação complementar a R02  
 **Situação concreta da Entrega 1 relacionada:** A01 — localizar e compreender uma informação acadêmica ou administrativa; H04, H08 e H09  
-**Hipóteses ainda presentes:** H04, H07, H08, H09 e H14
+**Hipóteses ainda presentes:** H04, H08, H09 e H14
 
 ### 1. Cenário inicial
 
-Lucas Almeida é estudante da FEI e precisa compreender uma regra acadêmica antes de tomar uma decisão relacionada à sua rotina no semestre. Ele sabe que a informação provavelmente está disponível em algum canal institucional, mas não sabe exatamente em qual página, documento ou sistema deve procurar.
+Lucas Almeida é estudante da FEI e está organizando sua rotina do semestre. Em determinado momento, ele percebe que precisa confirmar uma orientação acadêmica antes de decidir se fará uma alteração em sua matrícula naquele período.
 
-Lucas começa a procurar a informação nos canais que conhece. Durante a busca, pode ser necessário consultar páginas institucionais, documentos ou sistemas acadêmicos diferentes até localizar algo relacionado à sua dúvida. Ao encontrar a informação, ele ainda precisa interpretar o conteúdo e verificar se aquela orientação realmente se aplica à sua situação.
+Ele sabe que a informação deve estar em algum canal institucional, mas não lembra exatamente onde. Como está no campus, durante um intervalo entre atividades, tenta resolver a dúvida naquele momento para decidir como vai se organizar.
 
-Alguns conteúdos podem utilizar termos institucionais ou estar inseridos em documentos mais extensos, fazendo com que Lucas tenha dificuldade para identificar rapidamente a parte relevante. Quando ainda permanece em dúvida, ele pode repetir a busca utilizando outros termos, consultar outra fonte ou procurar ajuda de colegas, professores ou profissionais da instituição.
+Lucas inicia a busca pelos recursos que já conhece, como Portal do Aluno, páginas institucionais e documentos acadêmicos. Quando encontra um conteúdo relacionado ao assunto, ainda precisa interpretar a orientação e entender se ela realmente se aplica à sua situação.
 
-Mesmo quando encontra uma informação relacionada ao assunto, Lucas pode continuar inseguro sobre sua interpretação ou sobre qual fonte deve considerar. Isso aumenta o tempo gasto para resolver uma dúvida que inicialmente parecia simples e pode fazer com que ele adie uma decisão ou recorra a outro canal para confirmar o que encontrou.
+A atividade se torna mais difícil quando a informação aparece distribuída entre lugares diferentes, quando um documento usa uma expressão diferente da outra página ou quando o texto não deixa claro se a orientação vale para o caso que ele está tentando resolver. Se permanece em dúvida, Lucas tende a procurar outra fonte ou recorrer a outra pessoa para confirmar a interpretação.
 
 ### 2. Questões de refinamento
 
 Use os tipos de questões/taxonomia definidos na aula. As perguntas devem revelar informações **ainda ausentes** do cenário, não repetir o que já foi respondido.
 
-
 | # | Questão | Por que precisa ser respondida | Fonte/forma de obter resposta |
 |---|---|---|---|
-| Q1 | **[Ambiente/planejamento]** Quais canais institucionais o estudante costuma consultar quando não sabe onde determinada informação está disponível? | Permite compreender como a busca realmente começa e quais recursos fazem parte do contexto atual. | Entrevista com estudantes e observação de uma busca real. |
-| Q2 | **[Objetivo]** O que o estudante precisa descobrir para considerar uma dúvida acadêmica realmente resolvida? | Encontrar algum texto relacionado ao assunto pode não ser suficiente; é necessário entender o que dá segurança para agir. | Entrevista com estudantes e análise de situações reais de consulta. |
-| Q3 | **[Ação]** O que o estudante faz quando encontra uma página ou documento, mas não compreende completamente a informação? | Permite identificar estratégias utilizadas quando a primeira busca não resolve a dúvida. | Entrevista, observação e protocolo think-aloud. |
-| Q4 | **[Avaliação]** Como o estudante decide se a informação encontrada é confiável e aplicável à sua situação? | A origem institucional pode influenciar a confiança, mas essa hipótese ainda precisa ser validada. | Entrevista com estudantes. |
-| Q5 | **[Atores/eventos]** Em que momento o estudante deixa de tentar resolver a dúvida sozinho e procura outra pessoa ou setor da instituição? | Permite identificar a ruptura que leva da busca autônoma para um canal humano. | Entrevista com estudantes e profissionais de atendimento. |
-| Q6 | **[Planejamento]** Como o estudante escolhe novos termos de busca ou uma nova fonte quando a primeira tentativa falha? | Permite compreender a sequência de ações e as estratégias atualmente utilizadas. | Observação de tarefa e entrevista. |
-| Q7 | **[Avaliação]** Como o estudante sabe que já compreendeu a informação suficientemente para tomar sua decisão? | Permite identificar o critério de sucesso da atividade pela perspectiva do usuário. | Entrevista e observação de usuários. |
+| Q1 | **[Contexto/ambiente]** Em que situação concreta Lucas percebe a necessidade de buscar essa informação naquele momento? | Permite entender a circunstância prática que dá início à atividade. | Entrevista com estudantes e reconstrução de episódios reais. |
+| Q2 | **[Objetivo]** O que exatamente Lucas precisa descobrir para poder tomar sua decisão? | Permite delimitar melhor a dúvida e o critério de resolução do problema. | Entrevista com estudantes e análise de situações reais de consulta. |
+| Q3 | **[Planejamento]** Qual canal Lucas escolhe consultar primeiro e por quê? | Permite compreender como ele inicia a busca e qual raciocínio utiliza. | Entrevista e observação de tarefa. |
+| Q4 | **[Ação]** O que Lucas faz quando encontra informação parcial ou distribuída em mais de uma fonte? | Permite identificar o comportamento observável durante a busca. | Observação de tarefa e protocolo think-aloud. |
+| Q5 | **[Evento]** Que acontecimento faz Lucas perceber que a primeira tentativa não foi suficiente? | Permite identificar a ruptura que altera o curso da atividade. | Entrevista e observação. |
+| Q6 | **[Atores]** Quem Lucas procura quando decide que não conseguirá resolver a dúvida sozinho? | Permite identificar o papel de outras pessoas no processo atual. | Entrevista com estudantes e profissionais de atendimento. |
+| Q7 | **[Avaliação]** Como Lucas reconhece que já compreendeu a orientação de forma suficiente para agir? | Permite identificar o critério de sucesso da atividade pela perspectiva do usuário. | Entrevista e observação de usuários. |
 
 ### 3. Cenário refinado
 
-Lucas Almeida é estudante da FEI e precisa compreender uma regra acadêmica antes de tomar uma decisão relacionada à sua rotina no semestre. Ele sabe que a informação provavelmente existe em algum canal institucional, mas não sabe exatamente onde procurá-la.
+Lucas Almeida é estudante da FEI e está tentando decidir se fará uma alteração em sua matrícula naquele período do semestre. Para tomar essa decisão, ele precisa confirmar se a orientação institucional que encontrou sobre o tema realmente se aplica à sua situação.
 
-**[NOVO — H/Q1]** Entre os recursos atualmente disponíveis estão páginas do site institucional, documentos acadêmicos, Portal do Aluno. A ordem em que esses canais são utilizados pelos estudantes ainda precisa ser investigada.
+**[NOVO — H/Q1]** A necessidade surge durante um intervalo entre atividades no campus, quando Lucas percebe que precisa resolver aquela dúvida naquele mesmo dia para decidir se mantém sua organização atual do semestre ou se busca outra alternativa.
 
-Lucas inicia uma busca utilizando os recursos que já conhece. Quando encontra uma página ou documento relacionado ao assunto, precisa identificar a parte relevante e interpretar seu conteúdo.
+**[NOVO — H/Q2]** O que ele precisa descobrir não é apenas “alguma informação sobre matrícula”, mas especificamente se a orientação encontrada permite entender qual ação acadêmica é possível no período atual e se aquela regra vale para o caso que ele está vivendo.
 
-**[NOVO — H/Q2]** Para considerar a dúvida resolvida, não basta apenas encontrar uma referência ao assunto: Lucas precisa compreender o significado da regra, entender se ela se aplica à situação que está vivendo e ter confiança suficiente para utilizar aquela informação em sua decisão.
+**[NOVO — H/Q3]** Como associa procedimentos acadêmicos ao ambiente onde costuma acompanhar sua vida acadêmica, Lucas decide começar pelo Portal do Aluno. Ele escolhe esse caminho primeiro porque espera encontrar ali um atalho ou referência mais direta para o tipo de decisão que precisa tomar.
 
-Quando o conteúdo utiliza termos institucionais que ele não conhece ou exige a leitura de informações distribuídas em diferentes partes de uma página ou documento, Lucas pode não conseguir compreender imediatamente a orientação.
+Ao procurar, Lucas encontra uma referência relacionada ao tema, mas percebe que a informação não está toda no mesmo lugar. Uma página indica o nome do procedimento, enquanto outra apresenta datas ou orientações mais gerais.
 
-**[NOVO — H/Q3 e Q6]** Nessas situações, ele pode reformular os termos utilizados na busca, consultar outra página ou documento e comparar as informações encontradas. Essas estratégias ainda precisam ser confirmadas com estudantes reais.
+**[NOVO — H/Q4]** Para tentar compreender o assunto, ele alterna entre páginas, abre um documento institucional relacionado e compara os termos usados em cada fonte para verificar se estão tratando exatamente da mesma orientação.
 
-**[NOVO — H/Q4]** A origem institucional da informação pode ser um dos elementos utilizados por Lucas para avaliar sua confiabilidade, principalmente quando encontra conteúdos semelhantes em diferentes locais.
+**[NOVO — H/Q5]** A mudança de estratégia acontece quando Lucas encontra um conteúdo que parece relevante, mas não deixa claro se a regra vale para a situação dele. Além disso, uma das fontes utiliza uma expressão institucional diferente daquela que ele tinha usado inicialmente na busca, o que aumenta sua dúvida sobre estar consultando o conteúdo certo.
 
-Se, mesmo após novas tentativas, a dúvida continuar sem resposta clara, **[NOVO — H/Q5]** Lucas pode recorrer a colegas, professores ou profissionais da instituição para confirmar sua interpretação. Ainda não sabemos quais desses canais são utilizados com maior frequência.
+Nesse momento, Lucas já não considera suficiente continuar apenas relendo os mesmos materiais.
 
-**[NOVO — H/Q7]** A atividade termina satisfatoriamente quando Lucas entende a informação em nível suficiente para tomar a decisão que motivou sua busca e consegue reconhecer qual orientação institucional sustenta essa compreensão. Quando isso não acontece, permanece a incerteza e surge a necessidade de continuar procurando ou recorrer a outra pessoa.
+**[NOVO — H/Q6]** Como próximo passo, ele procura primeiro um colega que possa já ter passado por situação semelhante. Se ainda assim a interpretação continuar insegura, considera recorrer a um canal institucional de atendimento para confirmar o entendimento.
+
+**[NOVO — H/Q7]** Lucas entende que a atividade foi concluída com sucesso quando consegue explicar para si mesmo qual orientação se aplica ao seu caso, qual fonte institucional sustenta essa interpretação e o que ele deve fazer a seguir com base nisso. Se esse nível de compreensão não é alcançado, a dúvida continua aberta e a decisão fica adiada.
 
 ### 4. Elementos extraídos
 
 | Elemento | Evidência no cenário |
 |---|---|
-| Ator(es) | Lucas Almeida, estudante da FEI; eventualmente colegas, professores ou profissionais da instituição. |
-| Objetivo(s) | Localizar e compreender uma regra acadêmica necessária para tomar uma decisão. |
-| Contexto | Situação cotidiana da vida acadêmica em que o estudante necessita de uma informação institucional e não sabe previamente onde encontrá-la. |
-| Recursos/informações | Páginas institucionais, documentos acadêmicos, Portal do Aluno e outras informações acadêmico-administrativas. |
-| Ações | Procurar a informação, abrir páginas e documentos, ler, interpretar, reformular a busca, consultar outras fontes e eventualmente pedir ajuda. |
-| Problemas/rupturas | Informação distribuída entre diferentes canais; dificuldade para saber onde procurar; linguagem institucional; dificuldade de identificar qual informação se aplica à situação. |
-| Consequências | Maior tempo e esforço para solucionar a dúvida, permanência da incerteza, adiamento da decisão ou necessidade de recorrer a outro canal de atendimento. |
+| Ator(es) | Lucas Almeida; colega consultado posteriormente; possível canal institucional de atendimento. |
+| Objetivo(s) | Confirmar uma orientação acadêmica para decidir se realiza ou não uma alteração relacionada à matrícula no semestre. |
+| Contexto | Intervalo entre atividades, no campus, com necessidade de resolver uma dúvida naquele mesmo dia para seguir com sua organização acadêmica. |
+| Recursos/informações | Portal do Aluno, páginas institucionais, documentos acadêmicos e orientações relacionadas ao procedimento. |
+| Planejamento | Começar pelo Portal do Aluno por associá-lo aos procedimentos acadêmicos e, em seguida, ampliar a busca para outras fontes institucionais. |
+| Ações | Procurar informações, abrir páginas, ler, alternar entre fontes, comparar termos e eventualmente procurar outra pessoa. |
+| Evento(s) | A primeira fonte encontrada não deixa claro se a orientação se aplica ao caso de Lucas; uma segunda fonte usa terminologia diferente, provocando nova dúvida. |
+| Avaliação | Lucas considera a atividade resolvida quando entende o que a orientação significa, sabe se ela vale para seu caso e reconhece a fonte institucional que sustenta essa interpretação. |
+| Problemas/rupturas | Informação distribuída; termos diferentes entre fontes; dificuldade para saber se a orientação vale para o caso concreto. |
+| Consequências | Maior tempo e esforço, manutenção da dúvida, necessidade de recorrer a outra pessoa ou adiamento da decisão. |
 
 ### 5. Implicações para as próximas entregas
 
 Quais tarefas merecem análise? Quais informações precisam ser coletadas? **Não desenhe a solução ainda.**
 
-Este cenário indica que as próximas etapas devem analisar com maior profundidade a tarefa de **localizar e compreender uma informação acadêmica ou administrativa**.
+Este cenário indica que as próximas etapas devem analisar com maior profundidade a tarefa de **localizar e compreender uma informação acadêmica ou administrativa**, especialmente quando o estudante não sabe em qual canal a informação está disponível e precisa relacionar conteúdos provenientes de mais de uma fonte.
 
-Devem ser investigados principalmente o caminho utilizado pelo estudante para iniciar uma busca, os canais consultados, a forma como ele reformula a procura quando não obtém sucesso, os critérios utilizados para avaliar a confiabilidade e aplicabilidade de uma informação e o momento em que decide recorrer a outra pessoa ou setor.
+Devem ser investigados principalmente:
 
-Também será necessário verificar com estudantes reais se a distribuição das informações entre diferentes fontes representa efetivamente um problema frequente e quais características dos conteúdos institucionais dificultam sua compreensão.
+- o ponto de partida mais comum da busca;
+- os critérios usados para escolher uma nova fonte quando a primeira tentativa falha;
+- o papel da terminologia institucional na dificuldade de compreensão;
+- os critérios pelos quais o estudante decide que a informação já é suficiente para agir;
+- o momento em que a busca autônoma é interrompida e substituída por procura de ajuda.
 
 Nenhuma solução de interface é definida neste momento.
+
+---
 
 ## Cenário C02 — Compreensão do processo de ingresso em um programa de mestrado
 
@@ -105,19 +118,15 @@ Nenhuma solução de interface é definida neste momento.
 **Persona(s) relacionada(s):** P02 — Mariana Costa  
 **Necessidade relacionada:** R03, com relação complementar a R01 e R02  
 **Situação concreta da Entrega 1 relacionada:** A02 — compreender um procedimento acadêmico ou administrativo; H06, H09 e H10  
-**Hipóteses ainda presentes:** H06, H07, H08, H09, H10, H14 e H16
+**Hipóteses ainda presentes:** H06, H09, H10, H14 e H16
 
 ### 1. Cenário inicial
 
-Mariana Costa é estudante da FEI e considera continuar seus estudos em um programa de mestrado da instituição. Antes de decidir se pretende seguir esse caminho, ela precisa compreender como funciona o processo de ingresso, quais requisitos devem ser observados e quais orientações institucionais são relevantes para sua situação.
+Mariana Costa é estudante da FEI e está considerando ingressar em um programa de mestrado da instituição. Antes de decidir se seguirá por esse caminho, ela precisa entender como funciona o processo de ingresso e quais informações são relevantes para sua situação.
 
-Para reunir essas informações, Mariana procura conteúdos nos canais institucionais disponíveis. Durante essa atividade, pode ser necessário consultar mais de uma página ou documento, pois informações sobre o programa, requisitos e processo de ingresso podem aparecer em conteúdos diferentes.
+Sua dificuldade não é apenas “encontrar o site do programa”, mas compreender o procedimento de forma suficiente para decidir se consegue ou não se planejar para participar do processo. Isso envolve relacionar informações como requisitos, etapas, documentos e orientações institucionais.
 
-Mariana precisa interpretar o material encontrado e relacionar as diferentes informações para formar uma visão do processo como um todo. Dependendo de como o conteúdo está organizado, ela pode encontrar termos que não conhece, informações muito extensas ou orientações cuja aplicação à sua situação não está imediatamente clara.
-
-Quando uma dúvida permanece, Mariana pode continuar procurando em outras páginas ou documentos e comparar as informações encontradas. Caso ainda não consiga compreender alguma etapa ou requisito, pode precisar procurar outro canal ou uma pessoa da instituição para obter esclarecimentos.
-
-Como a decisão de continuar seus estudos depende da compreensão correta dessas informações, uma interpretação equivocada ou incompleta pode fazer com que Mariana permaneça insegura sobre o processo, planeje seus próximos passos a partir de uma compreensão incorreta ou deixe de considerar alguma condição relevante.
+Como essas informações podem estar distribuídas em páginas e documentos diferentes, Mariana precisa reunir o material, interpretar os conteúdos e verificar o que realmente se aplica ao seu caso. Quando isso não acontece, permanece a insegurança sobre como prosseguir.
 
 ### 2. Questões de refinamento
 
@@ -125,75 +134,99 @@ Use os tipos de questões/taxonomia definidos na aula. As perguntas devem revela
 
 | # | Questão | Por que precisa ser respondida | Fonte/forma de obter resposta |
 |---|---|---|---|
-| Q1 | **[Objetivo]** Quais informações sobre o processo de ingresso são consideradas essenciais pelo estudante para decidir como prosseguir? | Permite identificar quais partes do processo precisam ser compreendidas e quais informações são prioritárias. | Entrevista com estudantes interessados em pós-graduação e análise dos documentos institucionais. |
-| Q2 | **[Ambiente]** Em quais canais o estudante procura inicialmente informações sobre um procedimento que ainda não conhece? | Permite entender o ponto de partida e quais recursos fazem parte do contexto atual. | Entrevista com estudantes e observação de uma tarefa de busca. |
-| Q3 | **[Planejamento]** Como o estudante organiza informações encontradas em páginas ou documentos diferentes para construir uma compreensão do procedimento completo? | Permite compreender como o estudante lida com informações distribuídas entre diferentes conteúdos. | Observação, protocolo think-aloud e entrevista. |
-| Q4 | **[Ação]** Que tipos de conteúdo ou terminologia produzem maior dificuldade de interpretação? | Permite identificar rupturas concretas durante a leitura e compreensão das orientações institucionais. | Teste exploratório com documentos existentes e entrevista. |
-| Q5 | **[Avaliação]** Como o estudante verifica se uma regra ou requisito encontrado realmente se aplica à sua situação? | Uma interpretação equivocada pode influenciar decisões e ações posteriores. | Entrevista com estudantes e consulta ao setor responsável pelo procedimento. |
-| Q6 | **[Atores/eventos]** Em que momento o estudante deixa de tentar compreender o procedimento sozinho e procura outra pessoa ou setor da instituição? | Permite identificar a ruptura que leva da busca autônoma para um canal humano. | Entrevista com estudantes e profissionais da instituição. |
-| Q7 | **[Avaliação]** Como o estudante sabe que compreendeu o procedimento de forma suficiente para decidir seus próximos passos? | Permite identificar o critério de sucesso da atividade pela perspectiva do usuário. | Entrevista e observação de usuários. |
-| Q8 | **[Consequência]** Quais são as possíveis consequências de interpretar incorretamente uma etapa, regra ou requisito? | Permite compreender o impacto que uma interpretação incorreta pode ter sobre as decisões do estudante. | Entrevista com estudantes e profissionais responsáveis pelo procedimento. |
+| Q1 | **[Contexto/ambiente]** O que leva Mariana a procurar essas informações neste momento, e não em outro? | Permite entender a situação concreta que inicia a atividade. | Entrevista com estudantes interessados em pós-graduação. |
+| Q2 | **[Objetivo]** Qual dúvida específica impede Mariana de decidir como prosseguir? | Permite delimitar o problema de compreensão dentro do procedimento. | Entrevista e reconstrução de episódios. |
+| Q3 | **[Planejamento]** Qual canal Mariana escolhe consultar primeiro e por quê? | Permite entender o ponto de partida da atividade e o raciocínio inicial. | Entrevista e observação de tarefa. |
+| Q4 | **[Ação]** Como Mariana organiza a consulta quando percebe que precisa relacionar diferentes páginas ou documentos? | Permite identificar o comportamento observável durante a atividade. | Observação, think-aloud e entrevista. |
+| Q5 | **[Evento]** O que acontece durante a consulta que faz Mariana perceber que ainda não compreendeu o procedimento? | Permite identificar a ruptura que altera a atividade. | Entrevista e observação. |
+| Q6 | **[Atores]** Quem Mariana procura quando conclui que não conseguirá esclarecer a dúvida sozinha? | Permite entender o papel de outras pessoas ou setores no processo atual. | Entrevista com estudantes e profissionais da instituição. |
+| Q7 | **[Avaliação]** Como Mariana reconhece que já compreendeu o procedimento de forma suficiente para decidir seus próximos passos? | Permite identificar o critério de sucesso da atividade pela perspectiva do usuário. | Entrevista e observação. |
+| Q8 | **[Consequência]** O que pode acontecer se Mariana interpretar incorretamente uma etapa, requisito ou condição do processo? | Permite compreender o impacto de uma interpretação incompleta ou incorreta. | Entrevista com estudantes e profissionais responsáveis. |
 
 ### 3. Cenário refinado
 
-Mariana Costa é estudante da FEI e considera continuar seus estudos em um programa de mestrado da instituição. Antes de tomar uma decisão, ela precisa entender como funciona o processo de ingresso e identificar quais informações são relevantes para sua situação.
+Mariana Costa é estudante da FEI e está avaliando a possibilidade de ingressar em um programa de mestrado da instituição. Ela decide procurar informações agora porque percebe que, se quiser considerar seriamente essa possibilidade, precisa entender o processo com antecedência suficiente para se planejar.
 
-**[NOVO — H/Q1]** A busca de Mariana envolve informações sobre o programa, o processo de ingresso, seus requisitos e orientações relacionadas. Outros aspectos considerados essenciais pelos estudantes ainda precisam ser investigados.
+**[NOVO — H/Q1]** A busca acontece em um momento em que Mariana já considera essa opção de continuidade acadêmica como algo real, e não apenas uma curiosidade distante. Por isso, a atividade tem peso direto sobre uma decisão pessoal e acadêmica.
 
-Mariana procura essas informações nos canais institucionais disponíveis.
+**[NOVO — H/Q2]** A dúvida que impede Mariana de decidir como prosseguir não é genérica: ela precisa entender quais etapas compõem o processo de ingresso, quais requisitos precisam ser observados e se as condições apresentadas nas fontes institucionais se encaixam na situação em que ela se encontra.
 
-**[NOVO — H/Q2]** Páginas institucionais e documentos acadêmicos fazem parte desse conjunto de fontes, mas ainda não sabemos qual canal estudantes com esse objetivo consultam primeiro nem qual sequência de busca utilizam.
+Para começar, Mariana utiliza um canal institucional que associa diretamente ao tema da pós-graduação.
 
-Durante a atividade, Mariana encontra informações relacionadas a diferentes partes de seu objetivo e precisa relacioná-las para compreender o processo como um todo.
+**[NOVO — H/Q3]** Seu ponto de partida é a página institucional relacionada ao programa ou à pós-graduação, porque ela espera encontrar ali a referência oficial mais direta para entender o processo. A partir daí, acessa outras páginas e documentos indicados nesse percurso.
 
-**[NOVO — H/Q3]** Quando informações relevantes aparecem em páginas ou documentos diferentes, Mariana pode precisar alternar entre esses materiais e comparar o que encontrou para construir uma compreensão do procedimento. A forma como os estudantes realizam essa organização ainda precisa ser confirmada.
+Ao avançar na consulta, Mariana percebe que a compreensão do procedimento não depende de uma única leitura.
 
-**[NOVO — H/Q4]** Termos institucionais desconhecidos, documentos extensos ou orientações que não deixam evidente sua aplicação à situação da estudante podem aumentar o esforço necessário para compreender o conteúdo. Quais elementos efetivamente produzem maior dificuldade ainda precisam ser identificados com estudantes reais.
+**[NOVO — H/Q4]** Ela alterna entre a página do programa, documentos com orientações do processo e outras referências institucionais, tentando relacionar etapas, requisitos e documentos. Para não perder o fio da atividade, passa a anotar o que cada fonte parece esclarecer e o que ainda permanece incerto.
 
-Mariana também precisa avaliar se as informações encontradas são adequadas para sua situação.
+**[NOVO — H/Q5]** A ruptura ocorre quando Mariana encontra informações que parecem se referir ao mesmo processo, mas não respondem de forma suficientemente clara à sua situação. Um documento pode detalhar etapas, enquanto outra página usa terminologia diferente ou não deixa evidente como determinada condição deve ser interpretada. Nesse momento, ela percebe que encontrou material relevante, mas ainda não compreensão suficiente.
 
-**[NOVO — H/Q5]** A origem institucional da informação pode contribuir para essa avaliação, mas a forma como os estudantes verificam se determinada regra ou requisito realmente se aplica ao seu caso ainda precisa ser investigada.
+Depois de comparar os conteúdos e continuar insegura, Mariana entende que a busca autônoma chegou a um limite.
 
-Quando as informações encontradas não permitem esclarecer completamente uma dúvida, **[NOVO — H/Q6]** Mariana pode continuar procurando em outras fontes ou recorrer a professores, profissionais ou setores da instituição para confirmar sua interpretação. Ainda não sabemos em que momento os estudantes deixam de tentar resolver esse tipo de dúvida sozinhos.
+**[NOVO — H/Q6]** O próximo passo passa a ser procurar alguém que possa ajudá-la a interpretar corretamente o procedimento, como um professor, um profissional do setor responsável ou outro canal institucional de esclarecimento.
 
-**[NOVO — H/Q7]** A atividade termina satisfatoriamente quando Mariana consegue formar uma compreensão suficientemente clara do processo para decidir seus próximos passos e consegue reconhecer quais informações institucionais sustentam essa compreensão.
+**[NOVO — H/Q7]** Mariana considera a atividade satisfatoriamente concluída quando consegue descrever, com segurança razoável, quais são as etapas do processo, quais informações importam para sua situação, quais documentos ou requisitos precisa considerar e qual fonte institucional sustenta essa compreensão.
 
-Caso isso não aconteça, permanece a incerteza sobre como prosseguir.
+Se isso não acontece, a incerteza permanece.
 
-**[NOVO — H/Q8]** Uma interpretação incorreta de etapas, requisitos ou condições pode fazer com que Mariana planeje suas próximas ações com base em uma compreensão inadequada, deixe de considerar alguma exigência relevante ou precise procurar esclarecimentos posteriormente. A frequência e o impacto dessas situações ainda precisam ser verificados com usuários reais.
+**[NOVO — H/Q8]** Uma interpretação incorreta pode levar Mariana a planejar seus próximos passos com base em uma compreensão inadequada, deixar de considerar alguma condição importante ou adiar uma decisão por insegurança. Dependendo do tipo de erro, ela também pode perder tempo seguindo um caminho que não corresponde ao que realmente precisava entender.
 
 ### 4. Elementos extraídos
 
 | Elemento | Evidência no cenário |
 |---|---|
-| Ator(es) | Mariana Costa, estudante da FEI; eventualmente professores, profissionais ou setores da instituição responsáveis pelas informações. |
-| Objetivo(s) | Compreender o processo de ingresso em um programa de mestrado para decidir seus próximos passos. |
-| Contexto | Situação em que uma estudante considera continuar seus estudos na instituição e precisa reunir e compreender informações antes de tomar uma decisão. |
-| Recursos/informações | Páginas institucionais, documentos acadêmicos, informações sobre o programa, processo de ingresso, requisitos e orientações relacionadas. |
-| Ações | Procurar informações, abrir páginas e documentos, ler, interpretar, comparar diferentes fontes e eventualmente pedir esclarecimentos. |
-| Problemas/rupturas | Informações distribuídas entre diferentes conteúdos; dificuldade para relacionar regras e requisitos; terminologia institucional; incerteza sobre a aplicação das informações à situação da estudante. |
-| Consequências | Maior tempo e esforço para compreender o procedimento, permanência da incerteza, necessidade de recorrer a outro canal ou tomada de decisão baseada em uma compreensão incompleta ou incorreta. |
+| Ator(es) | Mariana Costa; professor, profissional ou setor institucional procurado posteriormente. |
+| Objetivo(s) | Compreender o processo de ingresso em um programa de mestrado para decidir se e como pretende prosseguir. |
+| Contexto | Momento em que a possibilidade de continuar os estudos passa a exigir planejamento real. |
+| Recursos/informações | Página institucional da pós-graduação ou do programa, documentos e orientações sobre processo, requisitos e etapas. |
+| Planejamento | Começar por uma referência institucional diretamente associada à pós-graduação e, a partir dela, abrir os materiais relacionados. |
+| Ações | Procurar informações, abrir páginas, ler, alternar entre documentos, anotar, comparar conteúdos e buscar esclarecimentos. |
+| Evento(s) | Mariana encontra materiais relevantes, mas ainda insuficientes para esclarecer sua situação; surgem diferenças de terminologia ou lacunas de aplicabilidade. |
+| Avaliação | Ela considera o problema resolvido quando consegue explicar as etapas, requisitos e implicações relevantes para o seu caso, com base em fontes institucionais reconhecíveis. |
+| Problemas/rupturas | Informações distribuídas; necessidade de relacionar diferentes documentos; terminologia institucional; dificuldade para saber se a orientação se aplica à sua situação. |
+| Consequências | Insegurança, maior esforço, possível adiamento da decisão ou planejamento baseado em compreensão incompleta. |
 
 ### 5. Implicações para as próximas entregas
 
 Quais tarefas merecem análise? Quais informações precisam ser coletadas? **Não desenhe a solução ainda.**
 
-Este cenário indica que as próximas etapas devem analisar com maior profundidade a tarefa de **compreender um procedimento acadêmico ou administrativo**, especialmente quando sua compreensão depende de diferentes regras, requisitos e informações institucionais.
+Este cenário indica que as próximas etapas devem analisar com maior profundidade a tarefa de **compreender um procedimento acadêmico ou administrativo**, especialmente quando sua compreensão depende de mais de uma fonte e exige relacionar requisitos, etapas e orientações.
 
-Devem ser investigadas principalmente as estratégias utilizadas pelo estudante para localizar as informações necessárias, relacionar conteúdos provenientes de diferentes fontes, compreender termos institucionais, verificar se determinada orientação se aplica à sua situação e identificar quando ainda existem informações faltantes.
+Devem ser investigados principalmente:
 
-Também será necessário verificar com estudantes reais quais informações sobre procedimentos acadêmicos costumam gerar mais dúvidas, quais critérios são utilizados para avaliar a confiabilidade e aplicabilidade das orientações encontradas e em que circunstâncias o estudante decide procurar outra pessoa ou setor da instituição.
+- o ponto de partida mais comum da busca por esse tipo de procedimento;
+- como o estudante organiza informações provenientes de fontes diferentes;
+- quais tipos de conteúdo ou terminologia mais dificultam a compreensão;
+- em que momento a pessoa decide que a busca autônoma não é suficiente;
+- quais critérios utiliza para avaliar se entendeu o procedimento;
+- quais consequências percebe em uma interpretação incorreta.
 
 Nenhuma solução de interface é definida neste momento.
 
+---
+
 ## Checklist
 
-- [ ] Há um cenário completo por integrante.
-- [ ] Cada cenário tem título, ator, objetivo, contexto e problema.
-- [ ] O cenário possui origem rastreável na Entrega 1 ou justifica claramente a inclusão de uma nova situação.
-- [ ] O texto descreve a situação atual, sem antecipar a solução.
-- [ ] Para TCC sem interface original, o cenário descreve uma prática humana plausível relacionada à contribuição técnica, e não “a falta de uma tela”.
-- [ ] Questões de refinamento acrescentam informação nova.
-- [ ] O refinamento mostra claramente o que foi adicionado/alterado.
-- [ ] Cenários são diferentes o suficiente para cobrir objetivos/problemas relevantes.
-- [ ] Cada cenário está ligado a persona/necessidade na matriz de rastreabilidade.
+- [x] Há um cenário completo por integrante.
+- [x] Cada cenário tem título, ator, objetivo, contexto e problema.
+- [x] O cenário possui origem rastreável na Entrega 1 ou justifica claramente a inclusão de uma nova situação.
+- [x] O texto descreve a situação atual, sem antecipar a solução.
+- [x] Para TCC sem interface original, o cenário descreve uma prática humana plausível relacionada à contribuição técnica, e não “a falta de uma tela”.
+- [x] Questões de refinamento acrescentam informação nova.
+- [x] O refinamento mostra claramente o que foi adicionado/alterado.
+- [x] Cenários são diferentes o suficiente para cobrir objetivos/problemas relevantes.
+- [x] Cada cenário está ligado a persona/necessidade na matriz de rastreabilidade.
+
+---
+
+## Histórico de revisões
+
+### 03/10/2026 — Revisão após feedback da Entrega 4
+
+- transformação dos cenários em episódios mais concretos e encadeados;
+- delimitação mais clara da situação específica enfrentada por Lucas e por Mariana;
+- revisão das perguntas de refinamento para garantir cobertura mais efetiva de contexto, atores, objetivos, planejamento, ações, eventos e avaliação;
+- substituição de trechos que apenas registravam lacunas por respostas hipotéticas incorporadas à narrativa;
+- diferenciação mais clara entre o que a pessoa faz, o que acontece durante a atividade e como interpreta o resultado;
+- reforço da distinção entre cenário de problema e solução de interface;
+- atualização do checklist e do estado da entrega.
