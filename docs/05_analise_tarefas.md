@@ -372,17 +372,6 @@ Em seguida, a estudante verifica se a orientação se aplica à sua situação e
 
 ![CTT T06](../assets/05_tarefas/ctt_t06.png)
 
-### Estrutura sugerida para o diagrama
-
-Para manter o mesmo padrão utilizado no CTT do Matheus, utilize:
-
-- **Nuvem:** tarefa abstrata;
-- **Retângulo:** tarefa do sistema;
-- **Ator:** tarefa do usuário;
-- **Elipse:** tarefa interativa.
-
-A estrutura pode ser desenhada da seguinte maneira:
-
 ## Síntese da equipe
 
 As modelagens evidenciaram que a interação com o assistente virtual não termina simplesmente quando uma resposta é apresentada. Para que o objetivo do estudante seja atingido, ele precisa conseguir formular sua dúvida, receber feedback do sistema, compreender a resposta, consultar as fontes utilizadas e decidir se a informação apresentada foi suficiente.
