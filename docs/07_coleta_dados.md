@@ -94,6 +94,56 @@ A coleta de dados deverá respeitar a privacidade, a autonomia e a participaçã
 
 A pesquisa não será utilizada para avaliar individualmente estudantes, professores ou funcionários da FEI.
 
+### A02 — João Pedro Sabino Garcia
+
+**Autor(a):** João Pedro Sabino Garcia — 22.224.032-7
+
+#### Que dados coletar?
+
+A coleta busca compreender como os estudantes da FEI interpretam, relacionam e organizam diferentes assuntos acadêmicos e administrativos, investigando quais agrupamentos e nomenclaturas são mais intuitivos para o público-alvo.
+
+A técnica proposta permitirá identificar possíveis dificuldades na compreensão das categorias institucionais, contribuindo para decisões relacionadas à organização das informações e à navegação do Assistente Virtual FEI.
+
+| Dado/informação | Hipótese/lacuna relacionada | Por que é necessário | Qual decisão de design pode afetar |
+|---|---|---|---|
+| Forma como os estudantes agrupam diferentes assuntos acadêmicos. | H04/H05 | Investigar como os estudantes relacionam os conteúdos que procuram. | Organização das categorias de informações disponíveis no assistente. |
+| Nomes atribuídos aos agrupamentos de assuntos. | H09 | Identificar o vocabulário utilizado pelos estudantes e possíveis diferenças em relação à terminologia institucional. | Definição das nomenclaturas e da linguagem utilizadas na interface. |
+| Assuntos frequentemente agrupados em uma mesma categoria. | H07/H08 | Compreender quais informações os estudantes consideram relacionadas. | Organização das opções de navegação e dos assuntos sugeridos. |
+| Assuntos que geram dúvidas durante a classificação. | H08/H09 | Identificar possíveis ambiguidades na interpretação das informações acadêmicas. | Revisão da apresentação e identificação dos conteúdos. |
+| Diferenças entre os agrupamentos realizados pelos participantes. | H04/H05 | Investigar se diferentes estudantes possuem modelos mentais semelhantes sobre a organização dos assuntos acadêmicos. | Definição de uma estrutura de navegação compreensível para diferentes perfis. |
+| Necessidade de consultar assuntos relacionados durante uma mesma busca. | H07/H08 | Investigar possíveis relações entre diferentes necessidades informacionais. | Avaliação da necessidade de apresentar assuntos relacionados durante as consultas. |
+
+#### De quem coletar?
+
+O público será composto por estudantes de graduação da FEI, considerando que a organização das informações acadêmicas e administrativas deverá ser compreensível para os usuários finais do assistente virtual.
+
+| Perfil/stakeholder | Critério de inclusão | Relação com persona/público |
+|---|---|---|
+| Estudantes de graduação da FEI. | Estar regularmente matriculado em um curso de graduação e aceitar voluntariamente participar da atividade. | Público principal representado pelas personas P01 — Lucas Almeida e P02 — Mariana Costa. |
+| Estudantes de diferentes períodos da graduação. | Possuir experiências distintas com os serviços e procedimentos acadêmicos da instituição. | Permite investigar possíveis diferenças na compreensão e organização dos assuntos institucionais. |
+
+A inclusão de estudantes com diferentes níveis de experiência acadêmica poderá contribuir para identificar se a organização das informações é compreensível tanto para alunos ingressantes quanto para aqueles que já possuem maior familiaridade com os procedimentos institucionais.
+
+#### Aspectos éticos
+
+A atividade deverá respeitar os princípios de voluntariedade, consentimento, privacidade e minimização de dados, considerando que os participantes realizarão uma classificação de assuntos relacionados ao ambiente acadêmico da FEI.
+
+- **Voluntariedade e consentimento:** antes da atividade, os participantes receberão informações sobre o objetivo acadêmico da pesquisa, os procedimentos envolvidos e a utilização pretendida dos resultados. A participação será voluntária, sendo permitido interrompê-la a qualquer momento, sem qualquer prejuízo.
+
+- **Minimização de dados:** não serão solicitados nome completo, matrícula, CPF, telefone, endereço ou informações acadêmicas individuais. Serão registrados apenas os agrupamentos realizados, os nomes atribuídos às categorias e eventuais dificuldades relatadas voluntariamente.
+
+- **Privacidade e riscos:** a atividade utilizará assuntos acadêmicos genéricos e não exigirá acesso ao Portal do Aluno, apresentação de documentos pessoais ou compartilhamento de informações institucionais restritas. O principal risco considerado é a exposição indevida de dados caso o participante insira informações pessoais nos campos de resposta.
+
+- **Gravação:** não serão realizadas gravações de áudio ou vídeo. Os resultados serão registrados por meio dos agrupamentos e das categorias produzidas durante a atividade.
+
+- **Anonimização:** caso a técnica seja aplicada, os participantes serão identificados apenas por códigos, como P01, P02 e P03, sem associação com seus dados pessoais.
+
+- **Armazenamento:** os resultados serão armazenados em ambiente digital com acesso restrito aos integrantes responsáveis pela pesquisa, sendo utilizados exclusivamente para fins acadêmicos.
+
+- **Descarte:** os registros individuais serão mantidos somente durante o período necessário à análise e avaliação da atividade. Após esse período, serão excluídos, podendo ser preservadas apenas informações consolidadas e não identificáveis.
+
+A atividade não terá caráter avaliativo sobre o desempenho individual dos estudantes. Não existirão respostas certas ou erradas, pois o objetivo será compreender diferentes formas de organização das informações.
+
 ## Parte B — ferramentas de coleta
 
 > Cada integrante deve preparar uma técnica/instrumento completo. As técnicas devem ser diferentes entre si e **questionário deve estar entre as técnicas escolhidas**, conforme o enunciado da disciplina.
@@ -297,23 +347,185 @@ A análise deverá considerar as limitações da amostra, evitando generalizaç�
 
 As hipóteses poderão ser classificadas como sustentadas, refutadas ou refinadas conforme as evidências efetivamente obtidas, preservando o histórico das decisões de projeto.
 
+### Instrumento I02 — Classificação de Cartões (Card Sorting)
+
+**Autor(a):** João Pedro Sabino Garcia — 22.224.032-7  
+**Técnica:** Classificação de Cartões (Card Sorting aberto).  
+**Objetivo:** Investigar como os estudantes da FEI organizam e relacionam assuntos acadêmicos e administrativos, identificando agrupamentos e nomenclaturas que possam orientar a organização das informações no Assistente Virtual FEI.  
+**Público:** Estudantes de graduação da FEI.
+
+#### Procedimento padronizado de aplicação
+
+1. **Preparação:** elaborar um conjunto de cartões digitais contendo assuntos acadêmicos e administrativos relacionados ao contexto da FEI. Os cartões deverão apresentar apenas os nomes dos assuntos, sem categorias previamente definidas. Preparar também um espaço para que os participantes possam organizar os cartões em grupos e atribuir nomes aos agrupamentos.
+
+2. **Apresentação/consentimento:** apresentar aos participantes o objetivo acadêmico da pesquisa e explicar que a atividade pretende compreender como eles organizam diferentes informações institucionais. Informar que não existem respostas certas ou erradas e solicitar o consentimento voluntário antes do início.
+
+3. **Aplicação:** disponibilizar os cartões ao participante e solicitar que organize os assuntos em grupos que considere relacionados. Cada grupo deverá receber um nome escolhido pelo próprio participante. A atividade será realizada individualmente, sem interferência do pesquisador nas decisões de classificação. O tempo estimado será de 10 a 15 minutos.
+
+4. **Encerramento:** após a organização dos cartões, solicitar que o participante revise seus agrupamentos e confirme se representam adequadamente sua forma de compreender os assuntos apresentados. Finalizar com uma mensagem de agradecimento.
+
+5. **Armazenamento/anonimização:** caso a atividade seja aplicada, registrar os agrupamentos e as nomenclaturas atribuídas, identificando cada participante por um código anônimo. Os resultados serão armazenados em ambiente digital de acesso restrito e utilizados exclusivamente para análise acadêmica.
+
+#### Instrumento
+
+**Título da atividade:** Organização de informações acadêmicas da FEI.
+
+**Texto de apresentação:**
+
+Esta atividade faz parte de um projeto acadêmico da disciplina de Interação Humano-Computador (IHC), cujo objetivo é investigar como os estudantes compreendem e organizam diferentes assuntos relacionados à vida acadêmica na FEI.
+
+Você receberá um conjunto de cartões contendo assuntos acadêmicos e administrativos.
+
+Sua tarefa será organizar esses cartões em grupos, considerando quais assuntos fazem sentido juntos, e atribuir um nome a cada agrupamento.
+
+Não existem respostas certas ou erradas. O interesse da pesquisa está em compreender sua percepção sobre a organização dessas informações.
+
+A participação é voluntária e a atividade leva aproximadamente 10 a 15 minutos. Não serão solicitados dados de identificação pessoal.
+
+**Consentimento**
+
+Você concorda voluntariamente em participar desta atividade, considerando as informações apresentadas?
+
+- ( ) Sim, concordo.
+- ( ) Não concordo.
+
+Caso a resposta seja negativa, a atividade deverá ser encerrada.
+
+**Cartões disponibilizados para classificação**
+
+| ID | Conteúdo do cartão |
+|---|---|
+| C01 | Matrícula |
+| C02 | Rematrícula |
+| C03 | Calendário acadêmico |
+| C04 | Horários das aulas |
+| C05 | Notas e avaliações |
+| C06 | Frequência nas disciplinas |
+| C07 | Histórico escolar |
+| C08 | Declaração de matrícula |
+| C09 | Solicitação de documentos |
+| C10 | Mensalidades |
+| C11 | Bolsas e descontos |
+| C12 | Estágio obrigatório |
+| C13 | Aproveitamento de disciplinas |
+| C14 | Trancamento de matrícula |
+| C15 | Biblioteca |
+| C16 | Contato com a secretaria acadêmica |
+
+Os cartões serão apresentados sem categorias predefinidas, permitindo que o participante escolha livremente como organizar os assuntos.
+
+**Instruções para o participante**
+
+1. Leia os 16 cartões disponibilizados.
+2. Organize os cartões em grupos que façam sentido para você.
+3. Coloque juntos os assuntos que considera relacionados.
+4. Crie quantos grupos julgar necessários.
+5. Atribua um nome a cada grupo utilizando palavras que considere claras e intuitivas.
+6. Revise sua organização antes de finalizar.
+
+Não será exigido um número mínimo ou máximo de grupos. Cada cartão deverá ser colocado em apenas um grupo.
+
+**Registro dos agrupamentos**
+
+O resultado de cada participante deverá ser registrado utilizando a seguinte estrutura:
+
+| Grupo criado | Nome atribuído pelo participante | Cartões incluídos |
+|---|---|---|
+| Grupo 1 | Preenchido pelo participante | IDs dos cartões selecionados |
+| Grupo 2 | Preenchido pelo participante | IDs dos cartões selecionados |
+| Grupo 3 | Preenchido pelo participante | IDs dos cartões selecionados |
+| Outros grupos, se necessários | Preenchido pelo participante | IDs dos cartões selecionados |
+
+**Perguntas de encerramento**
+
+Após concluir os agrupamentos, o participante deverá responder:
+
+**1. Algum cartão apresentou dificuldade de interpretação?**
+
+- ( ) Sim.
+- ( ) Não.
+
+Se sim, qual(is)?
+
+Resposta aberta: ______________________________
+
+**2. Você encontrou dificuldade para decidir em qual grupo colocar algum assunto?**
+
+- ( ) Sim.
+- ( ) Não.
+
+Se sim, qual(is)?
+
+Resposta aberta: ______________________________
+
+**3. Existe algum assunto acadêmico ou administrativo que você considera importante e que não apareceu nos cartões?**
+
+Resposta aberta e opcional: ______________________________
+
+**Mensagem de encerramento:**
+
+Agradecemos sua participação! Sua contribuição poderá ajudar a compreender como os estudantes organizam mentalmente os assuntos acadêmicos e administrativos, orientando decisões relacionadas à organização das informações no Assistente Virtual FEI.
+
+#### Como os dados serão analisados
+
+Caso a atividade seja aplicada, os resultados serão analisados por meio da comparação dos agrupamentos realizados pelos participantes.
+
+Inicialmente, serão registrados os grupos criados, os nomes atribuídos e os cartões associados a cada categoria.
+
+Em seguida, será realizada uma análise comparativa para identificar assuntos frequentemente agrupados, possíveis diferenças de interpretação e nomenclaturas recorrentes.
+
+A análise considerará:
+
+- Frequência com que determinados cartões aparecem em um mesmo grupo.
+- Semelhanças entre os nomes atribuídos às categorias.
+- Assuntos que apresentam diferentes interpretações entre os participantes.
+- Cartões que geraram dúvidas ou dificuldades de classificação.
+- Sugestões de novos assuntos apresentadas nas perguntas de encerramento.
+
+As respostas abertas serão analisadas por agrupamento temático, permitindo identificar dificuldades de compreensão, ambiguidades e necessidades informacionais não previstas inicialmente.
+
+Os resultados serão relacionados às hipóteses estabelecidas na Entrega 1 e documentadas no arquivo `RASTREABILIDADE.md`.
+
+| Hipótese | Aspecto investigado | Possível utilização dos resultados |
+|---|---|---|
+| H04/H05 | Organização dos assuntos acadêmicos considerados relevantes pelos estudantes. | Revisar a priorização e o agrupamento dos conteúdos disponíveis. |
+| H07/H08 | Relações estabelecidas entre diferentes informações acadêmicas. | Orientar decisões sobre a organização dos assuntos e a navegação. |
+| H09 | Compreensão e interpretação das nomenclaturas institucionais. | Definir uma linguagem mais próxima do vocabulário utilizado pelos estudantes. |
+
+Os resultados poderão contribuir para sustentar, refutar ou refinar as hipóteses investigadas, considerando as evidências efetivamente obtidas.
+
+A análise deverá reconhecer as limitações da amostra, evitando generalizar os agrupamentos realizados por um número restrito de participantes para todos os estudantes da FEI.
+
+Até a realização da atividade, as hipóteses permanecerão pendentes de validação empírica, não sendo utilizados agrupamentos fictícios como evidências de pesquisa.
+
+
 ## Síntese
 
-A coleta proposta pretende reduzir as lacunas de conhecimento relacionadas aos hábitos, necessidades e dificuldades dos estudantes da FEI durante a busca por informações acadêmicas e administrativas.
+O conjunto de técnicas proposto pretende reduzir as lacunas de conhecimento relacionadas aos hábitos, necessidades, dificuldades e modelos mentais dos estudantes da FEI durante a busca por informações acadêmicas e administrativas.
 
-O questionário desenvolvido no Instrumento I01 permitirá investigar a frequência das consultas, os principais canais utilizados, os assuntos procurados e os problemas enfrentados pelos estudantes.
+Os dois instrumentos possuem objetivos complementares:
 
-Espera-se que os dados obtidos contribuam para avaliar as hipóteses H04, H05, H07, H08 e H09, relacionadas às necessidades de consulta e às dificuldades de localização e compreensão das informações.
+- **I01 — Questionário (Matheus Dourado Valle):** investigar a frequência das consultas, os principais canais utilizados, os assuntos procurados, as dificuldades enfrentadas e os elementos considerados importantes pelos estudantes durante a obtenção de informações institucionais.
 
-Também serão investigadas as hipóteses H02, H14 e H15, referentes à confiabilidade das respostas, apresentação de fontes institucionais e necessidade de recuperação de consultas anteriores.
+- **I02 — Classificação de Cartões (João Pedro Sabino Garcia):** investigar como os estudantes compreendem, relacionam e organizam diferentes assuntos acadêmicos e administrativos, identificando agrupamentos e nomenclaturas que possam orientar decisões relacionadas à organização das informações no Assistente Virtual FEI.
 
-As hipóteses H06, H10 e H16 serão consideradas na investigação das consequências de erros ou dificuldades durante a obtenção de informações acadêmicas, enquanto H11 e H12 poderão orientar decisões relacionadas aos dispositivos utilizados pelos estudantes.
+A combinação das técnicas permitirá investigar não apenas quais informações os estudantes procuram, mas também como compreendem e organizam esses conteúdos.
 
-Após eventual aplicação e análise dos instrumentos, as hipóteses deverão ser classificadas como sustentadas, refutadas ou refinadas, conforme as evidências obtidas.
+O questionário contribuirá principalmente para a investigação das hipóteses H04, H05, H06, H07, H08, H09, H10, H11, H12, H14, H15 e H16, relacionadas às necessidades de consulta, dificuldades de utilização, confiabilidade das respostas, dispositivos utilizados e possíveis consequências de erros.
+
+A classificação de cartões contribuirá especialmente para investigar as hipóteses H04, H05, H07, H08 e H09, relacionadas à organização das informações, compreensão dos assuntos acadêmicos e utilização de nomenclaturas intuitivas.
+
+Após eventual aplicação e análise dos instrumentos, as hipóteses deverão ser classificadas como:
+
+- **Sustentadas:** quando os dados coletados apresentarem evidências favoráveis à hipótese inicialmente estabelecida.
+- **Refutadas:** quando as evidências obtidas contrariarem a hipótese formulada.
+- **Refinadas:** quando os resultados indicarem necessidade de ajustes ou maior especificidade na hipótese original.
 
 Até a realização da coleta, as hipóteses permanecerão pendentes de validação empírica, não sendo considerados resultados presumidos como evidências de confirmação.
 
-Quando os dados forem efetivamente coletados e analisados, o histórico correspondente deverá ser atualizado em `RASTREABILIDADE.md`.
+Os resultados deverão ser interpretados considerando as limitações da amostra e do contexto acadêmico investigado, evitando generalizações indevidas para todos os estudantes da FEI.
+
+Quando os dados forem efetivamente coletados e analisados, o histórico correspondente deverá ser atualizado em `RASTREABILIDADE.md`, preservando as decisões de projeto e as evidências associadas.
 
 ## Checklist
 
@@ -323,7 +535,7 @@ Quando os dados forem efetivamente coletados e analisados, o histórico correspo
 - [x] Cada dado a coletar responde uma dúvida concreta do projeto ou justifica outra necessidade de informação.
 - [x] Parte A identifica dados e perfis de coleta de forma específica.
 - [x] Aspectos éticos são contextualizados para o projeto.
-- [ ] Há uma técnica completa por integrante e técnicas distintas.
+- [x] Há uma técnica completa por integrante e técnicas distintas.
 - [x] Questionário está incluído entre as técnicas.
 - [x] Cada instrumento possui objetivo, público, procedimento e conteúdo integral.
 - [x] Perguntas evitam indução e coletam apenas dados necessários.
