@@ -1,4 +1,3 @@
-
 # Entrega 6 — Prototipação em papel
 
 **Data:** 27/10/2026  
@@ -11,17 +10,21 @@ Externalizar rapidamente ideias de interação em baixa fidelidade para explorar
 
 ## 1. Escopo do protótipo
 
-**Personas:** P01 — Lucas Almeida e P02 — Mariana Costa, definidas na Entrega 3.  
+**Personas:** P01 — Lucas Almeida e P02 — Mariana Costa, definidas na Entrega 3.
 
 **Cenários/tarefas cobertos:** C01 — localização e compreensão de uma informação acadêmica (Lucas); C02 — compreensão do processo de ingresso em um programa de mestrado (Mariana), definidos na Entrega 4. As tarefas abrangem T01 — obter resposta para uma dúvida acadêmica, T02 — formular e enviar uma consulta, T03 — consultar a resposta e verificar as fontes, T04 — realizar uma pergunta complementar e T05 — compreender a ausência de evidências suficientes.
 
-**Objetivos principais:** Permitir que o estudante formule dúvidas acadêmicas ou administrativas em linguagem natural, compreenda as respostas apresentadas pelo assistente virtual, consulte as fontes institucionais utilizadas e continue a conversa quando precisar de esclarecimentos adicionais.
+**Objetivos principais:** Permitir que o estudante formule dúvidas acadêmicas ou administrativas em linguagem natural, compreenda as respostas apresentadas pelo assistente virtual, consulte as fontes institucionais utilizadas e continue a conversa quando precisar de esclarecimentos adicionais. Também se busca verificar como a interface comunica situações em que não existem informações suficientes para responder.
 
 O protótipo representa a interface conversacional do Assistente Virtual da FEI, desenvolvido como parte do TCC da equipe.
 
-O cenário de Lucas prioriza a realização de uma consulta acadêmica e a verificação da fonte utilizada. O cenário de Mariana prioriza a compreensão de informações relacionadas ao ingresso em um programa de mestrado, incluindo etapas, requisitos e orientações disponíveis nas fontes institucionais.
+Para esta entrega, foram aproveitadas capturas da interface funcional do TCC, conforme a possibilidade indicada pelo professor. As capturas foram utilizadas para representar os diferentes estados de interação, permitindo analisar os caminhos percorridos pelo estudante durante a utilização do assistente.
 
-A proposta busca representar as funcionalidades essenciais da interação entre o estudante e o assistente virtual, sem incluir elementos que não estejam diretamente relacionados às tarefas analisadas.
+No cenário relacionado a Lucas, foram utilizadas consultas sobre a localização do campus de São Bernardo do Campo e as opções de transporte público para chegar à instituição. Essas consultas exemplificam a busca e a compreensão de informações institucionais por meio da interface.
+
+No cenário de Mariana, foi utilizada uma pergunta sobre os requisitos para ingresso no mestrado da FEI. Como o assistente não encontrou informações suficientes na base documental para responder, essa interação foi utilizada para representar o estado de ausência de evidências.
+
+A proposta concentra-se nas funcionalidades essenciais do assistente, sem acrescentar telas que não estejam diretamente relacionadas às tarefas analisadas.
 
 ## 1.1 Possíveis famílias de interface
 
@@ -46,23 +49,27 @@ Para o projeto da equipe, foi escolhida uma interface conversacional, com foco n
 - Botão para envio das consultas.
 - Indicação de processamento da pergunta.
 - Apresentação das respostas produzidas pelo assistente.
-- Identificação das fontes institucionais utilizadas.
-- Continuidade da conversa por meio de perguntas complementares.
+- Identificação das fontes institucionais recuperadas.
+- Continuidade visual da conversa por meio de perguntas complementares.
 - Mensagens de orientação quando não houver informações suficientes para responder.
 
-Não foram incluídas telas de administração, dashboard ou configuração dos modelos de inteligência artificial, pois essas funcionalidades não fazem parte das tarefas priorizadas para os estudantes.
+Não foram incluídas telas de administração, dashboard ou configuração dos modelos de inteligência artificial como parte dos fluxos de uso do estudante, pois essas funcionalidades não fazem parte das tarefas priorizadas.
 
 ## 2. Fluxos escolhidos
 
 | Fluxo | Tarefa/objetivo | Por que foi priorizado |
 |---|---|---|
-| PF01 | Formular e enviar uma dúvida acadêmica, receber a resposta e verificar as fontes institucionais apresentadas. Relacionado às tarefas T01, T02 e T03 e ao cenário C01 de Lucas. | Representa a principal interação do estudante com o assistente virtual, permitindo analisar a facilidade de realizar consultas e compreender as informações retornadas. |
-| PF02 | Consultar informações sobre o ingresso em um programa de mestrado, compreender as orientações e realizar perguntas complementares. Relacionado ao cenário C02 de Mariana e à continuidade da interação prevista na T04. | Permite analisar a organização das respostas, a apresentação das fontes e a possibilidade de esclarecer informações sem reiniciar a conversa. |
-| PF03 | Identificar quando não existem evidências suficientes para responder e reformular a pergunta. Relacionado à T05. | Permite avaliar como o assistente comunica suas limitações e orienta o estudante a continuar sua busca por informações confiáveis. |
+| PF01 | Formular e enviar uma consulta institucional, receber a resposta e verificar as fontes apresentadas. Relacionado às tarefas T01, T02 e T03 e à atividade de consulta representada pelo cenário C01 de Lucas. | Representa a principal interação do estudante com o assistente virtual, permitindo analisar a facilidade de realizar consultas, compreender as respostas e identificar a origem das informações. |
+| PF02 | Consultar informações detalhadas sobre como chegar ao campus da FEI em São Bernardo do Campo utilizando transporte público e realizar uma pergunta complementar sobre as linhas de ônibus. Relacionado à continuidade da interação prevista na T04. | Permite observar a apresentação de respostas mais extensas e a possibilidade de realizar novas perguntas sem iniciar outra conversa. |
+| PF03 | Consultar informações sobre os requisitos para ingresso no mestrado da FEI e compreender a mensagem apresentada quando não existem evidências documentais suficientes. Relacionado ao cenário C02 de Mariana e à T05. | Permite avaliar como o assistente comunica suas limitações e orienta o estudante quando não consegue fornecer uma resposta fundamentada. |
 
-Os fluxos foram escolhidos por representarem interações diretamente relacionadas aos objetivos definidos nas entregas anteriores.
+Os fluxos foram escolhidos por representarem interações relacionadas aos objetivos definidos nas entregas anteriores.
 
-O PF01 representa a interação principal do sistema. O PF02 explora a continuidade da conversa em uma consulta com múltiplas informações. O PF03 representa um caminho alternativo, importante para evitar que o usuário interprete uma resposta sem fundamentação como informação institucional confirmada.
+O PF01 representa a interação principal do sistema, utilizando como exemplo uma pergunta sobre a localização da FEI em São Bernardo do Campo.
+
+O PF02 explora a continuidade da conversa em uma consulta sobre transporte público, permitindo observar como perguntas e respostas permanecem apresentadas na mesma interface.
+
+O PF03 representa um caminho alternativo, no qual o assistente não dispõe de informações suficientes sobre os requisitos de ingresso no mestrado. Esse fluxo é importante para avaliar a clareza das mensagens de limitação e a orientação oferecida ao estudante.
 
 ## 3. Telas e estados
 
@@ -74,48 +81,51 @@ O protótipo foi organizado em seis telas ou estados de interação, compartilha
 
 | Tela/estado | Descrição | Interação e transição |
 |---|---|---|
-| P01 — Tela inicial | Apresenta a interface principal do assistente, com campo para digitar perguntas e botão de envio. | O estudante escreve sua dúvida e seleciona o botão de envio, avançando para P02. |
-| P02 — Processamento da consulta | Apresenta a pergunta enviada e uma indicação de que o assistente está buscando informações. | Após o processamento, o sistema apresenta P03, P04 ou P05, conforme o resultado da consulta. |
-| P03 — Resposta acadêmica | Apresenta a resposta para uma dúvida acadêmica, acompanhada das fontes institucionais utilizadas. | O estudante lê a resposta, consulta as fontes e pode realizar uma nova pergunta por meio de P06. |
-| P04 — Resposta sobre mestrado | Apresenta orientações sobre o ingresso em um programa de mestrado, organizadas de maneira compreensível e acompanhadas das fontes disponíveis. | O estudante consulta as orientações e pode realizar perguntas complementares por meio de P06. |
-| P05 — Ausência de evidências | Apresenta uma mensagem informando que não foram encontradas evidências suficientes para confirmar a informação solicitada. | O estudante pode reformular a pergunta ou procurar orientação nos canais institucionais indicados. |
-| P06 — Continuidade da conversa | Permite realizar uma pergunta complementar ou reformular a consulta, mantendo as mensagens anteriores disponíveis. | O estudante escreve uma nova pergunta e retorna ao estado P02. |
+| P01 — Tela inicial | Apresenta a interface principal do assistente, com título, orientação inicial, campo para digitar perguntas e botão de envio. | O estudante escreve sua dúvida e utiliza o botão de envio, avançando para P02. |
+| P02 — Processamento da consulta | Apresenta a pergunta enviada e uma indicação visual de que o assistente está processando a solicitação. | Após o processamento, o sistema apresenta a resposta correspondente em P03 ou P04, ou uma mensagem de ausência de evidências em P05. |
+| P03 — Resposta institucional com fontes | Apresenta uma resposta à pergunta sobre a localização da FEI em São Bernardo do Campo, acompanhada de fontes institucionais recuperadas. | O estudante lê a resposta e pode expandir a seção "Ver fontes recuperadas" para consultar a origem das informações. |
+| P04 — Resposta detalhada sobre transporte público | Apresenta orientações sobre como chegar ao campus da FEI em São Bernardo do Campo, incluindo opções de transporte público a partir de diferentes localidades. | O estudante consulta as orientações e pode enviar uma pergunta complementar, representada em P06. |
+| P05 — Ausência de evidências | Apresenta a mensagem informando que o assistente não encontrou informações suficientes sobre os requisitos para ingresso no mestrado da FEI. | O estudante recebe uma orientação para confirmar as informações nos canais oficiais e pode realizar outra consulta. |
+| P06 — Continuidade da conversa | Apresenta uma pergunta complementar sobre as linhas de ônibus para chegar ao campus, mantendo a resposta anterior visível na mesma conversa. | O estudante envia uma nova pergunta, passa pelo processamento em P02 e visualiza a nova resposta na sequência da conversa. |
 
 **Fluxo principal — Lucas (PF01):**
 
 1. O estudante acessa o assistente virtual na tela P01.
-2. Digita uma dúvida acadêmica no campo de entrada.
+2. Digita a pergunta "Onde fica a FEI SBC?".
 3. Envia a pergunta, passando para P02.
 4. Aguarda o processamento da consulta.
-5. Recebe a resposta com as fontes institucionais na tela P03.
-6. Analisa as informações e verifica a origem da resposta.
-7. Caso precise de mais informações, utiliza P06 para continuar a conversa.
+5. Recebe a resposta informando que a FEI SBC está localizada em São Bernardo do Campo, na tela P03.
+6. Expande a seção "Ver fontes recuperadas".
+7. Identifica a fonte institucional relacionada ao Campus São Bernardo e o endereço para consulta no portal da FEI.
+8. Caso precise de informações adicionais, pode enviar uma nova pergunta pela interface.
 
-**Fluxo principal — Mariana (PF02):**
+**Fluxo complementar — Transporte público (PF02):**
 
-1. A estudante acessa o assistente virtual na tela P01.
-2. Formula uma pergunta sobre o ingresso em um programa de mestrado.
-3. Envia a consulta, passando para P02.
-4. Aguarda o processamento.
-5. Recebe as orientações organizadas na tela P04.
-6. Consulta as fontes institucionais relacionadas às informações apresentadas.
-7. Caso precise esclarecer alguma etapa ou requisito, utiliza P06 para fazer uma pergunta complementar.
+1. O estudante acessa o assistente virtual na tela P01.
+2. Digita a pergunta "Como posso chegar ao campus da FEI em São Bernardo do Campo utilizando transporte público?".
+3. Envia a pergunta, passando para P02.
+4. Aguarda o processamento da consulta.
+5. Recebe uma resposta detalhada na tela P04, contendo orientações de transporte público a partir de diferentes localidades, incluindo São Paulo, Santo André e Guarulhos.
+6. Após consultar a resposta, digita a pergunta "Quais linhas de ônibus posso utilizar para chegar ao campus da FEI em São Bernardo do Campo?".
+7. A nova pergunta é processada e a resposta aparece na sequência da mesma conversa, conforme representado em P06.
 
 **Fluxo alternativo — Ausência de evidências (PF03):**
 
-1. O estudante realiza uma consulta pela tela P01 ou P06.
-2. O assistente inicia o processamento na tela P02.
-3. Quando não existem evidências documentais suficientes, apresenta a tela P05.
-4. O estudante recebe uma orientação informando a limitação da resposta.
-5. O estudante pode reformular a pergunta por meio de P06.
-6. Após o novo envio, a interação retorna para P02.
+1. A estudante Mariana acessa o assistente virtual pela tela P01.
+2. Digita a pergunta "Quais são os requisitos para ingressar no mestrado da FEI?".
+3. Envia a consulta, passando para P02.
+4. Aguarda o processamento da pergunta.
+5. O assistente informa que não encontrou informações suficientes na base documental para responder sobre os requisitos para ingresso no mestrado.
+6. A mensagem apresentada na tela P05 orienta a estudante a confirmar a informação diretamente nos canais oficiais da FEI.
+7. A estudante pode formular outra pergunta utilizando o campo de entrada disponível na interface.
 
 **Estados de erro e retorno:**
 
-- Quando o campo estiver vazio, a interface deverá impedir o envio e orientar o estudante a preencher uma pergunta.
-- Durante o processamento, deverá ser apresentada uma indicação visual de que a solicitação está sendo realizada.
-- Quando não houver informações suficientes, o assistente deverá informar essa limitação sem apresentar respostas sem fundamento.
-- O estudante deverá conseguir realizar novas perguntas sem perder o contexto da conversa atual.
+- O campo de entrada e o botão de envio permitem ao estudante formular novas consultas.
+- Durante o processamento, a interface apresenta uma indicação visual de que a pergunta está sendo processada.
+- Quando não existem evidências suficientes, o assistente apresenta uma mensagem informando essa limitação e orientando a confirmação nos canais oficiais.
+- A interface mantém as mensagens anteriores visíveis durante a sessão, permitindo realizar novas perguntas sem iniciar outra conversa.
+- A continuidade visual das mensagens não significa, necessariamente, que o modelo utiliza todo o histórico anterior para gerar suas respostas. Essa característica deverá ser considerada nas avaliações posteriores.
 
 **Protótipo — Visão geral dos fluxos:**
 
@@ -123,37 +133,51 @@ O protótipo foi organizado em seis telas ou estados de interação, compartilha
 
 **P01 — Tela inicial do assistente**
 
-Representa o primeiro contato do estudante com o assistente virtual, destacando o campo para digitar perguntas e a ação de envio.
+Representa o primeiro contato do estudante com o Assistente Acadêmico FEI, apresentando o título da aplicação, as orientações iniciais e o campo destinado à inserção de perguntas em linguagem natural.
 
 ![P01 — Tela inicial](../assets/06_prototipos/p01_consulta_inicial.png)
 
 **P02 — Processamento da consulta**
 
-Representa o estado da interface após o envio de uma pergunta, informando ao estudante que a solicitação está sendo processada.
+Representa o estado da interface após o envio de uma pergunta, indicando que o assistente está processando a solicitação antes de apresentar a resposta.
 
 ![P02 — Processamento](../assets/06_prototipos/p02_processamento.png)
 
-**P03 — Resposta acadêmica com fontes**
+**P03 — Resposta institucional com fontes**
 
-Representa uma resposta apresentada ao estudante, com o conteúdo da orientação e a identificação das fontes institucionais utilizadas.
+Representa a resposta à pergunta "Onde fica a FEI SBC?", informando a localização do campus em São Bernardo do Campo.
+
+A captura também apresenta a seção "Ver fontes recuperadas", por meio da qual o estudante pode consultar referências institucionais, incluindo o endereço da página do Campus São Bernardo no portal da FEI.
 
 ![P03 — Resposta com fontes](../assets/06_prototipos/p03_resposta_fontes.png)
 
-**P04 — Resposta sobre ingresso no mestrado**
+**P04 — Resposta detalhada sobre transporte público**
 
-Representa a apresentação de informações sobre o ingresso em um programa de mestrado, com organização das orientações e identificação das respectivas fontes.
+Representa a resposta à pergunta "Como posso chegar ao campus da FEI em São Bernardo do Campo utilizando transporte público?".
 
-![P04 — Resposta sobre mestrado](../assets/06_prototipos/p04_mestrado.png)
+O assistente apresenta diferentes possibilidades de acesso ao campus, organizando orientações de transporte conforme a localidade de origem do estudante.
+
+Essa tela permite observar a apresentação de respostas mais extensas e a organização das informações para facilitar sua leitura.
+
+![P04 — Resposta sobre transporte público](../assets/06_prototipos/p04_mestrado.png)
 
 **P05 — Ausência de evidências suficientes**
 
-Representa a situação em que o assistente não consegue confirmar uma informação com base nos documentos disponíveis, apresentando uma mensagem de orientação.
+Representa a consulta sobre os requisitos para ingresso no mestrado da FEI.
+
+Nesse caso, o assistente informa que não encontrou informações suficientes na base documental para responder à pergunta e orienta que o estudante confirme os requisitos diretamente nos canais oficiais da instituição.
+
+Esse estado demonstra o comportamento da interface diante de uma consulta que não pôde ser respondida com as evidências recuperadas.
 
 ![P05 — Ausência de evidências](../assets/06_prototipos/p05_sem_evidencias.png)
 
-**P06 — Continuidade ou reformulação da consulta**
+**P06 — Continuidade da conversa**
 
-Representa a possibilidade de realizar perguntas complementares ou reformular dúvidas anteriores dentro da mesma conversa.
+Representa a realização de uma pergunta complementar após a consulta sobre transporte público.
+
+O estudante pergunta "Quais linhas de ônibus posso utilizar para chegar ao campus da FEI em São Bernardo do Campo?", recebendo uma nova resposta na mesma conversa.
+
+A captura mostra parte da resposta anterior e a nova interação, demonstrando como as mensagens permanecem organizadas no histórico da sessão.
 
 ![P06 — Continuidade da conversa](../assets/06_prototipos/p06_pergunta_complementar.png)
 
@@ -167,17 +191,25 @@ O objetivo é observar se a pessoa consegue compreender a interface e realizar a
 
 Para a simulação, foram definidos três cenários de utilização.
 
-**Cenário 1 — Consulta acadêmica (PF01):**
+**Cenário 1 — Consulta institucional (PF01):**
 
-O participante deverá utilizar o protótipo para realizar uma pergunta relacionada a uma informação acadêmica, como a solicitação de uma declaração de matrícula, localizar a resposta apresentada e identificar a fonte utilizada.
+O participante deverá utilizar o protótipo para descobrir onde fica o campus da FEI em São Bernardo do Campo, interpretar a resposta apresentada e identificar a fonte institucional utilizada pelo assistente.
 
-**Cenário 2 — Consulta sobre mestrado (PF02):**
+Será observado se o participante consegue localizar o campo para digitar a pergunta, compreender a resposta e encontrar a seção "Ver fontes recuperadas".
 
-O participante deverá utilizar o protótipo para consultar informações relacionadas ao ingresso em um programa de mestrado, compreender as orientações apresentadas e realizar uma pergunta complementar.
+**Cenário 2 — Consulta sobre transporte público (PF02):**
 
-**Cenário 3 — Ausência de informações suficientes (PF03):**
+O participante deverá utilizar o protótipo para consultar como chegar ao campus da FEI utilizando transporte público.
 
-O participante deverá interagir com um estado em que o assistente não apresenta evidências suficientes para responder à pergunta. Será observado se ele compreende a mensagem e consegue identificar uma maneira de continuar a consulta.
+Após receber a resposta inicial, deverá realizar uma pergunta complementar sobre as linhas de ônibus disponíveis.
+
+Será observado se o participante consegue acompanhar as orientações apresentadas, localizar o campo para enviar uma nova pergunta e compreender a continuidade da conversa.
+
+**Cenário 3 — Ausência de informações sobre mestrado (PF03):**
+
+O participante deverá utilizar o protótipo para consultar quais são os requisitos para ingresso no mestrado da FEI.
+
+Como o estado registrado apresenta ausência de evidências suficientes, será observado se o participante compreende a limitação comunicada pelo assistente e identifica como poderia continuar sua busca por informações.
 
 Durante o walkthrough, um integrante da equipe ficará responsável por apresentar os estados da interface conforme as ações indicadas pelo participante, enquanto o outro registrará dificuldades, dúvidas e comentários observados.
 
@@ -192,9 +224,10 @@ A simulação deverá considerar principalmente a localização dos controles, a
 
 | Observação | Tela/ação | Evidência | Consequência para o design |
 |---|---|---|---|
-| {{Registrar a observação real sobre o envio da primeira consulta.}} | P01 / P02 | {{Registrar ação, dúvida ou comentário observado.}} | {{Indicar a decisão tomada com base na observação.}} |
-| {{Registrar a observação real sobre a compreensão das respostas e fontes.}} | P03 / P04 | {{Registrar ação, dúvida ou comentário observado.}} | {{Indicar a decisão tomada com base na observação.}} |
-| {{Registrar a observação real sobre a reformulação de perguntas.}} | P05 / P06 | {{Registrar ação, dúvida ou comentário observado.}} | {{Indicar a decisão tomada com base na observação.}} |
+| {{Registrar a observação real sobre a realização da primeira consulta.}} | P01 / P02 | {{Registrar ação, dúvida ou comentário observado.}} | {{Indicar a decisão tomada com base na observação.}} |
+| {{Registrar a observação real sobre a compreensão da resposta e a localização das fontes institucionais.}} | P03 | {{Registrar ação, dúvida ou comentário observado.}} | {{Indicar a decisão tomada com base na observação.}} |
+| {{Registrar a observação real sobre a consulta de transporte e a continuidade da conversa.}} | P04 / P06 | {{Registrar ação, dúvida ou comentário observado.}} | {{Indicar a decisão tomada com base na observação.}} |
+| {{Registrar a observação real sobre a compreensão da mensagem de ausência de evidências.}} | P05 | {{Registrar ação, dúvida ou comentário observado.}} | {{Indicar a decisão tomada com base na observação.}} |
 
 Os campos de observação, evidência e consequência serão preenchidos após a realização da simulação, utilizando os comportamentos efetivamente observados. As situações descritas anteriormente constituem o roteiro planejado, não resultados já obtidos.
 
@@ -203,6 +236,8 @@ Os campos de observação, evidência e consequência serão preenchidos após a
 As alterações no protótipo serão definidas após a realização do walkthrough, considerando as dificuldades identificadas durante a interação do participante com os estados apresentados.
 
 As revisões deverão priorizar aspectos relacionados à clareza das informações, à identificação dos controles de interação, à apresentação das fontes institucionais e à possibilidade de continuar ou reformular consultas.
+
+Também poderão ser avaliados aspectos observados na interface existente, como a quantidade de informações técnicas apresentadas na seção de fontes recuperadas e a clareza da orientação fornecida quando não existem evidências suficientes.
 
 | Antes | Problema | Depois | Justificativa |
 |---|---|---|---|
@@ -218,7 +253,7 @@ Dessa maneira, a equipe poderá demonstrar a aplicação do ciclo construir, sim
 
 ## Checklist
 
-- [ ] O protótipo cobre tarefas relevantes da Entrega 5.
+- [x] O protótipo cobre tarefas relevantes da Entrega 5.
 - [x] Cada tela/estado pode ser justificado por uma tarefa, decisão ou informação necessária.
 - [x] O projeto não criou dashboard/CRUD/login apenas para parecer “completo”.
 - [ ] Telas/estados estão numerados e navegáveis na documentação.
