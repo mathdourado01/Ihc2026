@@ -129,7 +129,7 @@ O protótipo foi organizado em seis telas ou estados de interação, compartilha
 
 **Protótipo — Visão geral dos fluxos:**
 
-![Protótipo](../assets/06_prototipos/prototipo_fluxo01.svg)
+![Protótipo](../assets/06_prototipos/prototipo_fluxo01.svg.png)
 
 **P01 — Tela inicial do assistente**
 
