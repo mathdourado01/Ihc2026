@@ -185,78 +185,91 @@ A captura mostra parte da resposta anterior e a nova interação, demonstrando c
 
 Realize uma simulação com uma pessoa que não participou da elaboração dessas telas. Um colega pode ser usado **para essa iteração formativa**, mas isso não substitui os participantes finais da Entrega 14.
 
-A simulação será realizada com uma pessoa que não participou da elaboração do protótipo, utilizando os fluxos definidos na seção 2.
+A simulação foi realizada com o aluno Vinicius Duarte, que não participou da elaboração do protótipo. O participante utilizou a interface do Assistente Acadêmico FEI para executar os três fluxos de interação definidos na seção 2.
 
-O objetivo é observar se a pessoa consegue compreender a interface e realizar as tarefas propostas sem receber instruções detalhadas sobre cada ação.
+O objetivo foi verificar se o participante conseguiria compreender a interface e realizar as tarefas propostas, incluindo a formulação de perguntas, a interpretação das respostas, a consulta às fontes institucionais e a continuidade da conversa.
 
-Para a simulação, foram definidos três cenários de utilização.
+Para a simulação, foram considerados três cenários de utilização.
 
 **Cenário 1 — Consulta institucional (PF01):**
 
-O participante deverá utilizar o protótipo para descobrir onde fica o campus da FEI em São Bernardo do Campo, interpretar a resposta apresentada e identificar a fonte institucional utilizada pelo assistente.
+O participante utilizou o assistente para consultar a localização do campus da FEI em São Bernardo do Campo e verificar as fontes institucionais relacionadas à resposta.
 
-Será observado se o participante consegue localizar o campo para digitar a pergunta, compreender a resposta e encontrar a seção "Ver fontes recuperadas".
+A tarefa foi concluída normalmente, sem dificuldades relatadas na utilização da interface.
 
 **Cenário 2 — Consulta sobre transporte público (PF02):**
 
-O participante deverá utilizar o protótipo para consultar como chegar ao campus da FEI utilizando transporte público.
+O participante realizou uma consulta sobre como chegar ao campus da FEI utilizando transporte público e, posteriormente, realizou uma pergunta complementar sobre as linhas de ônibus disponíveis.
 
-Após receber a resposta inicial, deverá realizar uma pergunta complementar sobre as linhas de ônibus disponíveis.
-
-Será observado se o participante consegue acompanhar as orientações apresentadas, localizar o campo para enviar uma nova pergunta e compreender a continuidade da conversa.
+O fluxo foi concluído normalmente, demonstrando que o participante conseguiu utilizar a interface para realizar consultas sucessivas na mesma conversa.
 
 **Cenário 3 — Ausência de informações sobre mestrado (PF03):**
 
-O participante deverá utilizar o protótipo para consultar quais são os requisitos para ingresso no mestrado da FEI.
+O participante realizou uma consulta sobre os requisitos para ingresso no mestrado da FEI, recebendo uma mensagem informando que não existiam evidências documentais suficientes para responder.
 
-Como o estado registrado apresenta ausência de evidências suficientes, será observado se o participante compreende a limitação comunicada pelo assistente e identifica como poderia continuar sua busca por informações.
-
-Durante o walkthrough, um integrante da equipe ficará responsável por apresentar os estados da interface conforme as ações indicadas pelo participante, enquanto o outro registrará dificuldades, dúvidas e comentários observados.
-
-A simulação deverá considerar principalmente a localização dos controles, a compreensão das respostas, a identificação das fontes e a possibilidade de recuperação após uma consulta sem resultado conclusivo.
+O participante conseguiu concluir a tarefa proposta, que consistia em interpretar a mensagem de limitação e identificar a orientação para consultar os canais oficiais da instituição.
 
 **Registro da simulação:**
 
-- **Participante:** {{preencher após a realização}}
-- **Data:** {{dd/mm/aaaa}}
-- **Modalidade:** {{presencial/remota}}
+- **Participante:** Vinicius Duarte.
+- **Data:** 31/10/2026
+- **Modalidade:** remota
 - **Responsáveis:** Matheus Dourado Valle e João Pedro Sabino Garcia.
 
 | Observação | Tela/ação | Evidência | Consequência para o design |
 |---|---|---|---|
-| {{Registrar a observação real sobre a realização da primeira consulta.}} | P01 / P02 | {{Registrar ação, dúvida ou comentário observado.}} | {{Indicar a decisão tomada com base na observação.}} |
-| {{Registrar a observação real sobre a compreensão da resposta e a localização das fontes institucionais.}} | P03 | {{Registrar ação, dúvida ou comentário observado.}} | {{Indicar a decisão tomada com base na observação.}} |
-| {{Registrar a observação real sobre a consulta de transporte e a continuidade da conversa.}} | P04 / P06 | {{Registrar ação, dúvida ou comentário observado.}} | {{Indicar a decisão tomada com base na observação.}} |
-| {{Registrar a observação real sobre a compreensão da mensagem de ausência de evidências.}} | P05 | {{Registrar ação, dúvida ou comentário observado.}} | {{Indicar a decisão tomada com base na observação.}} |
+| O participante conseguiu utilizar a interface para formular e enviar uma consulta institucional. | P01 / P02 | Conclusão normal da tarefa de envio da pergunta, conforme resultado informado pela equipe. | Manter a organização atual do campo de entrada e do botão de envio. |
+| O participante conseguiu consultar a resposta e identificar as fontes institucionais apresentadas. | P03 | Conclusão normal da tarefa de consulta e verificação das fontes. | Manter o acesso às fontes associado às respostas, sem alterações imediatas nesta iteração. |
+| O participante conseguiu realizar uma consulta sobre transporte público e continuar a interação com uma pergunta complementar. | P04 / P06 | Conclusão normal das duas consultas realizadas na mesma conversa. | Manter a estrutura conversacional que permite enviar novas perguntas sem iniciar outra sessão. |
+| O participante conseguiu realizar a tarefa relacionada à ausência de evidências sobre o ingresso no mestrado. | P05 | Conclusão normal do cenário que apresentava a mensagem de informações insuficientes. | Manter a comunicação explícita da ausência de evidências e a orientação para consultar os canais oficiais. |
 
-Os campos de observação, evidência e consequência serão preenchidos após a realização da simulação, utilizando os comportamentos efetivamente observados. As situações descritas anteriormente constituem o roteiro planejado, não resultados já obtidos.
+**Resultado da simulação:**
+
+O participante Vinicius Duarte conseguiu concluir os três fluxos propostos sem dificuldades relatadas.
+
+Com base no resultado informado, não foram identificados problemas que exigissem alterações imediatas nos fluxos de interação avaliados.
+
+A simulação indicou que a organização atual da interface permitiu ao participante realizar as consultas propostas, visualizar as respostas, consultar as fontes e continuar a conversa.
+
+Entretanto, por se tratar de uma avaliação formativa com apenas um participante, os resultados não garantem a ausência de problemas de usabilidade. A interface poderá ser novamente avaliada nas próximas etapas da disciplina, especialmente com participantes representativos do público-alvo.
 
 ## 5. Alterações após a simulação
 
-As alterações no protótipo serão definidas após a realização do walkthrough, considerando as dificuldades identificadas durante a interação do participante com os estados apresentados.
+Após a realização do walkthrough com o aluno Vinicius Duarte, a equipe analisou os resultados observados durante a execução dos três fluxos de interação definidos na Entrega 6.
 
-As revisões deverão priorizar aspectos relacionados à clareza das informações, à identificação dos controles de interação, à apresentação das fontes institucionais e à possibilidade de continuar ou reformular consultas.
+O participante conseguiu realizar normalmente as tarefas propostas, incluindo a formulação de perguntas, a consulta às respostas, a verificação das fontes institucionais, a realização de perguntas complementares e a compreensão da mensagem de ausência de evidências.
 
-Também poderão ser avaliados aspectos observados na interface existente, como a quantidade de informações técnicas apresentadas na seção de fontes recuperadas e a clareza da orientação fornecida quando não existem evidências suficientes.
+Como não foram relatadas dificuldades durante a simulação, a equipe decidiu manter a estrutura atual do protótipo, sem realizar alterações nos fluxos de interação nesta iteração.
+
+As decisões foram registradas na tabela a seguir.
 
 | Antes | Problema | Depois | Justificativa |
 |---|---|---|---|
-| {{Descrever como o elemento estava apresentado na versão inicial.}} | {{Registrar o problema identificado durante a simulação.}} | {{Descrever a alteração aplicada ao protótipo.}} | {{Explicar como a alteração atende ao problema observado.}} |
+| Campo de entrada e botão de envio disponíveis na interface inicial do assistente (P01/P02). | Nenhuma dificuldade relatada durante a formulação e o envio das perguntas. | Estrutura mantida, sem alterações. | O participante conseguiu localizar os controles e realizar as consultas propostas. |
+| Respostas acompanhadas da seção "Ver fontes recuperadas" (P03). | Nenhuma dificuldade relatada para consultar a resposta e identificar as fontes institucionais. | Apresentação das respostas e acesso às fontes mantidos. | O participante conseguiu concluir a tarefa de consulta e verificação das fontes. |
+| Interface conversacional permitindo o envio de novas perguntas na mesma sessão (P04/P06). | Nenhuma dificuldade relatada durante a realização da pergunta complementar. | Fluxo de continuidade da conversa mantido. | O participante conseguiu realizar consultas sucessivas sem iniciar uma nova conversa. |
+| Mensagem de ausência de evidências suficientes acompanhada de orientação para consultar os canais oficiais (P05). | Nenhuma dificuldade relatada durante a tarefa de interpretação da mensagem. | Mensagem de limitação e orientação mantida. | O participante conseguiu concluir a tarefa proposta diante da ausência de informações suficientes. |
 
 **Protótipo revisado após a simulação:**
 
-![Protótipo revisado](../assets/06_prototipos/prototipo_revisado.png)
+A equipe decidiu manter a versão apresentada na seção 3, pois a simulação realizada não identificou dificuldades que justificassem alterações imediatas na estrutura dos fluxos.
 
-As alterações realizadas deverão ser representadas na versão revisada do protótipo e relacionadas às observações registradas na seção anterior.
+Dessa forma, não foi produzida uma nova imagem do protótipo revisado nesta iteração, uma vez que não houve modificações visuais ou estruturais a representar.
 
-Dessa maneira, a equipe poderá demonstrar a aplicação do ciclo construir, simular, observar e revisar, previsto no objetivo da atividade.
+A manutenção da interface foi uma decisão tomada com base nos resultados do walkthrough. Entretanto, essa decisão não significa que o protótipo esteja livre de problemas de usabilidade.
+
+Como a simulação foi realizada com apenas um participante, novas avaliações poderão identificar dificuldades não observadas nesta etapa.
+
+Nas próximas iterações, a equipe poderá investigar especialmente a clareza das informações técnicas apresentadas na seção de fontes recuperadas, a organização de respostas extensas e a compreensão das mensagens de ausência de evidências.
+
+Assim, a equipe concluiu a avaliação formativa desta etapa, registrando as observações e justificando a decisão de manter o protótipo atual para as próximas atividades de IHC.
 
 ## Checklist
 
 - [x] O protótipo cobre tarefas relevantes da Entrega 5.
 - [x] Cada tela/estado pode ser justificado por uma tarefa, decisão ou informação necessária.
 - [x] O projeto não criou dashboard/CRUD/login apenas para parecer “completo”.
-- [ ] Telas/estados estão numerados e navegáveis na documentação.
-- [ ] Há pelo menos uma simulação/walkthrough documentado.
+- [x] Telas/estados estão numerados e navegáveis na documentação.
+- [x] Há pelo menos uma simulação/walkthrough documentado.
 - [ ] Críticas não foram apenas listadas: geraram decisão de revisão.
 - [ ] O protótipo continua em baixa fidelidade; detalhes visuais não mascaram problemas de fluxo.
