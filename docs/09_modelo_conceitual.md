@@ -144,11 +144,11 @@ Cada integrante apresenta seu mapa e a equipe cria um **mapa consolidado**, elim
 
 **Mapa individual — João Pedro Sabino Garcia**
 
-![Mapa individual João](../assets/09_modelo_conceitual/mapa_objetivos_joao.svg)
+![Mapa individual João](../assets/09_modelo_conceitual/mapa_objetivos_joao.png)
 
 **Mapa consolidado — Equipe**
 
-![Mapa consolidado](../assets/09_modelo_conceitual/mapa_objetivos.svg)
+![Mapa consolidado](../assets/09_modelo_conceitual/mapa_objetivos.png)
 
 ### Dicionário de objetivos
 
