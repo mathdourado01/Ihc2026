@@ -1,7 +1,7 @@
 # Entrega 10 — MoLIC
 
 **Data:** {{30/10/2026}}  
-**Status:** 🟨 em andamento  
+**Status:** 🟩 Concluída 
 **Responsabilidade:** 1 solução completa por integrante
 
 ## Objetivo da atividade
@@ -36,7 +36,6 @@ Modele também rupturas plausíveis: entrada inválida, falha de processamento, 
 ### Diagrama
 
 ![MoLIC M01](../assets/10_molic/m01.drawio.png)
-**Fonte editável:** [m01.drawio](../assets/10_molic/m01.drawio)
 
 ### Leitura do diagrama
 
@@ -94,7 +93,6 @@ Além do caminho principal, o modelo apresenta situações em que a pergunta nã
 ### Diagrama
 
 ![MoLIC M02](../assets/10_molic/m02.drawio.png)
-**Fonte editável:** [m02.drawio](../assets/10_molic/m02.drawio)
 
 ### Leitura do diagrama
 
